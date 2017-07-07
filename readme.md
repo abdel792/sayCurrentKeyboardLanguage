@@ -1,7 +1,8 @@
 # getCurKeyboardLanguage
 
-*	 Author(s): Abdel <abdelkrim.bensaid@gmail.com>, Noelia <nrm1977@gmail.com>
-*	 Download [development version][1]
+*	 Author(s): Abdel, Noelia;
+*	 Download [development version][1].
+
 # Presentation #
 
 This globalPlugin was created following a request from a member on the nvda-addons mailing list.
@@ -14,8 +15,8 @@ If pressed twice, gives the default language of the system.
 
 To install this globalPlugin, here is the procedure:
 
-*	Copy the file named 'getCurKeyboardLanguage.py' to the folowing directory: 'C:\Users\userName\AppData\Roaming\nvda\';
-*	You must restart NVDA for the module to work.
+*	 Copy the file named 'getCurKeyboardLanguage.py' to the folowing directory: 'C:\Users\userName\AppData\Roaming\nvda\globalPlugins\';
+*	 You must restart NVDA for the module to work.
 
 
 [1]: http://cyber25.free.fr/nvda-modules/getKeyboardLanguage.py
