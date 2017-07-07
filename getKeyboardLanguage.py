@@ -6,11 +6,16 @@
 import globalPluginHandler
 import ui
 import locale 
+
 class GlobalPlugin (globalPluginHandler.GlobalPlugin):
 
 	def script_getCurKeyboardLanguage (self, gesture):
 		# # Importing the ctypes module.
-		import ctypes 
+		import ctypes
+		# Importing the languageHandler module.
+		import languageHandler
+		# Importing scriptHandler.
+		import scriptHandler
 		# Getting the user32 object. 
 		user32 = ctypes.WinDLL('user32', use_last_error=True) 
 		# Getting the handle of the foreground window. 
@@ -22,14 +27,14 @@ class GlobalPlugin (globalPluginHandler.GlobalPlugin):
 		# Extract language ID from klId. 
 		lId = klId & (2**16 - 1) 
 		# Getting the current keyboard language from the locale.windosw_locale dictionary. 
-		curKbl = locale.windows_locale [lId] 
-		ui.message (curKbl)
-
-	def script_getDefaultKeyboardLanguage (self, gesture):
+		curKbl = locale.windows_locale [lId]
 		defaultKbl = locale.getdefaultlocale()[0]
-		ui.message (defaultKbl)
+		repeatCount = scriptHandler.getLastScriptRepeatCount()
+		if repeatCount == 0:
+			ui.message (languageHandler.getLanguageDescription(curKbl))
+		else:
+			ui.message (languageHandler.getLanguageDescription (defaultKbl))
 
 	__gestures={
-		"kb:nvda+f4":"getCurKeyboardLanguage",
-		"kb:nvda+shift+f4":"getDefaultKeyboardLanguage",
+		"kb:nvda+f4":"getCurKeyboardLanguage"
 	}
