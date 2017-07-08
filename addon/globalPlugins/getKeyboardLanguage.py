@@ -1,20 +1,21 @@
-# This global plugin was created for Georgi, following a request on the nvda-addons list.
+# This addon was created for Georgi, following a request on the nvda-addons list.
 # Author: Abdel <abdelkrim.bensaid@gmail.com>
 # Inspired by the following solution, on the forum Stack Overflow:
 # https://stackoverflow.com/questions/42047253/how-to-detect-current-keyboard-language-in-python
 
 import globalPluginHandler
 import ui
-import locale 
+import locale
+
+# For translations.
+import addonHandler
+addonHandler.initTranslation()
 
 class GlobalPlugin (globalPluginHandler.GlobalPlugin):
 
 	def script_getCurKeyboardLanguage (self, gesture):
-		# # Importing the ctypes module.
 		import ctypes
-		# Importing the languageHandler module.
 		import languageHandler
-		# Importing scriptHandler.
 		import scriptHandler
 		# Getting the user32 object. 
 		user32 = ctypes.WinDLL('user32', use_last_error=True) 
@@ -34,6 +35,9 @@ class GlobalPlugin (globalPluginHandler.GlobalPlugin):
 			ui.message (languageHandler.getLanguageDescription(curKbl))
 		else:
 			ui.message (languageHandler.getLanguageDescription (defaultKbl))
+
+	# Translators: message presented in input mode.
+	script_getCurKeyboardLanguage.__doc__ = _("Gives the language of the keyboard in use. If pressed twice, gives the default language of the system.")
 
 	__gestures={
 		"kb:nvda+f4":"getCurKeyboardLanguage"
