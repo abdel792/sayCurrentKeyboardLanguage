@@ -31,4 +31,4 @@ You will then find the script in the "System status" category.
 *	 Initial version.
 
 
-[1]: https://github.com/abdel792/getCurKeyboardLanguage/releases/download/v1.0/getCurKeyboardLanguage-1.0.nvda-addon
+[1]: https://github.com/abdel792/getCurKeyboardLanguage/releases/download/v1.1/getCurKeyboardLanguage-1.1.nvda-addon
