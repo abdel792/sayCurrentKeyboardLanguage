@@ -1,4 +1,4 @@
-# getCurKeyboardLanguage
+# sayCurrentKeyboardLanguage
 
 *	 Author(s): Abdel, Noelia;
 *	 Download [stable version][1];
@@ -22,6 +22,7 @@ You will then find the script in the "System status" category.
 
 ## Changes for version 1.1 ##
 
+*	 The addon has been renamed from getCurKeyboardLanguage to sayCurrentKeyboardLanguage;
 *	 Added the GPL license to the addon;
 *	 Added the script getCurKeyboardLanguage to the "System status" category;
 *	 Fixed some errors in the code.

@@ -1,5 +1,5 @@
 # -*- coding: UTF-8 -*-
-# getKeyboardLanguage.py
+# sayKeyboardLanguage.py
 # Copyright 2017-2018 Abdelkrim Bensaïd, Noelia Ruiz-Martinez and other contributors, released under gPL.
 #This file is covered by the GNU General Public License.
 #See the file COPYING for more details.
@@ -23,7 +23,7 @@ addonHandler.initTranslation()
 
 class GlobalPlugin (globalPluginHandler.GlobalPlugin):
 
-	def script_getCurKeyboardLanguage (self, gesture):
+	def script_sayCurKeyboardLanguage (self, gesture):
 		import languageHandler
 		import winUser
 		import scriptHandler
@@ -45,10 +45,10 @@ class GlobalPlugin (globalPluginHandler.GlobalPlugin):
 			ui.message (languageHandler.getLanguageDescription (defaultOsl))
 
 	# Translators: message presented in input help mode.
-	script_getCurKeyboardLanguage.__doc__ = _("Gives the language of the keyboard in use. If pressed twice, gives the default language of the system.")
+	script_sayCurKeyboardLanguage.__doc__ = _("Gives the language of the keyboard in use. If pressed twice, gives the default language of the system.")
 	# Adding the script to the SCRCAT_SYSTEM category.
-	script_getCurKeyboardLanguage.category = SCRCAT_SYSTEM
+	script_sayCurKeyboardLanguage.category = SCRCAT_SYSTEM
 
 	__gestures={
-		"kb:nvda+f4":"getCurKeyboardLanguage"
+		"kb:nvda+f4":"sayCurKeyboardLanguage"
 	}
