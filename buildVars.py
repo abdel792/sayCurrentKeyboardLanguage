@@ -14,7 +14,7 @@ addon_info = {
 	"addon_name" : "sayCurrentKeyboardLanguage",
 	# Add-on summary, usually the user visible name of the addon.
 	# Translators: Summary for this add-on to be shown on installation and add-on information.
-	"addon_summary" : "getCurKeyboardLanguage",
+	"addon_summary" : "sayCurrentKeyboardLanguage",
 	# Add-on description
 	# Translators: Long description to be shown for this add-on on add-on information from add-ons manager
 	"addon_description" : _("""This addon provides a command to know the language of the keyboard in use, as well as the default language of the system."""),
