@@ -21,10 +21,22 @@ from globalCommands import SCRCAT_SYSTEM
 import addonHandler
 addonHandler.initTranslation()
 
+def getLanguageDescription (lng):
+	import languageHandler
+	if not languageHandler.getLanguageDescription(lng):
+		if languageHandler.getLanguageDescription(lng.split('_')[0]):
+			# The original locale language is available, but not the country info.
+			# We return the language description only from the locale language.
+			return languageHandler.getLanguageDescription(lng.split('_')[0])
+		else:
+			# This language is not available from languageHandler.getLanguageDescription, we return the original locale language from the parameter.
+			return lng
+	# The language and country are available.
+	return languageHandler.getLanguageDescription(lng)
+
 class GlobalPlugin (globalPluginHandler.GlobalPlugin):
 
 	def script_sayCurKeyboardLanguage (self, gesture):
-		import languageHandler
 		import winUser
 		import scriptHandler
 		# Getting the handle of the foreground window.
@@ -40,9 +52,9 @@ class GlobalPlugin (globalPluginHandler.GlobalPlugin):
 		defaultOsl = locale.getdefaultlocale()[0]
 		repeatCount = scriptHandler.getLastScriptRepeatCount()
 		if repeatCount == 0:
-			ui.message (languageHandler.getLanguageDescription(ckl))
+			ui.message (getLanguageDescription (ckl))
 		else:
-			ui.message (languageHandler.getLanguageDescription (defaultOsl))
+			ui.message (getLanguageDescription (defaultOsl))
 
 	# Translators: message presented in input help mode.
 	script_sayCurKeyboardLanguage.__doc__ = _("Gives the language of the keyboard in use. If pressed twice, gives the default language of the system.")
