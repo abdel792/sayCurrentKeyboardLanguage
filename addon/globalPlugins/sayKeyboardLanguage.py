@@ -21,40 +21,32 @@ from globalCommands import SCRCAT_SYSTEM
 import addonHandler
 addonHandler.initTranslation()
 
-def getLanguageDescription (lng):
-	import languageHandler
-	if not languageHandler.getLanguageDescription(lng):
-		if languageHandler.getLanguageDescription(lng.split('_')[0]):
-			# The original locale language is available, but not the country info.
-			# We return the language description only from the locale language.
-			return languageHandler.getLanguageDescription(lng.split('_')[0])
-		else:
-			# This language is not available from languageHandler.getLanguageDescription, we return the original locale language from the parameter.
-			return lng
-	# The language and country are available.
-	return languageHandler.getLanguageDescription(lng)
-
 class GlobalPlugin (globalPluginHandler.GlobalPlugin):
 
 	def script_sayCurKeyboardLanguage (self, gesture):
 		import winUser
 		import scriptHandler
+		import ctypes
+		import languageHandler
 		# Getting the handle of the foreground window.
 		curWindow = winUser.getForegroundWindow()
-		# Getting the threadId.
-		threadId = winUser.getWindowThreadProcessID(curWindow)[1]
-		# Getting the keyboard layout id.
-		klId = winUser.getKeyboardLayout(threadId)
-		# Extract language ID from klId.
-		lId = klId & (2**16 - 1)
-		# Getting the current keyboard language from the locale.windosw_locale dictionary.
-		ckl = locale.windows_locale [lId]
+		# Getting the threadID.
+		threadID = winUser.getWindowThreadProcessID(curWindow)[1]
+		# Getting the keyboard layout iD.
+		klID = winUser.getKeyboardLayout(threadID)
+		# Extract language ID from klID.
+		lID = klID & (2**16 - 1)
+		# Getting the current keyboard language description from ctypes.windll.kernel32.GetLocaleInfoW.
+		# Some language IDs are not available in the local.windows_locale dictionary, it is best to search their description directly in Windows itself
+		buf = ctypes.create_unicode_buffer (1024)
+		res = ctypes.windll.kernel32.GetLocaleInfoW (lID, languageHandler.LOCALE_SLANGUAGE, buf, 1024)
+		desc = buf.value
 		defaultOsl = locale.getdefaultlocale()[0]
 		repeatCount = scriptHandler.getLastScriptRepeatCount()
 		if repeatCount == 0:
-			ui.message (getLanguageDescription (ckl))
+			ui.message (desc)
 		else:
-			ui.message (getLanguageDescription (defaultOsl))
+			ui.message (languageHandler.getLanguageDescription (defaultOsl))
 
 	# Translators: message presented in input help mode.
 	script_sayCurKeyboardLanguage.__doc__ = _("Gives the language of the keyboard in use. If pressed twice, gives the default language of the system.")
