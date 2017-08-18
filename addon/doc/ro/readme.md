@@ -6,8 +6,8 @@
 
 Acest supliment a fost creat în urma unei solicitări a unui membru pe lista
 de mailing a suplimentelor NVDA. El oferă o scurtătură, NVDA+F4, care spune
-limba curentă tastaturii curente. Dacă e apăsată de două ori, spune limba
-aimplicită a sistemului.
+limba curentă a tastaturii. Dacă e apăsată de două ori, spune limba
+implicită a sistemului.
 
 La prima versiune a acestui supliment, el a fost propus ca simplu
 globalPlugin pentru a fi lipit în dosarul de configurare al NVDA-ului, apoi
