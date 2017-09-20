@@ -1,7 +1,4 @@
 version: '{branch}-{build}'
-branches:
-  only:
-  - master
 environment:
   PY_PYTHON: 2.7-32
 install:
