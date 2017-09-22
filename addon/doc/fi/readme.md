@@ -16,7 +16,7 @@ yleisliitännäinen, mutta myöhemmin se muunnettiin lisäosaksi.
 
 Mikäli pikanäppäin NVDA+F4 on ristiriidassa jonkin toisen komennon kanssa,
 voit muuttaa sitä menemällä NVDA:n Asetukset-valikkoon ja valitsemalla
-"Syöte-eleet"-vaihtoehdon.  Lisäosan komento löytyy tämän jälkeen
+"Syötekomennot"-vaihtoehdon.  Lisäosan komento löytyy tämän jälkeen
 "Järjestelmän tila" -kategoriasta.
 
 ## Muutokset versiossa 1.1
