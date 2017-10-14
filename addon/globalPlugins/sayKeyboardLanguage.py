@@ -39,7 +39,7 @@ class GlobalPlugin (globalPluginHandler.GlobalPlugin):
 		# Getting the current keyboard language description from ctypes.windll.kernel32.GetLocaleInfoW.
 		# Some language IDs are not available in the local.windows_locale dictionary, it is best to search their description directly in Windows itself
 		buf = ctypes.create_unicode_buffer (1024)
-		res = ctypes.windll.kernel32.GetLocaleInfoW (lID, languageHandler.LOCALE_SLANGUAGE, buf, 1024)
+		ctypes.windll.kernel32.GetLocaleInfoW (lID, languageHandler.LOCALE_SLANGUAGE, buf, 1024)
 		desc = buf.value
 		defaultOsl = locale.getdefaultlocale()[0]
 		repeatCount = scriptHandler.getLastScriptRepeatCount()
