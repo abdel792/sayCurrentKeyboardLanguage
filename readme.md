@@ -32,4 +32,4 @@ You will then find the script in the "System status" category.
 *	 Initial version.
 
 
-[1]: https://github.com/abdel792/sayCurrentKeyboardLanguage/releases/download/v1.5/sayCurrentKeyboardLanguage-1.5.nvda-addon
+[1]: https://github.com/abdel792/sayCurrentKeyboardLanguage/releases/download/v1.6/sayCurrentKeyboardLanguage-1.6.nvda-addon
