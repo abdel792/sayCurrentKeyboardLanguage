@@ -1,4 +1,4 @@
-# sayCurrentKeyboardLanguage #
+# Aktive Tastatursprache ansagen #
 
 *	 Autoren: Abdel, Noelia
 *	 Herunterladen der [stabilen Version][1]
