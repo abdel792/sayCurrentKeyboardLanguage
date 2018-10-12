@@ -1,8 +1,8 @@
 # Aktive Tastatursprache ansagen #
 
 *	 Autoren: Abdel, Noelia
-*	 Herunterladen der [stabilen Version][1]
-*	 Herunterladen der [Entwicklerversion][1]
+*	 [Stabile Version herunterladen][1]
+*	 [Testversion herunterladen][1]
 
 Diese Erweiterung wurde auf Anfrage eines NVDA-Listenmitglieds erstellt. Es
 bietet eine Tastenkombination (NVDA+F4) an, welche die Informationen zum
