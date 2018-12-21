@@ -1,4 +1,4 @@
-# sayCurrentKeyboardLanguage #
+# Báo ngôn ngữ bàn phím hiện tại #
 
 *	 Tác giả: Abdel, Noelia
 *	 Tải về [bản chính thức][1]
