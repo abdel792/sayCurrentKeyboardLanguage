@@ -1,18 +1,18 @@
 # sayCurrentKeyboardLanguage #
 
 *	 Autori: Abdel, Noelia
-*	 Download [versione stabile][1]
-*	 Download [versione in sviluppo][1]
+*	 Scarica la [versione stabile][1]
+*	 Scarica la [versione in sviluppo][1]
 
 Questo addon è stato creato a seguito di una richiesta da parte di un membro
-della mailing list dei componenti aggiuntivi di NVDA. Ffornisce una
+della mailing list dei componenti aggiuntivi di NVDA. Fornisce una
 scorciatoia da tastiera, NVDA + F4, che permette di recuperare e annunciare
-la lingua impostata per la tastiera corrente. Se premuto due volte, fornisce
+la lingua impostata per la tastiera corrente. Se premuto due volte, annuncia
 la lingua di default del sistema. 
 
-At the first version of this module, it had been proposed as simple
-globalPlugin to paste in the configuration directory of NVDA, it was then
-transformed into addon.
+Inizialmente questo componente era stato proposto come una funzione da
+aggiungere alla configurazione di NVDA, in seguito è stato realizzato come
+componente aggiuntivo.
 
 ## Note
 
