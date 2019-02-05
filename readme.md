@@ -2,7 +2,7 @@
 
 * Author(s): Abdel, Noelia;
 * Download [stable version][1];
-* Download [development version][1].
+* Download [development version][2].
 
 # Presentation #
 
@@ -41,3 +41,5 @@ You will then find the script in the "System status" category.
 * Initial version.
 
 [1]: https://addons.nvda-project.org/files/get.php?file=ckbl
+
+[2]: https://addons.nvda-project.org/files/get.php?file=ckbl-dev
