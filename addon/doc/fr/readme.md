@@ -6,8 +6,8 @@
 
 # Présentation #
 
-Ce module complémentaire a été créé à la suite d'une demande d'un membre sur
-la liste de diffusion nvda-addons.
+Cette extension a été créée à la suite d'une demande d'un membre sur la
+liste de diffusion nvda-addons.
 
 Il fournit un raccourci clavier, NVDA + F4, qui permet de récupérer et de
 donner la langue du clavier actuel.
@@ -17,7 +17,7 @@ système.
 
 À la première version de ce module, il a été proposé comme simple
 globalPlugin afin d'être coller dans le répertoire de configuration de NVDA,
-il a ensuite été transformé en module complémentaire.
+il a ensuite été transformé en extension.
 
 ## Notes ##
 
@@ -29,21 +29,21 @@ Vous trouverez ensuite le script dans la catégorie "État du système".
 
 ## Compatibilité ##
 
-* Ce module complémentaire est compatible avec les versions de NVDA allant
-  de 2014.3 à 2019.1.
+* Cette extension est compatible avec les versions de NVDA allant de 2014.3
+  à 2019.1.
 
 ## Changements pour la version 19.02 ##
 
 * Modification de la numérotation des versions en utilisant YY.MM (L'année
   en 2 chiffres, suivie d'un point, suivie du mois en 2 chiffres);
 * Ajout de la compatibilité avec le nouveau format de gestion des versions
-  du module complémentaire, apparu depuis nvda 2019.1.
+  des extensions, apparu depuis nvda 2019.1.
 
 ## Changements pour la version 1.1 ##
 
-* Le module complémentaire a été renommé de getCurKeyboardLanguage en
+* L'extension a été renommée de getCurKeyboardLanguage en
   sayCurrentKeyboardLanguage;
-* Ajout de la licence GPL au module complémentaire;
+* Ajout de la licence GPL à l'extension;
 * Ajout du script getCurKeyboardLanguage dans la catégorie "État du
   système";
 * Correction de quelques erreurs dans le code.
