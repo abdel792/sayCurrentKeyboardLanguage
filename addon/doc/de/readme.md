@@ -2,7 +2,7 @@
 
 * Autoren: Abdel, Noelia;
 * Download [stable version][1];
-* Download [development version][2].
+* [Entwicklerversion herunterladen][1]
 
 # Einführung #
 
