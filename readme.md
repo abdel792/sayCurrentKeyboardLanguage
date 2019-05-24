@@ -22,7 +22,7 @@ You will then find the script in the "System status" category.
 
 ## Compatibility ##
 
-* This add-on is compatible with the versions of NVDA ranging from 2014.3 until 2019.1.
+* This add-on is compatible with the versions of NVDA ranging from 2014.3 until 2019.3.
 
 ## Changes for version 19.02 ##
 
