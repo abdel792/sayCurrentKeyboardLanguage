@@ -27,7 +27,8 @@ Rồi bạn sẽ tìm thấy kịch bản trong phân loại "Trạng thái hệ
 
 ## Tương thích ##
 
-* Add-on này tương thích với các phiên bản NVDA từ 2014.3 đến 2019.1.
+* This add-on is compatible with the versions of NVDA ranging from 2014.3
+  until 2019.3.
 
 ## Các thay đổi cho phiên bản 19.02 ##
 

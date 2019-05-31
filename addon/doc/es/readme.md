@@ -29,7 +29,7 @@ Encontrarás el script en la categoría "Estado del sistema".
 ## Compatibilidad ##
 
 * Este complemento es compatible con las versiones de NVDA que hay entre la
-  2014.3 y la 2019.1, ambas inclusive.
+  2014.3 y la 2019.3, ambas inclusive.
 
 ## Cambios para la versión 19.02 ##
 

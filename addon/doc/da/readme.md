@@ -28,8 +28,8 @@ Du finder derefter scriptet i kategorien "Systemstatus".
 
 ## Kompatibilitet ##
 
-* Denne tilføjelse er kompatibel med versionerne af NVDA fra 2014.3 til
-  2019.1.
+* This add-on is compatible with the versions of NVDA ranging from 2014.3
+  until 2019.3.
 
 ## Ændringer for version 19.02 ##
 

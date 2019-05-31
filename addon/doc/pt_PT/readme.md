@@ -29,7 +29,7 @@ Pode encontrar este script na opção "estado do sistema".
 ## Compatibilidade ##
 
 * Este extra é compatível com as versões do NVDA desde a 2014.3 até à
-  2019.1.
+  2019.3.
 
 ## Alterações para a versão 19.0.2: ##
 

@@ -26,7 +26,7 @@ Lisäosan komento löytyy tämän jälkeen "Järjestelmän tila" -kategoriasta.
 
 ## Yhteensopivuus ##
 
-* NVDA:n versiot 2014.3-2019.1 ovat yhteensopivia tämän lisäosan kanssa.
+* NVDA:n versiot 2014.3-2019.3 ovat yhteensopivia tämän lisäosan kanssa.
 
 ## Muutokset versiossa 19.02 ##
 
