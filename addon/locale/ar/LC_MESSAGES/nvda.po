@@ -1,0 +1,36 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the sayCurrentKeyboardLanguage package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: sayCurrentKeyboardLanguage 1.1\n"
+"Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
+"POT-Creation-Date: 2017-07-21 19:05+1000\n"
+"PO-Revision-Date: 2019-06-10 05:03+0200\n"
+"Last-Translator: wafiqtaher <wafiqtaher@gmail.com>\n"
+"Language-Team: arabicTeam <wafiqtaher@gmail.com>\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.11\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#. Translators: message presented in input help mode.
+msgid ""
+"Gives the language of the keyboard in use. If pressed twice, gives the "
+"default language of the system."
+msgstr ""
+"يعلن عن لغة لوحة المفاتيح المستخدمة حاليا. وبالضغط مرتين ، يعلن عن اللغة "
+"الافتراضية للنظام"
+
+#. Add-on description
+#. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
+msgid ""
+"This addon provides a command to know the language of the keyboard in use, "
+"as well as the default language of the system."
+msgstr ""
+"يوفر هذا الملحق أمرًا لمعرفة لغة لوحة المفاتيح المستخدمة ، فضلاً عن اللغة "
+"الافتراضية للنظام."
