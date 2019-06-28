@@ -1,7 +1,7 @@
 # Aktive Tastatursprache ansagen #
 
 * Autoren: Abdel, Noelia;
-* Download [stable version][1];
+* [Stabile Version][1] herunterladen;
 * [Entwicklerversion herunterladen][1]
 
 # Einführung #
@@ -9,8 +9,8 @@
 Diese Erweiterung wurde auf Anfrage eines Mitglieds der nvda-addons
 Mailingliste erstellt.
 
-It provides a keyboard shortcut, NVDA + F4, which allows to retrieve and
-give the language of the current keyboard.
+Diese Erweiterung  stellt eine Tastenkombination (NVDA+F4) zur Verfügung,
+welche die Informationen zum verwendeten Tastaturlayout mitteilt.
 
 Bei zweimaligem Drücken wird die Standardsprache des Systems angesagt.
 
@@ -20,18 +20,18 @@ in eine Erweiterung ausgelagert.
 
 ## Anmerkungen ##
 
-If the NVDA + F4 keyboard shortcut conflicts with another command, you can
-change it by going to the Preferences menu of NVDA, in the "Input gestures"
-submenu.
+Falls die Tastenkombination NVDA+F4 mit einer anderen Tastenkombination
+kollidieren sollte, können Sie sie in den NVDA-Einstellungen im Untermenü
+"Eingaben" anpassen.
 
-You will then find the script in the "System status" category.
+Sie finden den Befehl in der Kategorie "Systemstatus".
 
 ## Kompatibilität ##
 
-* This add-on is compatible with the versions of NVDA ranging from 2014.3
-  until 2019.3.
+* Diese Erweiterung ist kompatibel mit den NVDA-Versionen von 2014.3 bis
+  2019.3.
 
-## Changes for version 19.02 ##
+## Änderungen in Version 19.02 ##
 
 * Die Versionsnummerierung wurde mit JJ.MM geändert (das Jahr in 2 Ziffern,
   gefolgt von einem Punkt, gefolgt von dem Monat in 2 Ziffern);
