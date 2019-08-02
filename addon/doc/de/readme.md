@@ -1,8 +1,8 @@
 # Aktive Tastatursprache ansagen #
 
 * Autoren: Abdel, Noelia;
-* [Stabile Version][1] herunterladen;
-* [Entwicklerversion herunterladen][1]
+* [Stabile Version herunterladen][1];
+* [Entwicklerversion herunterladen][2]
 
 # Einführung #
 
