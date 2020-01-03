@@ -1,29 +1,32 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the sayCurrentKeyboardLanguage package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Hrvatska lokalizacija za NVDA.
+# Copyright (C) 2006-2019 NVDA contributors <https://www.nvda-project.org>
+# This file is distributed under the same license as the virtualRevision package.
+# Tea Turković <tturkovi@gmail.com>, 2017.
+# Milo Ivir <mail@milotype.de>, 2019.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: sayCurrentKeyboardLanguage 1.1\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2017-07-28 19:05+1000\n"
-"PO-Revision-Date: 2017-08-05 11:06+0100\n"
-"Last-Translator: tea turkovic <tturkovi@gmail.com>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2019-11-15 23:29+0100\n"
+"Last-Translator: Milo Ivir <mail@milotype.de>\n"
 "Language: hr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.6.10\n"
+"X-Generator: Poedit 2.2.4\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"Language-Team: \n"
 
 #. Translators: message presented in input help mode.
 msgid ""
 "Gives the language of the keyboard in use. If pressed twice, gives the "
 "default language of the system."
 msgstr ""
-"Izvještava o jeziku tipkovnice koji se trenutno koristi. Ako pritisnete "
-"dvaput, izvještava o zadanom jeziku tipkovnice sustava."
+"Izvještava o jeziku tipkovnice koji se trenutačno koristi. Pritisnuto "
+"dvaput, izvještava o standardnom jeziku tipkovnice sustava."
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
@@ -31,5 +34,5 @@ msgid ""
 "This addon provides a command to know the language of the keyboard in use, "
 "as well as the default language of the system."
 msgstr ""
-"Ovaj dodatak omogućava komandu kojom saznajete trenutno korišteni jezik "
-"tipkovnice, kao i zadani jezik sustava."
+"Ovaj dodatak omogućava naredbu, kojom je moguće saznati trenutačno "
+"korišteni jezik tipkovnice, kao i standardni jezik sustava."
