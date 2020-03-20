@@ -1,4 +1,4 @@
-# Izgovori jezik trenutačne tipkovnice #
+# Izgovori jezik trenutačne tipkovnice (sayCurrentKeyboardLanguage) #
 
 * Autori: Abdel, Noelia;
 * Preuzmi [stabilnu verziju][1]
@@ -41,7 +41,8 @@ Skripta se nalazi u kategoriji „Stanje sustava”.
 * Dodatak je preimenovan iz „getCurKeyboardLanguage” u
   „sayCurrentKeyboardLanguage”;
 * Dodatku je dodana je opća javna licenca;
-* U kategoriju „Stanje sustava” je dodana skripta „getCurKeyboardLanguage”;
+* U kategoriju „Stanje sustava” dodana je skripta „getCurKeyboardLanguage”
+  (Izgovori jezik trenutačne tipkovnice);
 * Neki ispravci u kodu.
 
 ## Promjene u verziji 1.0 ##
