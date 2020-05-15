@@ -14,8 +14,8 @@ idioma do teclado atual.
 
 Se pressionado duas vezes, fornece o idioma padrão do sistema.
 
-Na primeira versão deste módulo, foi proposto como simples plug-in global —
-globalPlugin — para colar no diretório de configuração do NVDA, depois foi
+Na primeira versão deste módulo, foi proposto como simples plug-in global
+(globalPlugin) para colar no diretório de configuração do NVDA, depois foi
 transformado em complemento (add-on).
 
 ## Notas ##
