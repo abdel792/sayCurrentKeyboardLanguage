@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: sayCurrentKeyboardLanguage 1.8.2\n"
-"Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
+"Report-Msgid-Bugs-To: nvda-translations@groups.io\n"
 "POT-Creation-Date: 2018-12-21 19:00+1000\n"
 "PO-Revision-Date: 2019-07-15 16:00+0530\n"
 "Language: hi\n"
