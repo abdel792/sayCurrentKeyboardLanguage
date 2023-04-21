@@ -50,6 +50,6 @@ Skrypt znajdziesz w kategorii "Stan systemu".
 
 [[!tag dev stable]]
 
-[1]: https://addons.nvda-project.org/files/get.php?file=ckbl
+[1]: https://www.nvaccess.org/addonStore/legacy?file=ckbl
 
-[2]: https://addons.nvda-project.org/files/get.php?file=chari-dev
+[2]: https://www.nvaccess.org/addonStore/legacy?file=ckbl-dev

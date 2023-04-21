@@ -43,6 +43,6 @@ F4键盘快捷键与另一个快捷键冲突，您可以通过转到NVDA的“�
 
 [[!tag dev stable]]
 
-[1]: https://addons.nvda-project.org/files/get.php?file=ckbl
+[1]: https://www.nvaccess.org/addonStore/legacy?file=ckbl
 
-[2]: https://addons.nvda-project.org/files/get.php?file=ckbl-dev
+[2]: https://www.nvaccess.org/addonStore/legacy?file=ckbl-dev
