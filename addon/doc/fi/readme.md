@@ -1,8 +1,7 @@
 # Sano näppäimistön nykyinen kieli #
 
 * Tekijät: Abdel, Noelia;
-* Lataa [vakaa versio][1];
-* Lataa [kehitysversio][2].
+* Lataa [vakaa versio][1]
 
 # Kuvaus #
 
@@ -26,7 +25,14 @@ Lisäosan komento löytyy tämän jälkeen "Järjestelmän tila" -kategoriasta.
 
 ## Yhteensopivuus ##
 
-* NVDA:n versiot 2014.3-2019.3 ovat yhteensopivia tämän lisäosan kanssa.
+* Tämä lisäosa on yhteensopiva NVDA 2014.3:n ja sitä uudempien versioiden
+  kanssa.
+
+## Muutokset versiossa 20230426.0.0 ##
+
+* Versionumero, NVDA:n vähimmäisversio ja latauslinkki vaihdettu kaupan
+  käytäntöjen/vaatimusten mukaisiksi.
+* Yhteensopiva NVDA 2023.1:n ja sitä uudempien kanssa.
 
 ## Muutokset versiossa 19.02 ##
 
@@ -49,6 +55,5 @@ Lisäosan komento löytyy tämän jälkeen "Järjestelmän tila" -kategoriasta.
 
 [[!tag dev stable]]
 
-[1]: https://www.nvaccess.org/addonStore/legacy?file=ckbl
-
-[2]: https://www.nvaccess.org/addonStore/legacy?file=ckbl-dev
+[1]:
+https://www.nvaccess.org/addonStore/legacy?file=sayCurrentKeyboardLanguage

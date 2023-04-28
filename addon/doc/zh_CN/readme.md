@@ -1,8 +1,7 @@
 # sayCurrentKeyboardLanguage-NVDA语言显示插件 #
 
 * 作者: Abdel, Noelia;
-* 下载 [稳定版][1]
-* 下载[开发版][2]
+* Download [stable version][1]
 
 # 介绍 #
 
@@ -23,7 +22,14 @@ F4键盘快捷键与另一个快捷键冲突，您可以通过转到NVDA的“�
 
 ## 兼容性 ##
 
-* 此插件兼容2014.3到2019.1的NVDA版本。
+* This add-on is compatible with the versions of NVDA ranging from 2014.3
+  and beyond.
+
+## Changes for version 20230426.0.0 ##
+
+* Changed version number, minimum NVDA version and download link according
+  to store conventions/requirements.
+* Compatible with NVDA2023.1 and beyond.
 
 ## 19.02版的更改 ##
 
@@ -43,6 +49,5 @@ F4键盘快捷键与另一个快捷键冲突，您可以通过转到NVDA的“�
 
 [[!tag dev stable]]
 
-[1]: https://www.nvaccess.org/addonStore/legacy?file=ckbl
-
-[2]: https://www.nvaccess.org/addonStore/legacy?file=ckbl-dev
+[1]:
+https://www.nvaccess.org/addonStore/legacy?file=sayCurrentKeyboardLanguage

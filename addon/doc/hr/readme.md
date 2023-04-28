@@ -1,8 +1,7 @@
 # Izgovori jezik trenutačne tipkovnice (sayCurrentKeyboardLanguage) #
 
 * Autori: Abdel, Noelia;
-* Preuzmi [stabilnu verziju][1]
-* Preuzmi [razvojnu verziju][2]
+* Download [stable version][1]
 
 # Prezentacija #
 
@@ -27,7 +26,14 @@ Skripta se nalazi u kategoriji „Stanje sustava”.
 
 ## Kompatibilnost ##
 
-* Ovaj dodatak je kompatibilan s NVDA verzijama 2014.3 do 2019.3.
+* This add-on is compatible with the versions of NVDA ranging from 2014.3
+  and beyond.
+
+## Changes for version 20230426.0.0 ##
+
+* Changed version number, minimum NVDA version and download link according
+  to store conventions/requirements.
+* Compatible with NVDA2023.1 and beyond.
 
 ## Promjene u verziji 19.02 ##
 
@@ -51,6 +57,5 @@ Skripta se nalazi u kategoriji „Stanje sustava”.
 
 [[!tag dev stable]]
 
-[1]: https://www.nvaccess.org/addonStore/legacy?file=ckbl
-
-[2]: https://www.nvaccess.org/addonStore/legacy?file=ckbl-dev
+[1]:
+https://www.nvaccess.org/addonStore/legacy?file=sayCurrentKeyboardLanguage

@@ -1,8 +1,7 @@
 # mevcutKlavyeDİliniSöyle #
 
 * Yazarlar: Abdel, Noelia;
-* [Kararlı Sürümü][1] İndir.
-* [Geliştirme sürümünü][2] indir.
+* Download [stable version][1]
 
 # Sunum #
 
@@ -28,8 +27,14 @@ Komutu "sistem durumu" kategorisinde bulabilirsiniz.
 
 ## uyumluluk ##
 
-* Bu eklenti, 2014.3 ile 2021.3 arasında değişen NVDA sürümleriyle
-  uyumludur.
+* This add-on is compatible with the versions of NVDA ranging from 2014.3
+  and beyond.
+
+## Changes for version 20230426.0.0 ##
+
+* Changed version number, minimum NVDA version and download link according
+  to store conventions/requirements.
+* Compatible with NVDA2023.1 and beyond.
 
 ## 19.02 sürümü için değişiklikler ##
 
@@ -51,6 +56,5 @@ Komutu "sistem durumu" kategorisinde bulabilirsiniz.
 
 [[!tag dev stable]]
 
-[1]: https://www.nvaccess.org/addonStore/legacy?file=ckbl
-
-[2]: https://www.nvaccess.org/addonStore/legacy?file=ckbl-dev
+[1]:
+https://www.nvaccess.org/addonStore/legacy?file=sayCurrentKeyboardLanguage

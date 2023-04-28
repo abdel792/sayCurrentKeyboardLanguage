@@ -1,8 +1,7 @@
 # sayCurrentKeyboardLanguage #
 
 * Autor(es): Abdel, Noelia;
-* Descargar [versión estable][1];
-* Descargar [versión de desarrollo][2].
+* Descargar [versión estable][1]
 
 # Presentación #
 
@@ -28,8 +27,14 @@ Encontrarás el script en la categoría "Estado del sistema".
 
 ## Compatibilidad ##
 
-* Este complemento es compatible con las versiones de NVDA que hay entre la
-  2014.3 y la 2019.3, ambas inclusive.
+* Este complemento es compatible con las versiones de NVDA que van de la
+  2014.3 en adelante.
+
+## Cambios para la versión 20230426.0.0 ##
+
+* Modificado el número de versión, la versión mínima de NVDA y el enlace de
+  descarga según las convenciones y requisitos de la tienda.
+* Compatible con NVDA 2023.1 y versiones posteriores.
 
 ## Cambios para la versión 19.02 ##
 
@@ -53,6 +58,5 @@ Encontrarás el script en la categoría "Estado del sistema".
 
 [[!tag dev stable]]
 
-[1]: https://www.nvaccess.org/addonStore/legacy?file=ckbl
-
-[2]: https://www.nvaccess.org/addonStore/legacy?file=ckbl-dev
+[1]:
+https://www.nvaccess.org/addonStore/legacy?file=sayCurrentKeyboardLanguage

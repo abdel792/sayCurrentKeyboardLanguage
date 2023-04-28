@@ -1,8 +1,7 @@
 # Dizer o Idioma Atual do Teclado (sayCurrentKeyboardLanguage) #
 
 * Autor(es): Abdel, Noelia;
-* Baixe a [versão estável][1];
-* Baixe a [versão em desenvolvimento][2].
+* Download [stable version][1]
 
 # Apresentação #
 
@@ -28,8 +27,14 @@ Você encontrará o script na categoria "Status do sistema".
 
 ## Compatibilidade ##
 
-* Esse complemento é compatível com as versões do NVDA que variam de 2014.3
-  a 2019.3.
+* This add-on is compatible with the versions of NVDA ranging from 2014.3
+  and beyond.
+
+## Changes for version 20230426.0.0 ##
+
+* Changed version number, minimum NVDA version and download link according
+  to store conventions/requirements.
+* Compatible with NVDA2023.1 and beyond.
 
 ## Mudanças na versão 19.02 ##
 
@@ -54,6 +59,5 @@ Você encontrará o script na categoria "Status do sistema".
 
 [[!tag dev stable]]
 
-[1]: https://www.nvaccess.org/addonStore/legacy?file=ckbl
-
-[2]: https://www.nvaccess.org/addonStore/legacy?file=ckbl-dev
+[1]:
+https://www.nvaccess.org/addonStore/legacy?file=sayCurrentKeyboardLanguage

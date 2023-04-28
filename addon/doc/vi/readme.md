@@ -1,8 +1,7 @@
 # Báo ngôn ngữ bàn phím hiện tại #
 
 * Tác giả: Abdel, Noelia;
-* Tải về [phiên bản chính thức][1];
-* Tải về [bản thử nghiệm][2].
+* Download [stable version][1]
 
 # Trình bày #
 
@@ -27,7 +26,14 @@ Rồi bạn sẽ tìm thấy kịch bản trong phân loại "Trạng thái hệ
 
 ## Tương thích ##
 
-* Add-on này tương thích với các phiên bản NVDA từ 2014.3 đến 2019.3.
+* This add-on is compatible with the versions of NVDA ranging from 2014.3
+  and beyond.
+
+## Changes for version 20230426.0.0 ##
+
+* Changed version number, minimum NVDA version and download link according
+  to store conventions/requirements.
+* Compatible with NVDA2023.1 and beyond.
 
 ## Các thay đổi cho phiên bản 19.02 ##
 
@@ -50,6 +56,5 @@ Rồi bạn sẽ tìm thấy kịch bản trong phân loại "Trạng thái hệ
 
 [[!tag dev stable]]
 
-[1]: https://www.nvaccess.org/addonStore/legacy?file=ckbl
-
-[2]: https://www.nvaccess.org/addonStore/legacy?file=ckbl-dev
+[1]:
+https://www.nvaccess.org/addonStore/legacy?file=sayCurrentKeyboardLanguage
