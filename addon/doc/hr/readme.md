@@ -1,7 +1,7 @@
 # Izgovori jezik trenutačne tipkovnice (sayCurrentKeyboardLanguage) #
 
 * Autori: Abdel, Noelia;
-* Download [stable version][1]
+* Preuzmi [stabilnu verziju][1]
 
 # Prezentacija #
 
@@ -26,14 +26,13 @@ Skripta se nalazi u kategoriji „Stanje sustava”.
 
 ## Kompatibilnost ##
 
-* This add-on is compatible with the versions of NVDA ranging from 2014.3
-  and beyond.
+* Ovaj je dodatak kompatibilan s NVDA 2014.3 i novijim verzijama.
 
-## Changes for version 20230426.0.0 ##
+## Promjene u verziji 20230426.0.0 ##
 
-* Changed version number, minimum NVDA version and download link according
-  to store conventions/requirements.
-* Compatible with NVDA2023.1 and beyond.
+* Promijenjen je broj verzije, minimalna NVDA verzija i poveznica za
+  preuzimanje, u skladu s konvencijama/zahtjevima trgovine.
+* Kompatibilno s NVDA 2023.1 i novijim verzijama.
 
 ## Promjene u verziji 19.02 ##
 
