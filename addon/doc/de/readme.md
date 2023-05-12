@@ -1,7 +1,7 @@
 # Aktive Tastatursprache ansagen #
 
 * Autoren: Abdel, Noelia;
-* Download [stable version][1]
+* [Stabile Version herunterladen][1]
 
 # Einführung #
 
@@ -27,14 +27,14 @@ Sie finden den Befehl in der Kategorie "Systemstatus".
 
 ## Kompatibilität ##
 
-* This add-on is compatible with the versions of NVDA ranging from 2014.3
-  and beyond.
+* Diese NVDA-Erweiterung ist kompatibel mit NVDA 2014.3 und neuer.
 
-## Changes for version 20230426.0.0 ##
+## Änderungen in Version 20230426.0.0 ##
 
-* Changed version number, minimum NVDA version and download link according
-  to store conventions/requirements.
-* Compatible with NVDA2023.1 and beyond.
+* Die Versionsnummer, die minimale NVDA-Version und der Download-Link wurden
+  entsprechend den Konventionen bzw. der Anforderungen für den Store für
+  NVDA-Erweiterungen geändert.
+* Kompatibel mit NVDA2023.1 und neuer.
 
 ## Änderungen in Version 19.02 ##
 

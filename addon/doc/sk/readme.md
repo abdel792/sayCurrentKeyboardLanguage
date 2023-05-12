@@ -1,7 +1,7 @@
 # Vyslov jazyk klávesnice #
 
 * Autorii: Abdel, Noelia;
-* Download [stable version][1]
+* Stiahnuť [stabilnú verziu][1]
 
 # Prezentácia #
 
@@ -23,14 +23,13 @@ Hľadajte kategóriu "systém".
 
 ## Kompatibilita ##
 
-* This add-on is compatible with the versions of NVDA ranging from 2014.3
-  and beyond.
+* Doplnok funguje s verziami NVDA 2014.3
 
-## Changes for version 20230426.0.0 ##
+## Verzia 20230426.0.0 ##
 
-* Changed version number, minimum NVDA version and download link according
-  to store conventions/requirements.
-* Compatible with NVDA2023.1 and beyond.
+* Upravené číslovanie verzie, posledná verzia NVDA kompatibilná s doplnkom
+  podľa odporúčaní.
+* Kompatibilný s NVDA od verzie 2023.1.
 
 ## Verzia 19.02 ##
 
