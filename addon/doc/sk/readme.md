@@ -1,8 +1,7 @@
 # Vyslov jazyk klávesnice #
 
 * Autorii: Abdel, Noelia;
-* Stiahnuť [stabilnú verziu][1];
-* Stiahnuť [vývojovú verziu][2].
+* Stiahnuť [stabilnú verziu][1]
 
 # Prezentácia #
 
@@ -24,7 +23,13 @@ Hľadajte kategóriu "systém".
 
 ## Kompatibilita ##
 
-* Doplnok funguje s verziami 2014.3 až 2019.3.
+* Doplnok funguje s verziami NVDA 2014.3
+
+## Verzia 20230426.0.0 ##
+
+* Upravené číslovanie verzie, posledná verzia NVDA kompatibilná s doplnkom
+  podľa odporúčaní.
+* Kompatibilný s NVDA od verzie 2023.1.
 
 ## Verzia 19.02 ##
 
@@ -47,6 +52,5 @@ Hľadajte kategóriu "systém".
 
 [[!tag dev stable]]
 
-[1]: https://addons.nvda-project.org/files/get.php?file=ckbl
-
-[2]: https://addons.nvda-project.org/files/get.php?file=ckbl-dev
+[1]:
+https://www.nvaccess.org/addonStore/legacy?file=sayCurrentKeyboardLanguage

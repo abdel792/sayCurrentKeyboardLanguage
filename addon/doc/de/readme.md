@@ -1,8 +1,7 @@
 # Aktive Tastatursprache ansagen #
 
 * Autoren: Abdel, Noelia;
-* [Stabile Version herunterladen][1];
-* [Entwicklerversion herunterladen][2]
+* [Stabile Version herunterladen][1]
 
 # Einführung #
 
@@ -28,8 +27,14 @@ Sie finden den Befehl in der Kategorie "Systemstatus".
 
 ## Kompatibilität ##
 
-* Diese Erweiterung ist kompatibel mit den NVDA-Versionen von 2014.3 bis
-  2019.3.
+* Diese NVDA-Erweiterung ist kompatibel mit NVDA 2014.3 und neuer.
+
+## Änderungen in Version 20230426.0.0 ##
+
+* Die Versionsnummer, die minimale NVDA-Version und der Download-Link wurden
+  entsprechend den Konventionen bzw. der Anforderungen für den Store für
+  NVDA-Erweiterungen geändert.
+* Kompatibel mit NVDA2023.1 und neuer.
 
 ## Änderungen in Version 19.02 ##
 
@@ -53,6 +58,5 @@ Sie finden den Befehl in der Kategorie "Systemstatus".
 
 [[!tag dev stable]]
 
-[1]: https://addons.nvda-project.org/files/get.php?file=ckbl
-
-[2]: https://addons.nvda-project.org/files/get.php?file=ckbl-dev
+[1]:
+https://www.nvaccess.org/addonStore/legacy?file=sayCurrentKeyboardLanguage

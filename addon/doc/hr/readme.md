@@ -2,7 +2,6 @@
 
 * Autori: Abdel, Noelia;
 * Preuzmi [stabilnu verziju][1]
-* Preuzmi [razvojnu verziju][2]
 
 # Prezentacija #
 
@@ -27,7 +26,13 @@ Skripta se nalazi u kategoriji „Stanje sustava”.
 
 ## Kompatibilnost ##
 
-* Ovaj dodatak je kompatibilan s NVDA verzijama 2014.3 do 2019.3.
+* Ovaj je dodatak kompatibilan s NVDA 2014.3 i novijim verzijama.
+
+## Promjene u verziji 20230426.0.0 ##
+
+* Promijenjen je broj verzije, minimalna NVDA verzija i poveznica za
+  preuzimanje, u skladu s konvencijama/zahtjevima trgovine.
+* Kompatibilno s NVDA 2023.1 i novijim verzijama.
 
 ## Promjene u verziji 19.02 ##
 
@@ -51,6 +56,5 @@ Skripta se nalazi u kategoriji „Stanje sustava”.
 
 [[!tag dev stable]]
 
-[1]: https://addons.nvda-project.org/files/get.php?file=ckbl
-
-[2]: https://addons.nvda-project.org/files/get.php?file=ckbl-dev
+[1]:
+https://www.nvaccess.org/addonStore/legacy?file=sayCurrentKeyboardLanguage
