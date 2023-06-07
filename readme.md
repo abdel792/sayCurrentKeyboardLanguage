@@ -24,6 +24,18 @@ You will then find the script in the "System status" category.
 
 * This add-on is compatible with the versions of NVDA ranging from 2014.3 and beyond.
 
+## Changes for 20230607.0.0 ##
+
+* Added the following workflows:
+ * auto-update-translations - to automatically update translations from NVDA's translation system.
+ * release-on-tag..yaml: to build and publish the addon as soon as a new tag is pushed;
+ * manual-release.yaml: to build and release new versions of the add-on manually.
+* Updated translations.
+
+## Changes for version 20230426.0.0 and beyond ##
+
+* • Changed version number, minimum NVDA version and download link according to store conventions/requirements.
+
 ## Changes for version 19.02 ##
 
 * Changed version numbering using YY.MM (The year in 2 digits, followed by a dot, followed by the month in 2 digits);
@@ -40,6 +52,6 @@ You will then find the script in the "System status" category.
 
 * Initial version.
 
-[1]: https://addons.nvda-project.org/files/get.php?file=ckbl
+[1]: https://www.nvaccess.org/addonStore/legacy?file=sayCurrentKeyboardLanguage
 
-[2]: https://addons.nvda-project.org/files/get.php?file=ckbl-dev
+[2]: https://www.nvaccess.org/addonStore/legacy?file=sayCurrentKeyboardLanguage
