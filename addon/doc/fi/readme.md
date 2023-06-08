@@ -1,7 +1,10 @@
 # Sano näppäimistön nykyinen kieli #
 
 * Tekijät: Abdel, Noelia;
-* Lataa [vakaa versio][1]
+* Lataa [vakaa
+  versio](https://www.nvaccess.org/addonStore/legacy?file=sayCurrentKeyboardLanguage)
+* Lataa
+  [kehitysversio](https://www.nvaccess.org/addonStore/legacy?file=sayCurrentKeyboardLanguage)
 
 # Kuvaus #
 
@@ -28,11 +31,10 @@ Lisäosan komento löytyy tämän jälkeen "Järjestelmän tila" -kategoriasta.
 * Tämä lisäosa on yhteensopiva NVDA 2014.3:n ja sitä uudempien versioiden
   kanssa.
 
-## Muutokset versiossa 20230426.0.0 ##
+## Muutokset versiossa 20230426.0.0 ja sitä uudemmissa ##
 
 * Versionumero, NVDA:n vähimmäisversio ja latauslinkki vaihdettu kaupan
   käytäntöjen/vaatimusten mukaisiksi.
-* Yhteensopiva NVDA 2023.1:n ja sitä uudempien kanssa.
 
 ## Muutokset versiossa 19.02 ##
 
@@ -54,6 +56,3 @@ Lisäosan komento löytyy tämän jälkeen "Järjestelmän tila" -kategoriasta.
 * Ensimmäinen versio.
 
 [[!tag dev stable]]
-
-[1]:
-https://www.nvaccess.org/addonStore/legacy?file=sayCurrentKeyboardLanguage

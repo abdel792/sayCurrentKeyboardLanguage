@@ -1,7 +1,10 @@
 # Dizer o Idioma Atual do Teclado (sayCurrentKeyboardLanguage) #
 
 * Autor(es): Abdel, Noelia;
-* Download [stable version][1]
+* Download [stable
+  version](https://www.nvaccess.org/addonStore/legacy?file=sayCurrentKeyboardLanguage)
+* Download [development
+  version](https://www.nvaccess.org/addonStore/legacy?file=sayCurrentKeyboardLanguage)
 
 # Apresentação #
 
@@ -30,18 +33,17 @@ Você encontrará o script na categoria "Status do sistema".
 * This add-on is compatible with the versions of NVDA ranging from 2014.3
   and beyond.
 
-## Changes for version 20230426.0.0 ##
+## Changes for version 20230426.0.0 and beyond##
 
 * Changed version number, minimum NVDA version and download link according
   to store conventions/requirements.
-* Compatible with NVDA2023.1 and beyond.
 
 ## Mudanças na versão 19.02 ##
 
 * Numeração de versão alterada usando AA.MM (o ano em 2 dígitos, seguido de
   um ponto, seguido do mês em 2 dígitos);
-* Adicionado compatibilidade com o novo formato de versão do complemento,
-  surgido desde o nvda 2019.1.
+* Added compatibility with the new versioning format of add-on, appeared
+  since nvda 2019.1.																					
 
 ## Mudanças na versão 1.1 ##
 
@@ -58,6 +60,3 @@ Você encontrará o script na categoria "Status do sistema".
 * Versão inicial.
 
 [[!tag dev stable]]
-
-[1]:
-https://www.nvaccess.org/addonStore/legacy?file=sayCurrentKeyboardLanguage

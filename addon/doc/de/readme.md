@@ -1,7 +1,10 @@
 # Aktive Tastatursprache ansagen #
 
 * Autoren: Abdel, Noelia;
-* [Stabile Version herunterladen][1]
+* [Stabile Version
+  herunterladen](https://www.nvaccess.org/addonStore/legacy?file=sayCurrentKeyboardLanguage)
+* [Entwicklerversion
+  herunterladen](https://www.nvaccess.org/addonStore/legacy?file=sayCurrentKeyboardLanguage)
 
 # Einführung #
 
@@ -29,19 +32,18 @@ Sie finden den Befehl in der Kategorie "Systemstatus".
 
 * Diese NVDA-Erweiterung ist kompatibel mit NVDA 2014.3 und neuer.
 
-## Änderungen in Version 20230426.0.0 ##
+## Änderungen in Version 20230426.0.0 und neuer
 
 * Die Versionsnummer, die minimale NVDA-Version und der Download-Link wurden
   entsprechend den Konventionen bzw. der Anforderungen für den Store für
   NVDA-Erweiterungen geändert.
-* Kompatibel mit NVDA2023.1 und neuer.
 
 ## Änderungen in Version 19.02 ##
 
 * Die Versionsnummerierung wurde mit JJ.MM geändert (das Jahr in 2 Ziffern,
   gefolgt von einem Punkt, gefolgt von dem Monat in 2 Ziffern);
-* Die Kompatibilität mit dem neuen Versionierungsformat der Erweiterung
-  wurde gesichert, erschienen seit nvda 2019.1.
+* Kompatibilität mit der neuesten Versionsformat der NVDA-Erweiterung, das
+  es seit der NVDA-Version 2019.1 gibt.
 
 ## Änderungen in Version 1.1 ##
 
@@ -57,6 +59,3 @@ Sie finden den Befehl in der Kategorie "Systemstatus".
 * Erste Version.
 
 [[!tag dev stable]]
-
-[1]:
-https://www.nvaccess.org/addonStore/legacy?file=sayCurrentKeyboardLanguage

@@ -1,7 +1,10 @@
 # Vyslov jazyk klávesnice #
 
 * Autorii: Abdel, Noelia;
-* Stiahnuť [stabilnú verziu][1]
+* Download [stable
+  version](https://www.nvaccess.org/addonStore/legacy?file=sayCurrentKeyboardLanguage)
+* Download [development
+  version](https://www.nvaccess.org/addonStore/legacy?file=sayCurrentKeyboardLanguage)
 
 # Prezentácia #
 
@@ -25,18 +28,17 @@ Hľadajte kategóriu "systém".
 
 * Doplnok funguje s verziami NVDA 2014.3
 
-## Verzia 20230426.0.0 ##
+## Changes for version 20230426.0.0 and beyond##
 
 * Upravené číslovanie verzie, posledná verzia NVDA kompatibilná s doplnkom
   podľa odporúčaní.
-* Kompatibilný s NVDA od verzie 2023.1.
 
 ## Verzia 19.02 ##
 
 * Zmenené číslovanie verzií. Teraz sa používa systém yy.mm (dve číslice pre
   rok a dve pre mesiac);
-* Pridaná kompatibilita pre číslovanie verzií v doplnkoch NVDA, rešpektujúc
-  pravidlá zavedené vo verzii NVDA 2019.1.
+* Added compatibility with the new versioning format of add-on, appeared
+  since nvda 2019.1.																					
 
 ## Verzia 1.1 ##
 
@@ -51,6 +53,3 @@ Hľadajte kategóriu "systém".
 * Prvé vydanie.
 
 [[!tag dev stable]]
-
-[1]:
-https://www.nvaccess.org/addonStore/legacy?file=sayCurrentKeyboardLanguage

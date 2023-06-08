@@ -1,7 +1,10 @@
 # Izgovori jezik trenutačne tipkovnice (sayCurrentKeyboardLanguage) #
 
 * Autori: Abdel, Noelia;
-* Preuzmi [stabilnu verziju][1]
+* Preuzmi [stabilnu
+  verziju](https://www.nvaccess.org/addonStore/legacy?file=sayCurrentKeyboardLanguage)
+* Preuzmi [razvojnu
+  verziju](https://www.nvaccess.org/addonStore/legacy?file=sayCurrentKeyboardLanguage)
 
 # Prezentacija #
 
@@ -28,18 +31,17 @@ Skripta se nalazi u kategoriji „Stanje sustava”.
 
 * Ovaj je dodatak kompatibilan s NVDA 2014.3 i novijim verzijama.
 
-## Promjene u verziji 20230426.0.0 ##
+## Promjene u verziji 20230426.0.0 i novije##
 
 * Promijenjen je broj verzije, minimalna NVDA verzija i poveznica za
   preuzimanje, u skladu s konvencijama/zahtjevima trgovine.
-* Kompatibilno s NVDA 2023.1 i novijim verzijama.
 
 ## Promjene u verziji 19.02 ##
 
 * Promijenjeno je numeriranje verzija koristeći YY.MM (Dvije znamenke za
   godinu, slijedi točka, a zatim dvije znamenke za mjesec);
 * Dodana je kompatibilnost s novim formatom za određivanje verzije dodataka,
-  pojavila se u nvda verziji 2019.1.
+  pojavila se u nvda verziji 2019.1.																					
 
 ## Promjene u verziji 1.1 ##
 
@@ -55,6 +57,3 @@ Skripta se nalazi u kategoriji „Stanje sustava”.
 * Prvo izdanje.
 
 [[!tag dev stable]]
-
-[1]:
-https://www.nvaccess.org/addonStore/legacy?file=sayCurrentKeyboardLanguage

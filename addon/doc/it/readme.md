@@ -1,7 +1,10 @@
 # sayCurrentKeyboardLanguage #
 
 * Autori: Abdel, Noelia;
-* Download [stable version][1]
+* Download [stable
+  version](https://www.nvaccess.org/addonStore/legacy?file=sayCurrentKeyboardLanguage)
+* Download [development
+  version](https://www.nvaccess.org/addonStore/legacy?file=sayCurrentKeyboardLanguage)
 
 # Presentazione #
 
@@ -30,18 +33,17 @@ Lo script lo si trova nella categoria stato sistema.
 * This add-on is compatible with the versions of NVDA ranging from 2014.3
   and beyond.
 
-## Changes for version 20230426.0.0 ##
+## Changes for version 20230426.0.0 and beyond##
 
 * Changed version number, minimum NVDA version and download link according
   to store conventions/requirements.
-* Compatible with NVDA2023.1 and beyond.
 
 ## Novità nella versione 19.02 ##
 
 * Da ora, la numerazione delle versioni segue lo schema YY.MM (due cifre per
   l'anno, seguite da un punto e poi da due cifre per il mese);
-* Aggiunta la compatibilità con il nuovo formato delle versioni degli
-  add-on, comparso da NVDA 2019.1.
+* Added compatibility with the new versioning format of add-on, appeared
+  since nvda 2019.1.																					
 
 ## Novità nella versione 1.1 ##
 
@@ -56,6 +58,3 @@ Lo script lo si trova nella categoria stato sistema.
 * Versione iniziale.
 
 [[!tag dev stable]]
-
-[1]:
-https://www.nvaccess.org/addonStore/legacy?file=sayCurrentKeyboardLanguage

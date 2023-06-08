@@ -1,7 +1,10 @@
 # mevcutKlavyeDİliniSöyle #
 
 * Yazarlar: Abdel, Noelia;
-* Download [stable version][1]
+* [Kararlı sürümü
+  indir](https://www.nvaccess.org/addonStore/legacy?file=sayCurrentKeyboardLanguage)
+* [Geliştirme sürümünü
+  indir](https://www.nvaccess.org/addonStore/legacy?file=sayCurrentKeyboardLanguage)
 
 # Sunum #
 
@@ -25,22 +28,21 @@ değiştirebilirsiniz.
 
 Komutu "sistem durumu" kategorisinde bulabilirsiniz.
 
-## uyumluluk ##
+## Uyumluluk ##
 
-* This add-on is compatible with the versions of NVDA ranging from 2014.3
-  and beyond.
+* Bu eklenti, NVDA'nın 2014.3 ve sonrası sürümleriyle uyumludur.
 
-## Changes for version 20230426.0.0 ##
+## 20230426.0.0 ve sonraki sürümler için değişiklikler##
 
-* Changed version number, minimum NVDA version and download link according
-  to store conventions/requirements.
-* Compatible with NVDA2023.1 and beyond.
+* Mağaza kurallarına/gereksinimlerine göre sürüm numarası, minimum NVDA
+  sürümü ve indirme bağlantısı değiştirildi.
 
 ## 19.02 sürümü için değişiklikler ##
 
 * Sürüm numaralandırılması YY.AA olarak değiştirildi. (Yıl 2 haneli,
   ardından nokta ve 2 haneli ay);
-* nvda 2019.1 ile değiştirilen kodlama ile uyumlu hale getirildi.
+* Nvda 2019.1'den bu yana ortaya çıkan eklentinin yeni sürüm oluşturma
+  biçimiyle uyumluluk eklendi.																					
 
 ## 1.1 sürümü için değişiklikler ##
 
@@ -55,6 +57,3 @@ Komutu "sistem durumu" kategorisinde bulabilirsiniz.
 * İlk Sürüm.
 
 [[!tag dev stable]]
-
-[1]:
-https://www.nvaccess.org/addonStore/legacy?file=sayCurrentKeyboardLanguage

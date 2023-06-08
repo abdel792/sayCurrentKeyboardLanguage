@@ -1,7 +1,10 @@
 # Báo ngôn ngữ bàn phím hiện tại #
 
 * Tác giả: Abdel, Noelia;
-* Download [stable version][1]
+* Download [stable
+  version](https://www.nvaccess.org/addonStore/legacy?file=sayCurrentKeyboardLanguage)
+* Download [development
+  version](https://www.nvaccess.org/addonStore/legacy?file=sayCurrentKeyboardLanguage)
 
 # Trình bày #
 
@@ -29,18 +32,17 @@ Rồi bạn sẽ tìm thấy kịch bản trong phân loại "Trạng thái hệ
 * This add-on is compatible with the versions of NVDA ranging from 2014.3
   and beyond.
 
-## Changes for version 20230426.0.0 ##
+## Changes for version 20230426.0.0 and beyond##
 
 * Changed version number, minimum NVDA version and download link according
   to store conventions/requirements.
-* Compatible with NVDA2023.1 and beyond.
 
 ## Các thay đổi cho phiên bản 19.02 ##
 
 * Thay đổi cách đặt số phiên bản bằng YY.MM (hai chữ số năm, một dấu chấm,
   hai chữ số tháng);
-* Thêm tương thích với định dạng phiên bản mới của add-on, xuất hiện từ nvda
-  2019.1.
+* Added compatibility with the new versioning format of add-on, appeared
+  since nvda 2019.1.																					
 
 ## Các thay đổi cho phiên bản 1.1 ##
 
@@ -55,6 +57,3 @@ Rồi bạn sẽ tìm thấy kịch bản trong phân loại "Trạng thái hệ
 * Phiên bản đầu tiên.
 
 [[!tag dev stable]]
-
-[1]:
-https://www.nvaccess.org/addonStore/legacy?file=sayCurrentKeyboardLanguage
