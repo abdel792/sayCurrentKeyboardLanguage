@@ -1,4 +1,4 @@
-# Changes for 20230607.0.0
+## Changes for 20230607.0.0
 
 * Added the following workflows:
  * auto-update-translations - to automatically update translations from NVDA's translation system.
