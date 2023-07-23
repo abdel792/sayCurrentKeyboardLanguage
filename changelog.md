@@ -1,5 +1,5 @@
-## Changes for 20230708.0.0
+## Changes for 20230722.0.0
 
-* Updated translations.
+* Code analysised and corrected using flake8 rules.
 
 
