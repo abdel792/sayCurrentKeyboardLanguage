@@ -28,7 +28,7 @@ jobs:
       run: echo "CUR_DATE=$(date +%Y%m%d)" >> $GITHUB_ENV
 
     - name: Environment variable for tag_name
-      run: echo "TAG_NAME="v"$(echo ${{ env.CUR_DATE }} | cut -c 3-4)"."$(echo ${{ env.CUR_DATE }} | cut -c 5-6)" >> $GITHUB_ENV
+      run: echo "TAG_NAME="v"$(echo ${{ env.CUR_DATE }} | cut -c 3-4)"."$(echo ${{ env.CUR_DATE }} | cut -c 5-6)"."$(echo ${{ env.CUR_DATE }} | cut -c 7-8)" >> $GITHUB_ENV
 
     - name: Environment variable for current year
       run: echo "CUR_YEAR=$(echo ${{ env.CUR_DATE }} | cut -c 1-4)" >> $GITHUB_ENV
@@ -70,9 +70,16 @@ jobs:
 
     - name: Install dependencies
       run: |
-        pip install scons markdown
+        pip install scons markdown flake8
         sudo apt update
         sudo apt install gettext
+
+    - name: Lint with flake8
+      run: |
+        # Stop the build if there are any errors
+        flake8 --config flake8.ini addon --count --select=E9,F63,F7,F82 --show-source --statistics
+        # exit-zero treats all errors as warnings. The GitHub editor is 127 chars wide
+        flake8 --config flake8.ini addon --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
 
     - name: Add add-on version
       run: |
