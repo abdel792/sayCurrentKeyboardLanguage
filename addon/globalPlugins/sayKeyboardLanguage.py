@@ -45,7 +45,7 @@ class GlobalPlugin (globalPluginHandler.GlobalPlugin):
 			languageHandler.LOCALE_SLANGUAGE if hasattr(languageHandler, "LOCALE_SLANGUAGE")
 			else languageHandler.LOCALE.SLANGUAGE),
 			buf, 1024
-		)
+			)
 		desc = buf.value
 		defaultOsl = locale.getdefaultlocale()[0]
 		repeatCount = scriptHandler.getLastScriptRepeatCount()

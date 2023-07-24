@@ -66,11 +66,11 @@ jobs:
     - name: Set up Python 3.8
       uses: actions/setup-python@v3
       with:
-        python-version: 3.8
+        python-version: 3.7
 
     - name: Install dependencies
       run: |
-        pip install scons markdown flake8 flake8-tabs
+        pip install -U pip scons markdown flake8 flake8-tabs
         sudo apt update
         sudo apt install gettext
 
