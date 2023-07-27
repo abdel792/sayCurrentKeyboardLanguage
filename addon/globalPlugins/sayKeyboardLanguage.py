@@ -16,13 +16,17 @@ import locale
 
 # Category for the input gestures.
 from globalCommands import SCRCAT_SYSTEM
+from typing import Callable
 
 # For translations.
 import addonHandler
 addonHandler.initTranslation()
+_: Callable[[str], str]
 
 
 class GlobalPlugin (globalPluginHandler.GlobalPlugin):
+
+	category = SCRCAT_SYSTEM
 
 	def script_sayCurKeyboardLanguage(self, gesture):
 		import winUser
@@ -55,12 +59,6 @@ class GlobalPlugin (globalPluginHandler.GlobalPlugin):
 			ui.message(languageHandler.getLanguageDescription(defaultOsl))
 
 	# Translators: message presented in input help mode.
-	script_sayCurKeyboardLanguage.__doc__ = _(  # noqa: F821
+	script_sayCurKeyboardLanguage.__doc__ = _(
 		"Gives the language of the keyboard in use. If pressed twice, gives the default language of the system."
 	)
-	# Adding the script to the SCRCAT_SYSTEM category.
-	script_sayCurKeyboardLanguage.category = SCRCAT_SYSTEM
-
-	__gestures = {
-		"kb: nvda+f4": "sayCurKeyboardLanguage"
-	}
