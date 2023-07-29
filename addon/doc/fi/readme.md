@@ -28,8 +28,14 @@ Lisäosan komento löytyy tämän jälkeen "Järjestelmän tila" -kategoriasta.
 
 ## Yhteensopivuus ##
 
-* Tämä lisäosa on yhteensopiva NVDA 2014.3:n ja sitä uudempien versioiden
+* Tämä lisäosa on yhteensopiva NVDA 2019.3:n ja sitä uudempien versioiden
   kanssa.
+
+## Muutokset versiossa 20230728.0.0 ##
+
+* Sovellettu koodiin flake8- ja mypy-sääntöjä.
+* Muutettu NVDA:n tuetuksi vähimmäisversioksi 2019.3 Python 3:ssa
+  esiteltyjen selitteiden tukemiseksi.
 
 ## Muutokset versiossa 20230426.0.0 ja sitä uudemmissa ##
 
@@ -41,7 +47,7 @@ Lisäosan komento löytyy tämän jälkeen "Järjestelmän tila" -kategoriasta.
 * Versionumerointi muutettu muotoon vv.kk (vuosi kahdella numerolla, piste
   ja kuukausi kahdella numerolla);
 * Lisätty yhteensopivuus lisäosan uudelle versionumeroinnille, joka otettiin
-  käyttöön NVDA 2019.1:ssä.
+  käyttöön NVDA 2019.1:stä alkaen.
 
 ## Muutokset versiossa 1.1 ##
 

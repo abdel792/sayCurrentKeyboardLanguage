@@ -29,7 +29,13 @@ Skripta se nalazi u kategoriji „Stanje sustava”.
 
 ## Kompatibilnost ##
 
-* Ovaj je dodatak kompatibilan s NVDA 2014.3 i novijim verzijama.
+* Ovaj je dodatak kompatibilan s NVDA verzijom 2019.3 i novijim verzijama.
+
+## Promjene u 20230728.0.0 ##
+
+* Programskom kodu su dodana flake8 i mypy pravila.
+* Namjanja podržana NVDA verzija je promijenjena na 2019.3 kako bi se
+  podržale zabilješke koje su uvedene u Python 3.
 
 ## Promjene u verziji 20230426.0.0 i novije##
 
@@ -41,7 +47,7 @@ Skripta se nalazi u kategoriji „Stanje sustava”.
 * Promijenjeno je numeriranje verzija koristeći YY.MM (Dvije znamenke za
   godinu, slijedi točka, a zatim dvije znamenke za mjesec);
 * Dodana je kompatibilnost s novim formatom za određivanje verzije dodataka,
-  pojavila se u nvda verziji 2019.1.																					
+  pojavila se u nvda verziji 2019.1.
 
 ## Promjene u verziji 1.1 ##
 

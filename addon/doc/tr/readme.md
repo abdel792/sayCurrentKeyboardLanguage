@@ -30,7 +30,13 @@ Komutu "sistem durumu" kategorisinde bulabilirsiniz.
 
 ## Uyumluluk ##
 
-* Bu eklenti, NVDA'nın 2014.3 ve sonrası sürümleriyle uyumludur.
+* Bu eklenti, NVDA'nın 2019.3 ve sonrası sürümleriyle uyumludur.
+
+## 20230728.0.0 için değişiklikler ##
+
+* Flake8 ve mypy kuralları koda uygulandı;
+* Python 3'te tanıtılan ek açıklamaları desteklemek için desteklenen minimum
+  NVDA sürümü 2019.3 olarak değiştirildi.
 
 ## 20230426.0.0 ve sonraki sürümler için değişiklikler##
 
@@ -42,7 +48,7 @@ Komutu "sistem durumu" kategorisinde bulabilirsiniz.
 * Sürüm numaralandırılması YY.AA olarak değiştirildi. (Yıl 2 haneli,
   ardından nokta ve 2 haneli ay);
 * Nvda 2019.1'den bu yana ortaya çıkan eklentinin yeni sürüm oluşturma
-  biçimiyle uyumluluk eklendi.																					
+  biçimiyle uyumluluk eklendi.
 
 ## 1.1 sürümü için değişiklikler ##
 

@@ -31,8 +31,14 @@ Vous trouverez ensuite le script dans la catégorie "État du système".
 
 ## Compatibilité ##
 
-* Cette extension est compatible avec les versions de NVDA allant de 2014.3
+* Cette extension est compatible avec les versions de NVDA allant de 2019.3
   et au-delà.
+
+## Changements pour la  version 20230728.0.0 ##
+
+* Appliqué les règles flake8 et mypy au code ;
+* Modifiée la version minimale de NVDA prise en charge vers la 2019.3 pour
+  prendre en charge les annotations introduites dans Python 3.
 
 ## Changements pour la  version 20230426.0.0 et au-delà##
 
@@ -44,7 +50,7 @@ Vous trouverez ensuite le script dans la catégorie "État du système".
 * Modification de la numérotation des versions en utilisant YY.MM (L'année
   en 2 chiffres, suivie d'un point, suivie du mois en 2 chiffres);
 * Ajout de la compatibilité avec le nouveau format de gestion des versions
-  des extensions, apparu depuis nvda 2019.1.																					
+  des extensions, apparu depuis nvda 2019.1.
 
 ## Changements pour la version 1.1 ##
 

@@ -30,7 +30,14 @@ Sie finden den Befehl in der Kategorie "Systemstatus".
 
 ## Kompatibilität ##
 
-* Diese NVDA-Erweiterung ist kompatibel mit NVDA 2014.3 und neuer.
+* This add-on is compatible with the versions of NVDA ranging from 2019.3
+  and beyond.
+
+## Changes for 20230728.0.0 ##
+
+* Applied the flake8 and mypy rules to the code;
+* Changed the minimum supported NVDA version to 2019.3 to support
+  annotations introduced in Python 3.
 
 ## Änderungen in Version 20230426.0.0 und neuer
 
@@ -42,8 +49,8 @@ Sie finden den Befehl in der Kategorie "Systemstatus".
 
 * Die Versionsnummerierung wurde mit JJ.MM geändert (das Jahr in 2 Ziffern,
   gefolgt von einem Punkt, gefolgt von dem Monat in 2 Ziffern);
-* Kompatibilität mit der neuesten Versionsformat der NVDA-Erweiterung, das
-  es seit der NVDA-Version 2019.1 gibt.
+* Added compatibility with the new versioning format of add-on, appeared
+  since nvda 2019.1.
 
 ## Änderungen in Version 1.1 ##
 

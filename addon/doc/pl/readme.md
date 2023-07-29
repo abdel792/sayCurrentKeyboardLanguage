@@ -29,8 +29,14 @@ Skrypt znajdziesz w kategorii "Stan systemu".
 
 ## Zgodność ##
 
-* This add-on is compatible with the versions of NVDA ranging from 2014.3
+* This add-on is compatible with the versions of NVDA ranging from 2019.3
   and beyond.
+
+## Changes for 20230728.0.0 ##
+
+* Applied the flake8 and mypy rules to the code;
+* Changed the minimum supported NVDA version to 2019.3 to support
+  annotations introduced in Python 3.
 
 ## Changes for version 20230426.0.0 and beyond##
 
@@ -42,7 +48,7 @@ Skrypt znajdziesz w kategorii "Stan systemu".
 * Zmieniono numerację wersji przy użyciu YY. MM (Rok w 2 cyfrach, po którym
   następuje kropka, a następnie miesiąc w 2 cyfrach);
 * Added compatibility with the new versioning format of add-on, appeared
-  since nvda 2019.1.																					
+  since nvda 2019.1.
 
 ## Zmiany dla wersji 1.1 ##
 

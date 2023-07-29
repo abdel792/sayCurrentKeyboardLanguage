@@ -31,7 +31,13 @@ Encontrarás el script en la categoría "Estado del sistema".
 ## Compatibilidad ##
 
 * Este complemento es compatible con las versiones de NVDA que van de la
-  2014.3 en adelante.
+  2019.3 en adelante.
+
+## Cambios para 20230728.0.0 ##
+
+* Aplicadas las reglas de Flake8 y Mipy al código;
+* Cambiada la versión mínima soportada de NVDA a la 2019.3 para soportar las
+  anotaciones de tipos introducidas en Python 3.
 
 ## Cambios para la versión 20230426.0.0 y posteriores##
 
@@ -43,7 +49,7 @@ Encontrarás el script en la categoría "Estado del sistema".
 * Se ha cambiado la numeración de versión siguiendo el esquema AA.MM (dos
   dígitos para el año seguidos de un punto y dos dígitos para el mes);
 * Se ha añadido compatibilidad con el nuevo formato de versión de
-  complementos introducido en NVDA 2019.1.																					
+  complementos introducido en NVDA 2019.1.
 
 ## Cambios para la versión 1.1 ##
 

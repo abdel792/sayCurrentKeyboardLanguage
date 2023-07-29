@@ -30,7 +30,14 @@
 
 ## Сумісність ##
 
-* Цей додаток сумісний з версіями NVDA, починаючи з 2014.3 і вище.
+* This add-on is compatible with the versions of NVDA ranging from 2019.3
+  and beyond.
+
+## Changes for 20230728.0.0 ##
+
+* Applied the flake8 and mypy rules to the code;
+* Changed the minimum supported NVDA version to 2019.3 to support
+  annotations introduced in Python 3.
 
 ## Зміни у версії 20230426.0.0
 
@@ -41,8 +48,8 @@
 
 * Змінено нумерацію версій за допомогою РР.ММ (рік - 2 цифри, потім крапка,
   потім місяць - 2 цифри);
-* Додано сумісність з новим форматом версій додатків, який з’явився з nvda
-  2019.1.																					
+* Added compatibility with the new versioning format of add-on, appeared
+  since nvda 2019.1.
 
 ## Зміни з версії 1.1 ##
 

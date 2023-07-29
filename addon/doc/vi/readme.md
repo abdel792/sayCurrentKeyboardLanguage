@@ -29,8 +29,14 @@ Rồi bạn sẽ tìm thấy kịch bản trong phân loại "Trạng thái hệ
 
 ## Tương thích ##
 
-* This add-on is compatible with the versions of NVDA ranging from 2014.3
+* This add-on is compatible with the versions of NVDA ranging from 2019.3
   and beyond.
+
+## Changes for 20230728.0.0 ##
+
+* Applied the flake8 and mypy rules to the code;
+* Changed the minimum supported NVDA version to 2019.3 to support
+  annotations introduced in Python 3.
 
 ## Changes for version 20230426.0.0 and beyond##
 
@@ -42,7 +48,7 @@ Rồi bạn sẽ tìm thấy kịch bản trong phân loại "Trạng thái hệ
 * Thay đổi cách đặt số phiên bản bằng YY.MM (hai chữ số năm, một dấu chấm,
   hai chữ số tháng);
 * Added compatibility with the new versioning format of add-on, appeared
-  since nvda 2019.1.																					
+  since nvda 2019.1.
 
 ## Các thay đổi cho phiên bản 1.1 ##
 
