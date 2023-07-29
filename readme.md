@@ -8,7 +8,7 @@
 
 This addon was created following a request from a member on the nvda-addons mailing list.
 
-It provides a keyboard shortcut, NVDA + F4, which allows to retrieve and give the language of the current keyboard.
+It provides a script without gesture, which allows to retrieve and give the language of the current keyboard.
 
 If pressed twice, gives the default language of the system.
 
@@ -16,9 +16,17 @@ At the first version of this module, it had been proposed as simple globalPlugin
 
 ## Notes ##
 
-If the NVDA + F4 keyboard shortcut conflicts with another command, you can change it by going to the Preferences menu of NVDA, in the "Input gestures" submenu.
+To set a gesture to the script giving the keyboard language, follow these steps:
 
-You will then find the script in the "System status" category.
+* Open the NVDA's menu, with "NVDA + N";
+* Go to NVDA's preferences menu;
+* Then go to the submenu "Input gestures".
+* Then select the category "Input", and open it with right arrow.
+* Go to the item labeled "Gives the language of the keyboard in use, if pressed twice, give the default language of the system";
+* Once done, press Alt + A to add a gesture, and type "NVDA + F4" or another gesture of your choice;
+* This done, press the up arrow once, you hear "your chosen gesture, all layout";
+* Validate on enter, then tab to OK then enter;
+* Your chosen gesture should then call the script giving keyboard language.
 
 ## Compatibility ##
 
@@ -28,6 +36,7 @@ You will then find the script in the "System status" category.
 
 * Applied the flake8 and mypy rules to the code;
 * Changed the minimum supported NVDA version to 2019.3 to support annotations introduced in Python 3.
+* Removed the "NVDA + F4" gesture calling the script giving the keyboard language., to allow users to choose their preferred gesture.
 
 ## Changes for 20230607.0.0 ##
 

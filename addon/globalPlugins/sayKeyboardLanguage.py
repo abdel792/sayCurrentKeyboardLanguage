@@ -15,7 +15,7 @@ import ui
 import locale
 
 # Category for the input gestures.
-from globalCommands import SCRCAT_SYSTEM
+from globalCommands import SCRCAT_INPUT
 from typing import Callable
 
 # For translations.
@@ -26,7 +26,7 @@ _: Callable[[str], str]
 
 class GlobalPlugin (globalPluginHandler.GlobalPlugin):
 
-	category = SCRCAT_SYSTEM
+	scriptCategory = SCRCAT_INPUT
 
 	def script_sayCurKeyboardLanguage(self, gesture):
 		import winUser
