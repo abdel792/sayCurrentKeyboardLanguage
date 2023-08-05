@@ -11,8 +11,8 @@
 Цей додаток було створено на прохання учасника поштової конференції додатків
 для NVDA.
 
-Він надає комбінацію клавіш NVDA + F4, яка дозволяє отримати інформацію про
-поточну мову клавіатури.
+It provides a script without gesture, which allows to retrieve and give the
+language of the current keyboard.
 
 Якщо натиснути двічі, повідомляє основну мову системи.
 
@@ -22,22 +22,34 @@
 
 ## Примітки ##
 
-Якщо клавіатурна команда NVDA + F4 конфліктує з іншою командою, ви можете
-змінити її в розділі "Жести вводу", що розташований в підменю "Параметри"
-головного меню NVDA.
+To set a gesture to the script giving the keyboard language, follow these
+steps:
 
-Після цього ви знайдете сценарій у категорії «Статус системи».
+* Open the NVDA's menu, with "NVDA + N";
+* Go to NVDA's preferences menu;
+* Then go to the submenu "Input gestures".
+* Then select the category "Input", and open it with right arrow.
+* Go to the item labeled "Gives the language of the keyboard in use, if
+  pressed twice, give the default language of the system";
+* Once done, press Alt + A to add a gesture, and type "NVDA + F4" or another
+  gesture of your choice;
+* This done, press the up arrow once, you hear "your chosen gesture, all
+  layout";
+* Validate on enter, then tab to OK then enter;
+* Your chosen gesture should then call the script giving keyboard language.
 
 ## Сумісність ##
 
 * This add-on is compatible with the versions of NVDA ranging from 2019.3
   and beyond.
 
-## Changes for 20230728.0.0 ##
+## Changes for 20230729.0.0 ##
 
 * Applied the flake8 and mypy rules to the code;
 * Changed the minimum supported NVDA version to 2019.3 to support
   annotations introduced in Python 3.
+* Removed the "NVDA + F4" gesture calling the script giving the keyboard
+  language., to allow users to choose their preferred gesture.
 
 ## Зміни у версії 20230426.0.0
 

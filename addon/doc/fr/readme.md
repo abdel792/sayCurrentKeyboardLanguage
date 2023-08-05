@@ -11,7 +11,7 @@
 Cette extension a été créée à la suite d'une demande d'un membre sur la
 liste de diffusion nvda-addons.
 
-Il fournit un raccourci clavier, NVDA + F4, qui permet de récupérer et de
+Il fournit un script sans geste, NVDA + F4, qui permet de récupérer et de
 donner la langue du clavier actuel.
 
 Si vous appuyer deux fois sur la touche, vous donne la langue par défaut du
@@ -23,22 +23,36 @@ il a ensuite été transformé en extension.
 
 ## Notes ##
 
-Si le raccourci du clavier NVDA + F4 entre en conflit avec une autre
-commande, vous pouvez le modifier en allant dans le menu Préférences de
-NVDA, dans le sous-menu "Gestes de commandes".
+Pour définir un geste sur le script donnant la langue du clavier, suivez ces
+étapes :
 
-Vous trouverez ensuite le script dans la catégorie "État du système".
+* Ouvrez le menu de NVDA, avec "NVDA + N" ;
+* Allez au menu Préférences de NVDA ;
+* Ensuite, allez au sous-menu "Gestes de commandes".
+* Sélectionnez ensuite la catégorie "Entrée" et ouvrez-la avec la flèche
+  droite.
+* Allez à l'élément étiqueté "Annoncer la langue du clavier en cours
+  d'utilisation. Un double appui annonce la langue du système." ;
+* Une fois terminé, appuyez sur Alt + A pour ajouter un geste et tapez "NVDA
+  + F4" ou un autre geste de votre choix ;
+* Ceci fait, appuyez une fois sur la flèche haut, vous entendez "votre geste
+  choisi, toutes les dispositions" ;
+* Valider sur Entrée, puis Tab jusqu'à OK puis Entrée ;
+* Votre geste choisi doit ensuite appeler le script donnant la langue du
+  clavier.
 
 ## Compatibilité ##
 
 * Cette extension est compatible avec les versions de NVDA allant de 2019.3
   et au-delà.
 
-## Changements pour la  version 20230728.0.0 ##
+## Changements pour la  version 20230729.0.0 ##
 
 * Appliqué les règles flake8 et mypy au code ;
 * Modifiée la version minimale de NVDA prise en charge vers la 2019.3 pour
   prendre en charge les annotations introduites dans Python 3.
+* Supprimé le geste "NVDA + F4" appelant le script donnant la langue du
+  clavier, Pour permettre aux utilisateurs de choisir leur geste préféré.
 
 ## Changements pour la  version 20230426.0.0 et au-delà##
 

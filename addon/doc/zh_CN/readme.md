@@ -10,7 +10,8 @@
 
 此加载项是根据 nvda-addons 邮件列表中的成员的请求创建的。
 
-它提供了一个键盘快捷方式, NVDA + F4, 它允许检索和提供当前键盘的语言。
+It provides a script without gesture, which allows to retrieve and give the
+language of the current keyboard.
 
 如果按两次, 则提供系统的默认语言。
 
@@ -18,21 +19,34 @@
 
 ## 注意 ##
 
-如果NVDA +
-F4键盘快捷键与另一个快捷键冲突，您可以通过转到NVDA的“设置”菜单，在“输入手势”子菜单中进行更改。然后，您将在“系统状态”类别中找到该脚本。
+To set a gesture to the script giving the keyboard language, follow these
+steps:
 
-快捷键可以在“系统状态”类别找到。
+* Open the NVDA's menu, with "NVDA + N";
+* Go to NVDA's preferences menu;
+* Then go to the submenu "Input gestures".
+* Then select the category "Input", and open it with right arrow.
+* Go to the item labeled "Gives the language of the keyboard in use, if
+  pressed twice, give the default language of the system";
+* Once done, press Alt + A to add a gesture, and type "NVDA + F4" or another
+  gesture of your choice;
+* This done, press the up arrow once, you hear "your chosen gesture, all
+  layout";
+* Validate on enter, then tab to OK then enter;
+* Your chosen gesture should then call the script giving keyboard language.
 
 ## 兼容性 ##
 
 * This add-on is compatible with the versions of NVDA ranging from 2019.3
   and beyond.
 
-## Changes for 20230728.0.0 ##
+## Changes for 20230729.0.0 ##
 
 * Applied the flake8 and mypy rules to the code;
 * Changed the minimum supported NVDA version to 2019.3 to support
   annotations introduced in Python 3.
+* Removed the "NVDA + F4" gesture calling the script giving the keyboard
+  language., to allow users to choose their preferred gesture.
 
 ## Changes for version 20230426.0.0 and beyond##
 

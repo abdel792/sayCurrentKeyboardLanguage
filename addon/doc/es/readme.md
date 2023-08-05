@@ -11,8 +11,8 @@
 Este complemento fue creado atendiendo a una petición de un miembro de la
 lista de correo nvda-addons.
 
-Proporciona un atajo de teclado, NVDA + F4, el cual permite recuperar y dar
-el idioma del teclado actual.
+Proporciona un atajo de teclado, sin asignar, el cual permite recuperar y
+dar el idioma del teclado actual.
 
 Si se pulsa dos veces, devuelve el idioma por defecto del sistema.
 
@@ -22,22 +22,35 @@ se transformó en un complemento.
 
 ## Notas ##
 
-Si el atajo de teclado NVDA + F4 entra en conflicto con otra orden, puedes
-cambiarlo yendo al menú Preferencias de NVDA, en el submenú "Gestos de
-Entrada".
+Para configurar un gesto para el script que da el idioma del teclado, sigue
+estos pasos:
 
-Encontrarás el script en la categoría "Estado del sistema".
+* Abre el menú de NVDA con "NVDA+n";
+* Ve al menú Preferencias de NVDA;
+* Después ve al submenú "Gestos de entrada".
+* Después selecciona la categoría "Entrada", y ábrela con la flecha derecha.
+* Ve al elemento etiquetado como "Indica el idioma de teclado en uso. Si se
+  pulsa dos veces, indica el idioma por defecto del sistema";
+* A continuación, pulsa alt+a para añadir un gesto, y pulsa "NVDA+f4" o
+  cualquier otro gesto que prefieras;
+* Después, pulsa flecha arriba una vez. Escucharás "El gesto elegido, todas
+  las distribuciones";
+* Valida pulsando intro, luego tabula hasta Aceptar e intro;
+* Tu gesto elegido debería así llamar al script que dice el idioma del
+  teclado.
 
 ## Compatibilidad ##
 
 * Este complemento es compatible con las versiones de NVDA que van de la
   2019.3 en adelante.
 
-## Cambios para 20230728.0.0 ##
+## Cambios para 20230729.0.0 ##
 
 * Aplicadas las reglas de Flake8 y Mipy al código;
 * Cambiada la versión mínima soportada de NVDA a la 2019.3 para soportar las
   anotaciones de tipos introducidas en Python 3.
+* Se ha eliminado el gesto que llamaba al script que decía el idioma del
+  teclado, "NVDA+f4". Esto permite que los usuarios elijan su propio gesto.
 
 ## Cambios para la versión 20230426.0.0 y posteriores##
 

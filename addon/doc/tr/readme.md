@@ -11,8 +11,8 @@
 Bu eklenti, nvda-addons posta listesindeki bir üyenin isteği üzerine
 oluşturuldu.
 
-Varsayılan klavyenin dilini kullanıcıya bildirmek için NVDA+F4 kısa yol
-tuşunu sağlar.
+Mevcut klavyenin dilini almayı ve duyurmayı sağlayan hareket tanımlanmamış
+bir komut sağlar.
 
 İki kez basılırsa, varsayılan sistem dilini bildirir.
 
@@ -22,21 +22,34 @@ dönüştürülmüştür.
 
 ## Notlar ##
 
-NVDA + F4 klavye kısayolu başka bir komutla çakışıyorsa, bunu NVDA'nın
-Tercihler menüsündeki "Girdi hareketleri" alt menüsünden
-değiştirebilirsiniz.
+Klavye dilini duyuran komut dosyasına bir hareket ayarlamak için aşağıdaki
+adımları izleyin:
 
-Komutu "sistem durumu" kategorisinde bulabilirsiniz.
+* NVDA menüsünü açın, "NVDA + N" ile;
+* NVDA'nın tercihler menüsüne gidin, T ile;
+* Ardından "Girdi hareketleri" iletişim kutusuna gidin.
+* Daha sonra "Girdi" kategorisini seçin ve sağ ok ile açın.
+* Etiketli öğeye gittiğinizde "Kullanılan klavyenin dilini duyurur, iki kez
+  basılırsa sistemin varsayılan dilini duyurur" ;
+* İşiniz bittiğinde, bir hareket eklemek için Alt + E tuşlarına basın ve
+  "NVDA + F4" veya seçtiğiniz başka bir hareketi yazın;
+* Bu yapılırsa, yukarı oka bir kez basın, "seçtiğiniz hareket, tüm düzenler"
+  ifadesini duyarsınız;
+* Sırasıyla, Enter  ile doğrulayın ve ardından sekme tuşuyla Tamam'a giderek
+  tekrar Enter'e  basın;
+* Seçtiğiniz hareket, klavye dilini duyuran komutu çağırmalıdır.
 
 ## Uyumluluk ##
 
 * Bu eklenti, NVDA'nın 2019.3 ve sonrası sürümleriyle uyumludur.
 
-## 20230728.0.0 için değişiklikler ##
+## 20230729.0.0 için değişiklikler ##
 
 * Flake8 ve mypy kuralları koda uygulandı;
 * Python 3'te tanıtılan ek açıklamaları desteklemek için desteklenen minimum
   NVDA sürümü 2019.3 olarak değiştirildi.
+* Kullanıcıların tercih ettikleri hareketi seçmelerine izin vermek için
+  klavye dilini duyuran komutu çağıran "NVDA + F4" hareketi kaldırıldı.
 
 ## 20230426.0.0 ve sonraki sürümler için değişiklikler##
 

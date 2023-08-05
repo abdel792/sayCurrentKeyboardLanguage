@@ -11,8 +11,8 @@
 Ovaj je dodatak izrađen na temelju zahtjeva jednog člana na mailing listi
 nvda dodataka.
 
-Dodatak koristi tipkovnički prečac NVDA+F4, pomoću kojeg se pronalazi i
-izgovara jezik trenutačne tipkovnice.
+It provides a script without gesture, which allows to retrieve and give the
+language of the current keyboard.
 
 Dvaput pritisnuto, izgovara standardni jezik sustava.
 
@@ -22,20 +22,33 @@ je promijenjen u dodatak.
 
 ## Napomene ##
 
-Ako se tipkovnički prečac NVDA+F4 sukobljava s nekom drugom naredbom, može
-se promijeniti u NVDA izborniku „Postavke”, u podizborniku „Ulazne geste”.
+To set a gesture to the script giving the keyboard language, follow these
+steps:
 
-Skripta se nalazi u kategoriji „Stanje sustava”.
+* Open the NVDA's menu, with "NVDA + N";
+* Go to NVDA's preferences menu;
+* Then go to the submenu "Input gestures".
+* Then select the category "Input", and open it with right arrow.
+* Go to the item labeled "Gives the language of the keyboard in use, if
+  pressed twice, give the default language of the system";
+* Once done, press Alt + A to add a gesture, and type "NVDA + F4" or another
+  gesture of your choice;
+* This done, press the up arrow once, you hear "your chosen gesture, all
+  layout";
+* Validate on enter, then tab to OK then enter;
+* Your chosen gesture should then call the script giving keyboard language.
 
 ## Kompatibilnost ##
 
 * Ovaj je dodatak kompatibilan s NVDA verzijom 2019.3 i novijim verzijama.
 
-## Promjene u 20230728.0.0 ##
+## Changes for 20230729.0.0 ##
 
 * Programskom kodu su dodana flake8 i mypy pravila.
 * Namjanja podržana NVDA verzija je promijenjena na 2019.3 kako bi se
   podržale zabilješke koje su uvedene u Python 3.
+* Removed the "NVDA + F4" gesture calling the script giving the keyboard
+  language., to allow users to choose their preferred gesture.
 
 ## Promjene u verziji 20230426.0.0 i novije##
 
