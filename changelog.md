@@ -1,5 +1,4 @@
-## Changes for 20230729.0.0
+## Changes for 20231229.0.1
 
-* Applied the flake8 and mypy rules to the code;
-* Changed the minimum supported NVDA version to 2019.3 to support annotations introduced in Python 3.
-* Removed the "NVDA + F4" gesture calling the script giving the keyboard language., to allow users to choose their preferred gesture.
+* Added a backward compatible implementation to support speak on demand mode, which will soon be available with nvda-2024.1.
+* Corrected the download links as well as the add-on home page to no longer refer to the legacy url https://addons.nvda-project.org/.

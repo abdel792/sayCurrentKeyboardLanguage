@@ -32,6 +32,10 @@ To set a gesture to the script giving the keyboard language, follow these steps:
 
 * This add-on is compatible with the versions of NVDA ranging from 2019.3 and beyond.
 
+## Changes for 20231229.0.0 ##
+
+* Added a backward compatible implementation to support speak on demand mode, which will soon be available with nvda-2024.1.
+
 ## Changes for 20230729.0.0 ##
 
 * Applied the flake8 and mypy rules to the code;
@@ -66,6 +70,6 @@ To set a gesture to the script giving the keyboard language, follow these steps:
 
 * Initial version.
 
-[1]: https://www.nvaccess.org/addonStore/legacy?file=sayCurrentKeyboardLanguage
+[1]: https://github.com/abdel792/sayCurrentKeyboardLanguage/releases/download/v23.12.29/sayCurrentKeyboardLanguage-20231229.0.0.nvda-addon
 
-[2]: https://www.nvaccess.org/addonStore/legacy?file=sayCurrentKeyboardLanguage
+[2]: https://github.com/abdel792/sayCurrentKeyboardLanguage/releases/download/v23.12.29-beta/sayCurrentKeyboardLanguage-20231229.0.1.nvda-addon

@@ -13,6 +13,8 @@
 import globalPluginHandler
 import ui
 import locale
+from scriptHandler import script
+import versionInfo
 
 # Category for the input gestures.
 from globalCommands import SCRCAT_INPUT
@@ -23,11 +25,20 @@ import addonHandler
 addonHandler.initTranslation()
 _: Callable[[str], str]
 
+# To ensure backward compatibility of speakOnDemand.
+speakOnDemand = {"speakOnDemand": True} if versionInfo.version_year > 2023 else {}
+
 
 class GlobalPlugin (globalPluginHandler.GlobalPlugin):
 
 	scriptCategory = SCRCAT_INPUT
 
+	@script(
+		# Translators: Message presented in input help mode.
+		description=_("Gives the language of the keyboard in use. "
+		              "If pressed twice, gives the default language of the system."),
+		**speakOnDemand
+	)
 	def script_sayCurKeyboardLanguage(self, gesture):
 		import winUser
 		import scriptHandler
@@ -57,8 +68,3 @@ class GlobalPlugin (globalPluginHandler.GlobalPlugin):
 			ui.message(desc)
 		else:
 			ui.message(languageHandler.getLanguageDescription(defaultOsl))
-
-	# Translators: message presented in input help mode.
-	script_sayCurKeyboardLanguage.__doc__ = _(
-		"Gives the language of the keyboard in use. If pressed twice, gives the default language of the system."
-	)
