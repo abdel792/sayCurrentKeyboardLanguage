@@ -29,7 +29,7 @@ addon_info = {
 	# Author(s)
 	"addon_author": "Abdel <abdelkrim.bensaid@gmail.com>, Noelia <nrm1977@gmail.com>",
 	# URL for the add-on documentation support
-	"addon_url": "https://addons.nvda-project.org/addons/sayCurrentKeyboardLanguage.en.html",
+	"addon_url": "https://github.com/abdel792/sayCurrentKeyboardLanguage",
 	# URL for the add-on repository where the source code can be found
 	"addon_sourceURL": "https://github.com/abdel792/sayCurrentKeyboardLanguage",
 	# Documentation file name
