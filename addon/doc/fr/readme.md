@@ -1,10 +1,6 @@
 # sayCurrentKeyboardLanguage #
 
-* Auteurs : Abdel, Noelia;
-* Télécharger [version
-  stable](https://www.nvaccess.org/addonStore/legacy?file=sayCurrentKeyboardLanguage)
-* Télécharger [version de
-  développement](https://www.nvaccess.org/addonStore/legacy?file=sayCurrentKeyboardLanguage)
+* Author(s): Abdel, Noelia.
 
 # Présentation #
 
@@ -45,6 +41,17 @@ Pour définir un geste sur le script donnant la langue du clavier, suivez ces
 
 * Cette extension est compatible avec les versions de NVDA allant de 2019.3
   et au-delà.
+
+## Changes for 20240326.0.0
+
+* Updated compatibility for nvda-2024.1.;
+* Deleted download link from readme, the download link for future updates
+  will now only be available from the add-on store.
+
+## Changements pour la  version 20231229.0.0 ##
+
+* Ajout d'une implémentation rétrocompatible pour prendre en charge le mode
+  Parler à la demande, qui sera bientôt disponible avec nvda-2024.1.
 
 ## Changements pour la  version 20230729.0.0 ##
 

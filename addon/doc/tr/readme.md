@@ -1,10 +1,6 @@
 # mevcutKlavyeDİliniSöyle #
 
-* Yazarlar: Abdel, Noelia;
-* [Kararlı sürümü
-  indir](https://www.nvaccess.org/addonStore/legacy?file=sayCurrentKeyboardLanguage)
-* [Geliştirme sürümünü
-  indir](https://www.nvaccess.org/addonStore/legacy?file=sayCurrentKeyboardLanguage)
+* Yazarlar: Abdel, Noelia.
 
 # Sunum #
 
@@ -42,6 +38,18 @@ adımları izleyin:
 ## Uyumluluk ##
 
 * Bu eklenti, NVDA'nın 2019.3 ve sonrası sürümleriyle uyumludur.
+
+## 20240326.0.0 için değişiklikler
+
+* NVDA-2024.1 için güncellenmiş uyumluluk;
+* Readme dosyasındaki indirme bağlantısı silindi, gelecekteki güncellemeler
+  için indirme bağlantısı artık yalnızca eklenti mağazasında mevcut olacak.
+
+## 20231229.0.0 için değişiklikler ##
+
+* İsteğe bağlı konuşma modunu desteklemek için geriye dönük olarak uyumlu
+  bir uygulama eklendi ve bu uygulama yakında nvda-2024.1 ile kullanıma
+  sunulacak.
 
 ## 20230729.0.0 için değişiklikler ##
 

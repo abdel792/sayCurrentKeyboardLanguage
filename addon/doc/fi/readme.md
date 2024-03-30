@@ -1,10 +1,6 @@
 # Sano näppäimistön nykyinen kieli #
 
-* Tekijät: Abdel, Noelia;
-* Lataa [vakaa
-  versio](https://www.nvaccess.org/addonStore/legacy?file=sayCurrentKeyboardLanguage)
-* Lataa
-  [kehitysversio](https://www.nvaccess.org/addonStore/legacy?file=sayCurrentKeyboardLanguage)
+* Tekijä: Abdel ja Noelia.
 
 # Kuvaus #
 
@@ -41,6 +37,17 @@ Määritä näppäinkomento kielen puhuttavalle skriptille seuraavasti:
 
 * Tämä lisäosa on yhteensopiva NVDA 2019.3:n ja sitä uudempien versioiden
   kanssa.
+
+## Muutokset versiossa 20240326.0.0
+
+* Päivitetty yhteensopivuus NVDA 2024.1:lle.
+* Latauslinkki poistettu dokumentaatiosta. Tulevien päivitysten latauslinkit
+  löytyvät jatkossa vain lisäosakaupasta.
+
+## Muutokset versiossa 20231229.0.0 ##
+
+* Lisätty taaksepäin yhteensopiva toteutus pyydettäessä-puhetilalle, joka on
+  käytettävissä NVDA 2024.1:ssä.
 
 ## Muutokset versiossa 20230729.0.0 ##
 

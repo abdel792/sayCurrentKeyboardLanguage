@@ -1,10 +1,6 @@
 # sayCurrentKeyboardLanguage #
 
-* Autor(es): Abdel, Noelia;
-* Descargar [versión
-  estable](https://www.nvaccess.org/addonStore/legacy?file=sayCurrentKeyboardLanguage)
-* Descargar [versión de
-  desarrollo](https://www.nvaccess.org/addonStore/legacy?file=sayCurrentKeyboardLanguage)
+* Author(s): Abdel, Noelia.
 
 # Presentación #
 
@@ -43,6 +39,17 @@ estos pasos:
 
 * Este complemento es compatible con las versiones de NVDA que van de la
   2019.3 en adelante.
+
+## Changes for 20240326.0.0
+
+* Updated compatibility for nvda-2024.1.;
+* Deleted download link from readme, the download link for future updates
+  will now only be available from the add-on store.
+
+## Cambios para 20231229.0.0 ##
+
+* Se ha añadido una implementación retrocompatible para soportar el modo de
+  voz a petición, que pronto estará disponible con NVDA 2024.1.
 
 ## Cambios para 20230729.0.0 ##
 

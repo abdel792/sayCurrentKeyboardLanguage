@@ -1,10 +1,6 @@
 # Izgovori jezik trenutačne tipkovnice (sayCurrentKeyboardLanguage) #
 
-* Autori: Abdel, Noelia;
-* Preuzmi [stabilnu
-  verziju](https://www.nvaccess.org/addonStore/legacy?file=sayCurrentKeyboardLanguage)
-* Preuzmi [razvojnu
-  verziju](https://www.nvaccess.org/addonStore/legacy?file=sayCurrentKeyboardLanguage)
+* Author(s): Abdel, Noelia.
 
 # Prezentacija #
 
@@ -41,6 +37,17 @@ steps:
 ## Kompatibilnost ##
 
 * Ovaj je dodatak kompatibilan s NVDA verzijom 2019.3 i novijim verzijama.
+
+## Changes for 20240326.0.0
+
+* Updated compatibility for nvda-2024.1.;
+* Deleted download link from readme, the download link for future updates
+  will now only be available from the add-on store.
+
+## Changes for 20231229.0.0 ##
+
+* Added a backward compatible implementation to support speak on demand
+  mode, which will soon be available with nvda-2024.1.
 
 ## Changes for 20230729.0.0 ##
 
