@@ -25,7 +25,7 @@ addon_info = {
 	# Translators: Long description to be shown for this add-on on add-on information from add-ons manager
 	"addon_description": _("""This addon provides a command to know the language of the keyboard in use, as well as the default language of the system"""),
 	# version
-	"addon_version": "20240507.0.0",
+	"addon_version": "20241012.0.0",
 	# Author(s)
 	"addon_author": "Abdel <abdelkrim.bensaid@gmail.com>, Noelia <nrm1977@gmail.com>",
 	# URL for the add-on documentation support
