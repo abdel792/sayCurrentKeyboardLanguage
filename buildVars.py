@@ -23,7 +23,7 @@ addon_info = AddonInfo(
 	# Translators: Long description to be shown for this add-on on add-on information from add-on store
 	addon_description=_("""This addon provides a command to know the language of the keyboard in use, as well as the default language of the system"""),
 	# version
-	addon_version="20260222.0.0",
+	addon_version="20260222.0.1",
 	# Brief changelog for this version
 	# Translators: what's new content for the add-on version to be shown in the add-on store
 	addon_changelog=_("""Used the latest version of addonTemplate.
