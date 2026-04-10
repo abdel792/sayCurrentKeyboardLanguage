@@ -1,89 +1,74 @@
-# Dizer o Idioma Atual do Teclado (sayCurrentKeyboardLanguage) #
+# sayCurrentKeyboardLanguage
 
-* Autores(es): Abdel, Noelia.
+* Author(s): Abdel, Noelia.
 
-# Apresentação #
+# Presentation #
 
-Este complemento foi criado após uma solicitação de um membro da lista de
-discussão nvda-addons.
+This addon was created following a request from a member on the nvda-addons mailing list.
 
-Ele fornece um script sem gestos, que permite recuperar e fornecer o idioma
-do teclado atual.
+It provides a script without gesture, which allows to retrieve and give the language of the current keyboard.
 
-Se pressionado duas vezes, fornece o idioma padrão do sistema.
+If pressed twice, gives the default language of the system.
 
-Na primeira versão deste módulo, foi proposto como simples plug-in global
-(globalPlugin) para colar no diretório de configuração do NVDA, depois foi
-transformado em complemento (add-on).
+At the first version of this module, it had been proposed as simple globalPlugin to paste in the configuration directory of NVDA, it was then transformed into addon.
 
-## Notas ##
+## Notes ##
 
-Para definir um gesto para o script que fornece o idioma do teclado, siga
-estas etapas:
+To set a gesture to the script giving the keyboard language, follow these steps:
 
-* Abra o menu do NVDA com “NVDA + N”;
-* Acesse o menu de preferências do NVDA;
-* Em seguida, vá para o submenu “Gestos de entrada".
-* Em seguida, selecione a categoria “Entrada" e abra-a com a seta para a
-  direita.
-* Vá para o item denominado “Fornece o idioma do teclado em uso, se
-  pressionado duas vezes, fornece o idioma padrão do sistema”;
-* Depois disso, pressione Alt + A para adicionar um gesto e digite “NVDA +
-  F4” ou outro gesto de sua escolha;
-* Feito isso, pressione a seta para cima uma vez e você ouvirá “seu gesto
-  escolhido, todo o layout”;
-* Valide ao inserir, depois pressione a guia para OK e, em seguida, insira;
-* O gesto escolhido deve chamar o script que fornece o idioma do teclado.
+* Open the NVDA's menu, with "NVDA + N";
+* Go to NVDA's preferences menu;
+* Then go to the submenu "Input gestures".
+* Then select the category "Input", and open it with right arrow.
+* Go to the item labeled "Gives the language of the keyboard in use, if pressed twice, give the default language of the system";
+* Once done, press Alt + A to add a gesture, and type "NVDA + F4" or another gesture of your choice;
+* This done, press the up arrow once, you hear "your chosen gesture, all layout";
+* Validate on enter, then tab to OK then enter;
+* Your chosen gesture should then call the script giving keyboard language.
 
-## Compatibilidade ##
+## Compatibility ##
 
-* Esse complemento é compatível com as versões do NVDA a partir da versão
-  2019.3.
+* This add-on is compatible with the versions of NVDA ranging from 2019.3 and beyond.
 
-## Mudanças na versão 20240326.0.0
+## Changes for 20240326.0.0
 
-* Compatibilidade atualizada para nvda-2024.1;
-* Link de download excluído do readme, agora  as futuras atualizações só
-  estará disponível na loja de complementos.
+* Updated compatibility for nvda-2024.1;
+* Deleted download link from readme, the download link for future updates will now only be available from the add-on store.
 
-## Mudanças na versão 20231229.0.0 ##
+## Changes for 20231229.0.0 ##
 
-* Adicionada uma implementação compatível com versões anteriores para
-  oferecer suporte ao modo falar sob demanda, que em breve estará disponível
-  com o nvda-2024.1.
+* Added a backward compatible implementation to support speak on demand mode, which will soon be available with nvda-2024.1.
 
-## Mudanças na versão 20230729.0.0 ##
+## Changes for 20230729.0.0 ##
 
-* Aplicou as regras flake8 e mypy ao código;
-* Alterada a versão mínima suportada do NVDA para 2019.3 para suportar
-  anotações introduzidas no Python 3.
-* Removido o gesto “NVDA + F4” que chama o script que fornece o idioma do
-  teclado, para permitir que os usuários escolham o gesto de sua
-  preferência.
+* Applied the flake8 and mypy rules to the code;
+* Changed the minimum supported NVDA version to 2019.3 to support annotations introduced in Python 3.
+* Removed the "NVDA + F4" gesture calling the script giving the keyboard language., to allow users to choose their preferred gesture.
 
-## Mudanças na versão 20230426.0.0 e além##
+## Changes for 20230607.0.0 ##
 
-* O número da versão, a versão mínima do NVDA e o link de download foram
-  alterados de acordo com as convenções/requisitos da loja.
+* Added the following workflows:
+ * auto-update-translations - to automatically update translations from NVDA's translation system.
+ * release-on-tag..yaml: to build and publish the addon as soon as a new tag is pushed;
+ * manual-release.yaml: to build and release new versions of the add-on manually.
+* Updated translations.
 
-## Mudanças na versão 19.02 ##
+## Changes for version 20230426.0.0 and beyond ##
 
-* Numeração de versão alterada usando AA.MM (o ano em 2 dígitos, seguido de
-  um ponto, seguido do mês em 2 dígitos);
-* Adicionado compatibilidade com o novo formato de versão do complemento,
-  surgido desde o nvda 2019.1.
+* • Changed version number, minimum NVDA version and download link according to store conventions/requirements.
 
-## Mudanças na versão 1.1 ##
+## Changes for version 19.02 ##
 
-* O complemento foi renomeado de ObtenhaIdioma Atual do Teclado para
-  (DizerIdioma Atual do Teclado);
-* Adicionada a licença GPL ao complemento;
-* Adicionado o script getCurKeyboardLanguage à categoria "Status do
-  sistema";
-* Corrigido alguns erros no código.
+* Changed version numbering using YY.MM (The year in 2 digits, followed by a dot, followed by the month in 2 digits);
+* Added compatibility with the new versioning format of add-on, appeared since nvda 2019.1.
 
-## Mudanças na versão 1.0 ##
+## Changes for version 1.1 ##
 
-* Versão inicial.
+* The addon has been renamed from getCurKeyboardLanguage to sayCurrentKeyboardLanguage;
+* Added the GPL license to the addon;
+* Added the script getCurKeyboardLanguage to the "System status" category;
+* Fixed some errors in the code.
 
-[[!tag dev stable]]
+## Changes for version 1.0 ##
+
+* Initial version.

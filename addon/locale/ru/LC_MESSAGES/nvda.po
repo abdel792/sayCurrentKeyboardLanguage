@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: nvdaaddons\n"
-"Report-Msgid-Bugs-To: nvda-translations@groups.io\n"
-"POT-Creation-Date: 2025-09-15 07:39+0000\n"
-"PO-Revision-Date: 2026-03-30 00:45\n"
+"Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
+"POT-Creation-Date: 2026-04-06 04:08+0000\n"
+"PO-Revision-Date: 2026-04-06 14:23\n"
 "Last-Translator: \n"
 "Language-Team: Russian\n"
 "Language: ru_RU\n"
@@ -17,13 +17,20 @@ msgstr ""
 "X-Crowdin-File: sayCurrentKeyboardLanguage.pot\n"
 "X-Crowdin-File-ID: 392\n"
 
-#: addon/globalPlugins/sayKeyboardLanguage.py:63
+#. Translators: Message presented in input help mode.
+#: addon\globalPlugins\sayKeyboardLanguage.py:38
 msgid "Gives the language of the keyboard in use. If pressed twice, gives the default language of the system."
 msgstr "Объявляет использующийся язык клавиатуры. При двойном нажатии, объявляет язык системы по умолчанию."
 
 #. Add-on description
-#. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
-#: buildVars.py:26
+#. Translators: Long description to be shown for this add-on on add-on information from add-on store
+#: buildVars.py:24
 msgid "This addon provides a command to know the language of the keyboard in use, as well as the default language of the system"
 msgstr "Это дополнение предоставляет команду для выяснения используемого языка клавиатуры, а также языка системы по умолчанию"
+
+#. Brief changelog for this version
+#. Translators: what's new content for the add-on version to be shown in the add-on store
+#: buildVars.py:29
+msgid "Used the latest version of addonTemplate.\n"
+msgstr ""
 

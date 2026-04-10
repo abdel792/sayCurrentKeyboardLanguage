@@ -1,71 +1,74 @@
-# 读出当前键盘语言
+# sayCurrentKeyboardLanguage
 
-* 作者：Abdel, Noelia；
-* 下载 [稳定版][1]
-* 下载 [开发版][2]
+* Author(s): Abdel, Noelia.
 
-# 功能概述 #
+# Presentation #
 
-此插件由 nvda-addons 邮件列表成员的请求而开发。
+This addon was created following a request from a member on the nvda-addons mailing list.
 
-提供了一个未分配快捷键的命令，可用于获取并读出当前键盘语言。
+It provides a script without gesture, which allows to retrieve and give the language of the current keyboard.
 
-连按两次将读出系统默认语言。
+If pressed twice, gives the default language of the system.
 
-该模块的初始版本曾建议以全局插件形式直接粘贴至 NVDA 配置目录使用，现已正式转换为插件形式发布。
+At the first version of this module, it had been proposed as simple globalPlugin to paste in the configuration directory of NVDA, it was then transformed into addon.
 
-## 使用说明 ##
+## Notes ##
 
-为读出键盘语言命令设置快捷键的操作步骤：
+To set a gesture to the script giving the keyboard language, follow these steps:
 
-* 按 NVDA+N 打开 NVDA 菜单；
-* 进入"选项"菜单；
-* 选择"输入手势"菜单。
-* 选择“输入”类别后按右光标键展开。
-* 定位至"给出正在使用的键盘的语言。如果按两次，则给出系统的默认语言"项；
-* 按 Alt+A 添加快捷键，按下 NVDA+F4 或其他快捷键；
-* 按上光标键将输入的快捷键设为全局生效；
-* 按回车确认，Tab 键跳至"确定"按钮后再次回车；
-* 此后使用自定义手势即可触发键盘语言播报功能。
+* Open the NVDA's menu, with "NVDA + N";
+* Go to NVDA's preferences menu;
+* Then go to the submenu "Input gestures".
+* Then select the category "Input", and open it with right arrow.
+* Go to the item labeled "Gives the language of the keyboard in use, if pressed twice, give the default language of the system";
+* Once done, press Alt + A to add a gesture, and type "NVDA + F4" or another gesture of your choice;
+* This done, press the up arrow once, you hear "your chosen gesture, all layout";
+* Validate on enter, then tab to OK then enter;
+* Your chosen gesture should then call the script giving keyboard language.
 
-## 兼容性 ##
+## Compatibility ##
 
-* 此插件兼容 NVDA 2019.3 及更高版本。
+* This add-on is compatible with the versions of NVDA ranging from 2019.3 and beyond.
 
-## 20230729.0.0 版本变更 ##
+## Changes for 20240326.0.0
 
-* 对代码应用 flake8 和 mypy 规范；
-* 最低支持版本调整为 NVDA 2019.3 以支持 Python 3 类型注解。
-* 移除原 NVDA+F4 默认快捷键，允许用户自定义。
+* Updated compatibility for nvda-2024.1;
+* Deleted download link from readme, the download link for future updates will now only be available from the add-on store.
 
-## 20230607.0.0 版本变更 ##
+## Changes for 20231229.0.0 ##
 
-* 新增以下工作流：
- * auto-update-translations：自动从 NVDA 翻译系统更新翻译。
- * release-on-tag.yaml：推送新标签时自动构建发布插件；
- * manual-release.yaml：手动构建发布新版本插件。
-* 更新翻译。
+* Added a backward compatible implementation to support speak on demand mode, which will soon be available with nvda-2024.1.
 
-## 20230426.0.0 及后续版本变更 ##
+## Changes for 20230729.0.0 ##
 
-* 根据商店规范调整版本号、NVDA 版本最低要求及下载链接。
+* Applied the flake8 and mypy rules to the code;
+* Changed the minimum supported NVDA version to 2019.3 to support annotations introduced in Python 3.
+* Removed the "NVDA + F4" gesture calling the script giving the keyboard language., to allow users to choose their preferred gesture.
 
-## 19.02 版本变更 ##
+## Changes for 20230607.0.0 ##
 
-* 采用 YY.MM 格式版本编号（2位年份+小数点+2位月份）；
-* 适配 NVDA 2019.1 启用的新插件版本格式。
+* Added the following workflows:
+ * auto-update-translations - to automatically update translations from NVDA's translation system.
+ * release-on-tag..yaml: to build and publish the addon as soon as a new tag is pushed;
+ * manual-release.yaml: to build and release new versions of the add-on manually.
+* Updated translations.
 
-## 1.1 版本变更 ##
+## Changes for version 20230426.0.0 and beyond ##
 
-* 插件名称由 getCurKeyboardLanguage 更改为 sayCurrentKeyboardLanguage；
-* 添加 GPL 许可证；
-* 将脚本归类至"系统状态"类别；
-* 修复代码中的若干错误。
+* • Changed version number, minimum NVDA version and download link according to store conventions/requirements.
 
-## 1.0 版本变更 ##
+## Changes for version 19.02 ##
 
-* 初始版本。
+* Changed version numbering using YY.MM (The year in 2 digits, followed by a dot, followed by the month in 2 digits);
+* Added compatibility with the new versioning format of add-on, appeared since nvda 2019.1.
 
-[1]: https://www.nvaccess.org/addonStore/legacy?file=sayCurrentKeyboardLanguage
+## Changes for version 1.1 ##
 
-[2]: https://www.nvaccess.org/addonStore/legacy?file=sayCurrentKeyboardLanguage
+* The addon has been renamed from getCurKeyboardLanguage to sayCurrentKeyboardLanguage;
+* Added the GPL license to the addon;
+* Added the script getCurKeyboardLanguage to the "System status" category;
+* Fixed some errors in the code.
+
+## Changes for version 1.0 ##
+
+* Initial version.
