@@ -1,74 +1,71 @@
-# sayCurrentKeyboardLanguage
+# geçerli Klavye Dilini Söyle
 
-* Author(s): Abdel, Noelia.
+* Yazarlar: Abdel, Noelia;
+* [Kararlı Sürümü İndir][1];
+* [Geliştirici sürümünü indir][2].
 
-# Presentation #
+# Sunum #
 
-This addon was created following a request from a member on the nvda-addons mailing list.
+Bu eklenti, nvda-addons posta listesindeki bir üyenin isteği üzerine oluşturuldu.
 
-It provides a script without gesture, which allows to retrieve and give the language of the current keyboard.
+Mevcut klavyenin dilini almaya ve vermeye izin veren atanmamış bir komut dosyası sağlar.
 
-If pressed twice, gives the default language of the system.
+İki kez basılırsa, varsayılan sistem dilini bildirir.
 
-At the first version of this module, it had been proposed as simple globalPlugin to paste in the configuration directory of NVDA, it was then transformed into addon.
+Bu modülün ilk versiyonunda, NVDA'nın konfigürasyon dizinine yapıştırmak için basit küreselEklenti olarak önerilmiş, daha sonra Eklentiye dönüştürülmüştür.
 
-## Notes ##
+## Notlar ##
 
-To set a gesture to the script giving the keyboard language, follow these steps:
+Klavye dilini duyuran komut dosyasına bir hareket ayarlamak için aşağıdaki adımları izleyin:
 
-* Open the NVDA's menu, with "NVDA + N";
-* Go to NVDA's preferences menu;
-* Then go to the submenu "Input gestures".
-* Then select the category "Input", and open it with right arrow.
-* Go to the item labeled "Gives the language of the keyboard in use, if pressed twice, give the default language of the system";
-* Once done, press Alt + A to add a gesture, and type "NVDA + F4" or another gesture of your choice;
-* This done, press the up arrow once, you hear "your chosen gesture, all layout";
-* Validate on enter, then tab to OK then enter;
-* Your chosen gesture should then call the script giving keyboard language.
+* NVDA menüsünü açın, "NVDA + N" ile;
+* NVDA'nın Tercihler menüsüne gidin;
+* Ardından "Girdi hareketleri" iletişim kutusuna gidin.
+* Daha sonra "Girdi" kategorisini seçin ve sağ ok ile açın.
+* Etiketli öğeye gittiğinizde "Kullanılan klavyenin dilini duyurur, iki kez basılırsa sistemin varsayılan dilini duyurur" ;
+* İşiniz bittiğinde, bir hareket eklemek için Alt + E tuşlarına basın ve "NVDA + F4" veya seçtiğiniz başka bir hareketi yazın;
+* Bu yapılırsa, yukarı oka bir kez basın, "seçtiğiniz hareket, tüm düzenler" ifadesini duyarsınız;
+* Sırasıyla, Enter  ile doğrulayın ve ardından sekme tuşuyla Tamam'a giderek tekrar Enter'e  basın;
+* Seçtiğiniz hareket, klavye dilini duyuran komutu çağırmalıdır.
 
-## Compatibility ##
+## Uyumluluk ##
 
-* This add-on is compatible with the versions of NVDA ranging from 2019.3 and beyond.
+* Bu eklenti, NVDA'nın 2019.3 ve sonrası sürümleriyle uyumludur.
 
-## Changes for 20240326.0.0
+## 20230729.0.0için değişiklikler ##
 
-* Updated compatibility for nvda-2024.1;
-* Deleted download link from readme, the download link for future updates will now only be available from the add-on store.
+* Flake8 ve mypy kuralları koda uygulandı;
+* Python 3'te tanıtılan ek açıklamaları desteklemek için desteklenen minimum NVDA sürümü 2019.3 olarak değiştirildi.
+* Kullanıcıların tercih ettikleri hareketi seçmelerine izin vermek için klavye dilini duyuran komutu çağıran "NVDA + F4" hareketi kaldırıldı.
 
-## Changes for 20231229.0.0 ##
+## 20230607.0.0 için değişiklikler ##
 
-* Added a backward compatible implementation to support speak on demand mode, which will soon be available with nvda-2024.1.
+* Aşağıdaki iş akışları eklendi:
+ * otomatik Çeviri Güncellemeleri - NVDA'nın çeviri sisteminden çevirileri otomatik olarak güncellemek için.
+ * release-on-tag..yaml: yeni bir etiket gönderilir gönderilmez eklentiyi derlemek ve yayınlamak için;
+ * manual-release.yaml: Eklentinin yeni sürümlerini el ile derlemek ve yayınlamak için.
+* Çeviriler güncellendi.
 
-## Changes for 20230729.0.0 ##
+## Sürüm 20230426.0.0 ve sonrası için değişiklikler ##
 
-* Applied the flake8 and mypy rules to the code;
-* Changed the minimum supported NVDA version to 2019.3 to support annotations introduced in Python 3.
-* Removed the "NVDA + F4" gesture calling the script giving the keyboard language., to allow users to choose their preferred gesture.
+* • Mağaza kurallarına/gereksinimlerine göre sürüm numarası, minimum NVDA sürümü ve indirme bağlantısı değiştirildi.
 
-## Changes for 20230607.0.0 ##
+## Sürüm 19.02 için değişiklikler ##
 
-* Added the following workflows:
- * auto-update-translations - to automatically update translations from NVDA's translation system.
- * release-on-tag..yaml: to build and publish the addon as soon as a new tag is pushed;
- * manual-release.yaml: to build and release new versions of the add-on manually.
-* Updated translations.
+* Sürüm numaralandırılması YY.AA olarak değiştirildi. (Yıl 2 haneli, ardından nokta ve 2 haneli ay);
+* Nvda 2019.1'den bu yana ortaya çıkan eklentinin yeni sürüm oluşturma biçimiyle uyumluluk eklendi.
 
-## Changes for version 20230426.0.0 and beyond ##
+## Sürüm 1.1 için değişiklikler ##
 
-* • Changed version number, minimum NVDA version and download link according to store conventions/requirements.
+* Eklentinin adı getCurKeyboardLanguage iken sayCurrentKeyboardLanguage olarak değiştirildi;
+* Eklentiye GPL lisansı eklendi;
+* "Sistem durumu" kategorisine getCurKeyboardLanguage komutu eklendi;
+* Koddaki bazı hatalar düzeltildi.
 
-## Changes for version 19.02 ##
+## Sürüm 1.0 için değişiklikler ##
 
-* Changed version numbering using YY.MM (The year in 2 digits, followed by a dot, followed by the month in 2 digits);
-* Added compatibility with the new versioning format of add-on, appeared since nvda 2019.1.
+* İlk Sürüm.
 
-## Changes for version 1.1 ##
+[1]: https://www.nvaccess.org/addonStore/legacy?file=sayCurrentKeyboardLanguage
 
-* The addon has been renamed from getCurKeyboardLanguage to sayCurrentKeyboardLanguage;
-* Added the GPL license to the addon;
-* Added the script getCurKeyboardLanguage to the "System status" category;
-* Fixed some errors in the code.
-
-## Changes for version 1.0 ##
-
-* Initial version.
+[2]: https://www.nvaccess.org/addonStore/legacy?file=sayCurrentKeyboardLanguage

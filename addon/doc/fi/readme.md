@@ -1,74 +1,84 @@
-# sayCurrentKeyboardLanguage
+# Sano näppäimistön nykyinen kieli #
 
-* Author(s): Abdel, Noelia.
+* Tekijä: Abdel ja Noelia.
 
-# Presentation #
+# Kuvaus #
 
-This addon was created following a request from a member on the nvda-addons mailing list.
+Tämä lisäosa tehtiin erään nvda-addons-postituslistan jäsenen pyynnöstä.
 
-It provides a script without gesture, which allows to retrieve and give the language of the current keyboard.
+Se tarjoaa ilman näppäinkomentoa olevan skriptin, joka ilmoittaa nykyisen
+näppäimistökielen.
 
-If pressed twice, gives the default language of the system.
+Kahdesti painettaessa ilmoitetaan järjestelmän oletuskieli.
 
-At the first version of this module, it had been proposed as simple globalPlugin to paste in the configuration directory of NVDA, it was then transformed into addon.
+Ensimmäinen versio oli yksinkertainen NVDA:n asetushakemistoon kopioitava
+yleisliitännäinen, mutta myöhemmin se muunnettiin lisäosaksi.
 
-## Notes ##
+## Huomautuksia ##
 
-To set a gesture to the script giving the keyboard language, follow these steps:
+Määritä näppäinkomento kielen puhuttavalle skriptille seuraavasti:
 
-* Open the NVDA's menu, with "NVDA + N";
-* Go to NVDA's preferences menu;
-* Then go to the submenu "Input gestures".
-* Then select the category "Input", and open it with right arrow.
-* Go to the item labeled "Gives the language of the keyboard in use, if pressed twice, give the default language of the system";
-* Once done, press Alt + A to add a gesture, and type "NVDA + F4" or another gesture of your choice;
-* This done, press the up arrow once, you hear "your chosen gesture, all layout";
-* Validate on enter, then tab to OK then enter;
-* Your chosen gesture should then call the script giving keyboard language.
+* Avaa NVDA-valikko näppäinkomennolla NVDA+N.
+* Siirry Asetukset-valikkoon.
+* Siirry tämän jälkeen kohtaan "Näppäinkomennot" ja avaa se Enterillä.
+* Valitse sitten "Syöttö"-kategoria ja avaa se oikealla nuolinäppäimellä.
+* Siirry kohtaan "Ilmoittaa käytössä olevan näppäimistön kielen tai kahdesti
+  painettaessa järjestelmän oletuskielen."
+* Kun olet valmis, lisää näppäinkomennto painamalla Alt+L ja ppaina sen
+  jälkeen NVDA+F4 tai jotain muuta haluamaasi näppäinkomentoa.
+* Kun tämä on tehty, paina kerran ylänuolta, jolloin kuulet "<valitsemasi
+  näppäinkomento>, kaikki asettelut".
+* Hyväksy painamalla Enter, siirry Sarkain-näppäimellä OK-painikkeeseen ja
+  paina lopuksi Enter.
+* Tämän jälkeen valitsemasi näppäinkomennon pitäisi ilmoittaa näppäimistön
+  kielen.
 
-## Compatibility ##
+## Yhteensopivuus ##
 
-* This add-on is compatible with the versions of NVDA ranging from 2019.3 and beyond.
+* Tämä lisäosa on yhteensopiva NVDA 2019.3:n ja sitä uudempien versioiden
+  kanssa.
 
-## Changes for 20240326.0.0
+## Muutokset versiossa 20240326.0.0
 
-* Updated compatibility for nvda-2024.1;
-* Deleted download link from readme, the download link for future updates will now only be available from the add-on store.
+* Päivitetty yhteensopivuus NVDA 2024.1:lle.
+* Latauslinkki poistettu dokumentaatiosta. Tulevien päivitysten latauslinkit
+  löytyvät jatkossa vain lisäosakaupasta.
 
-## Changes for 20231229.0.0 ##
+## Muutokset versiossa 20231229.0.0 ##
 
-* Added a backward compatible implementation to support speak on demand mode, which will soon be available with nvda-2024.1.
+* Lisätty taaksepäin yhteensopiva toteutus pyydettäessä-puhetilalle, joka on
+  käytettävissä NVDA 2024.1:ssä.
 
-## Changes for 20230729.0.0 ##
+## Muutokset versiossa 20230729.0.0 ##
 
-* Applied the flake8 and mypy rules to the code;
-* Changed the minimum supported NVDA version to 2019.3 to support annotations introduced in Python 3.
-* Removed the "NVDA + F4" gesture calling the script giving the keyboard language., to allow users to choose their preferred gesture.
+* Sovellettu koodiin flake8- ja mypy-sääntöjä.
+* Muutettu NVDA:n tuetuksi vähimmäisversioksi 2019.3 Python 3:ssa
+  esiteltyjen selitteiden tukemiseksi.
+* Poistettu näppäimistökielen ilmoittava NVDA+F4-näppäinkomento, joka
+  mahdollistaa käyttäjille halutun näppäinkomennon valitsemisen.
 
-## Changes for 20230607.0.0 ##
+## Muutokset versiossa 20230426.0.0 ja sitä uudemmissa ##
 
-* Added the following workflows:
- * auto-update-translations - to automatically update translations from NVDA's translation system.
- * release-on-tag..yaml: to build and publish the addon as soon as a new tag is pushed;
- * manual-release.yaml: to build and release new versions of the add-on manually.
-* Updated translations.
+* Versionumero, NVDA:n vähimmäisversio ja latauslinkki vaihdettu kaupan
+  käytäntöjen/vaatimusten mukaisiksi.
 
-## Changes for version 20230426.0.0 and beyond ##
+## Muutokset versiossa 19.02 ##
 
-* • Changed version number, minimum NVDA version and download link according to store conventions/requirements.
+* Versionumerointi muutettu muotoon vv.kk (vuosi kahdella numerolla, piste
+  ja kuukausi kahdella numerolla);
+* Lisätty yhteensopivuus lisäosan uudelle versionumeroinnille, joka otettiin
+  käyttöön NVDA 2019.1:stä alkaen.
 
-## Changes for version 19.02 ##
+## Muutokset versiossa 1.1 ##
 
-* Changed version numbering using YY.MM (The year in 2 digits, followed by a dot, followed by the month in 2 digits);
-* Added compatibility with the new versioning format of add-on, appeared since nvda 2019.1.
+* Lisäosan uusi nimi on sayCurrentKeyboardLanguage. Vanha:
+  getCurKeyboardLanguage;
+* Lisätty GPL-lisenssi;
+* Lisätty skripti getCurKeyboardLanguage "Järjestelmän tila" -kategoriaan;
+* Koodin virheitä korjattu.
 
-## Changes for version 1.1 ##
+## Muutokset versiossa 1.0 ##
 
-* The addon has been renamed from getCurKeyboardLanguage to sayCurrentKeyboardLanguage;
-* Added the GPL license to the addon;
-* Added the script getCurKeyboardLanguage to the "System status" category;
-* Fixed some errors in the code.
+* Ensimmäinen versio.
 
-## Changes for version 1.0 ##
-
-* Initial version.
+[[!tag dev stable]]

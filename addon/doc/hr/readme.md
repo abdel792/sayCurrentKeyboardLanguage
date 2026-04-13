@@ -1,74 +1,85 @@
-# sayCurrentKeyboardLanguage
+# Izgovori jezik trenutačne tipkovnice (sayCurrentKeyboardLanguage) #
 
-* Author(s): Abdel, Noelia.
+* Autori: Abdel, Noelia.
 
-# Presentation #
+# Prezentacija #
 
-This addon was created following a request from a member on the nvda-addons mailing list.
+Ovaj je dodatak izrađen na temelju zahtjeva jednog člana na mailing listi
+nvda dodataka.
 
-It provides a script without gesture, which allows to retrieve and give the language of the current keyboard.
+Dodatak pruža skriptu bez gesti, koja omogućuje pronalaženje i pružanja
+jezika trenutačne tipkovnice.
 
-If pressed twice, gives the default language of the system.
+Dvaput pritisnuto, izgovara standardni jezik sustava.
 
-At the first version of this module, it had been proposed as simple globalPlugin to paste in the configuration directory of NVDA, it was then transformed into addon.
+U prvoj verziji je modul bio predložen kao jednostavni globalni dodatak,
+kojeg je trebalo zalijepiti u konfiguracijski direktorij za NVDA. Nakon toga
+je promijenjen u dodatak.
 
-## Notes ##
+## Napomene ##
 
-To set a gesture to the script giving the keyboard language, follow these steps:
+To set a gesture to the script giving the keyboard language, follow these
+steps:
 
 * Open the NVDA's menu, with "NVDA + N";
 * Go to NVDA's preferences menu;
 * Then go to the submenu "Input gestures".
 * Then select the category "Input", and open it with right arrow.
-* Go to the item labeled "Gives the language of the keyboard in use, if pressed twice, give the default language of the system";
-* Once done, press Alt + A to add a gesture, and type "NVDA + F4" or another gesture of your choice;
-* This done, press the up arrow once, you hear "your chosen gesture, all layout";
+* Go to the item labeled "Gives the language of the keyboard in use, if
+  pressed twice, give the default language of the system";
+* Once done, press Alt + A to add a gesture, and type "NVDA + F4" or another
+  gesture of your choice;
+* This done, press the up arrow once, you hear "your chosen gesture, all
+  layout";
 * Validate on enter, then tab to OK then enter;
 * Your chosen gesture should then call the script giving keyboard language.
 
-## Compatibility ##
+## Kompatibilnost ##
 
-* This add-on is compatible with the versions of NVDA ranging from 2019.3 and beyond.
+* Ovaj je dodatak kompatibilan s NVDA verzijom 2019.3 i novijim verzijama.
 
-## Changes for 20240326.0.0
+## Promjene u 20240326.0.0
 
-* Updated compatibility for nvda-2024.1;
-* Deleted download link from readme, the download link for future updates will now only be available from the add-on store.
+* Updated compatibility for nvda-2024.1.;
+* Deleted download link from readme, the download link for future updates
+  will now only be available from the add-on store.
 
-## Changes for 20231229.0.0 ##
+## Promjene u 20231229.0.0 ##
 
-* Added a backward compatible implementation to support speak on demand mode, which will soon be available with nvda-2024.1.
+* Added a backward compatible implementation to support speak on demand
+  mode, which will soon be available with nvda-2024.1.
 
-## Changes for 20230729.0.0 ##
+## Promjene u 20230729.0.0 ##
 
-* Applied the flake8 and mypy rules to the code;
-* Changed the minimum supported NVDA version to 2019.3 to support annotations introduced in Python 3.
-* Removed the "NVDA + F4" gesture calling the script giving the keyboard language., to allow users to choose their preferred gesture.
+* Programskom kodu su dodana flake8 i mypy pravila;
+* Namjanja podržana NVDA verzija je promijenjena na 2019.3 kako bi se
+  podržale zabilješke koje su uvedene u Python 3.
+* Removed the "NVDA + F4" gesture calling the script giving the keyboard
+  language., to allow users to choose their preferred gesture.
 
-## Changes for 20230607.0.0 ##
+## Promjene u verziji 20230426.0.0 i novije##
 
-* Added the following workflows:
- * auto-update-translations - to automatically update translations from NVDA's translation system.
- * release-on-tag..yaml: to build and publish the addon as soon as a new tag is pushed;
- * manual-release.yaml: to build and release new versions of the add-on manually.
-* Updated translations.
+* Promijenjen je broj verzije, minimalna NVDA verzija i poveznica za
+  preuzimanje, u skladu s konvencijama/zahtjevima trgovine.
 
-## Changes for version 20230426.0.0 and beyond ##
+## Promjene u verziji 19.02 ##
 
-* • Changed version number, minimum NVDA version and download link according to store conventions/requirements.
+* Promijenjeno je numeriranje verzija koristeći YY.MM (Dvije znamenke za
+  godinu, slijedi točka, a zatim dvije znamenke za mjesec);
+* Dodana je kompatibilnost s novim formatom za određivanje verzije dodataka,
+  pojavila se u nvda verziji 2019.1.
 
-## Changes for version 19.02 ##
+## Promjene u verziji 1.1 ##
 
-* Changed version numbering using YY.MM (The year in 2 digits, followed by a dot, followed by the month in 2 digits);
-* Added compatibility with the new versioning format of add-on, appeared since nvda 2019.1.
+* Dodatak je preimenovan iz „getCurKeyboardLanguage” u
+  „sayCurrentKeyboardLanguage”;
+* Dodatku je dodana je opća javna licenca;
+* U kategoriju „Stanje sustava” dodana je skripta „getCurKeyboardLanguage”
+  (Izgovori jezik trenutačne tipkovnice);
+* Neki ispravci u kodu.
 
-## Changes for version 1.1 ##
+## Promjene u verziji 1.0 ##
 
-* The addon has been renamed from getCurKeyboardLanguage to sayCurrentKeyboardLanguage;
-* Added the GPL license to the addon;
-* Added the script getCurKeyboardLanguage to the "System status" category;
-* Fixed some errors in the code.
+* Prvo izdanje.
 
-## Changes for version 1.0 ##
-
-* Initial version.
+[[!tag dev stable]]
