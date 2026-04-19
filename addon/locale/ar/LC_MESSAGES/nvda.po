@@ -1,36 +1,36 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the sayCurrentKeyboardLanguage package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 msgid ""
 msgstr ""
-"Project-Id-Version: sayCurrentKeyboardLanguage 1.1\n"
-"Report-Msgid-Bugs-To: nvda-translations@groups.io\n"
-"POT-Creation-Date: 2017-07-21 19:05+1000\n"
-"PO-Revision-Date: 2019-06-10 05:03+0200\n"
-"Last-Translator: wafiqtaher <wafiqtaher@gmail.com>\n"
-"Language-Team: arabicTeam <wafiqtaher@gmail.com>\n"
-"Language: ar\n"
+"Project-Id-Version: nvdaaddons\n"
+"Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
+"POT-Creation-Date: 2026-04-06 04:08+0000\n"
+"PO-Revision-Date: 2026-04-19 22:07\n"
+"Last-Translator: \n"
+"Language-Team: Arabic\n"
+"Language: ar_SA\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.6.11\n"
-"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
+"X-Crowdin-Project: nvdaaddons\n"
+"X-Crowdin-Project-ID: 780748\n"
+"X-Crowdin-Language: ar\n"
+"X-Crowdin-File: sayCurrentKeyboardLanguage.pot\n"
+"X-Crowdin-File-ID: 392\n"
 
-#. Translators: message presented in input help mode.
-msgid ""
-"Gives the language of the keyboard in use. If pressed twice, gives the "
-"default language of the system."
-msgstr ""
-"يعلن عن لغة لوحة المفاتيح المستخدمة حاليا. وبالضغط مرتين ، يعلن عن اللغة "
-"الافتراضية للنظام"
+#. Translators: Message presented in input help mode.
+#: addon\globalPlugins\sayKeyboardLanguage.py:38
+msgid "Gives the language of the keyboard in use. If pressed twice, gives the default language of the system."
+msgstr "يُبْلِغُكَ بلغة لوحة المفاتيح الحالية. إذا تم تنفيذه مرتين, فإنه سيُبْلِغُكَ بلغة النظام."
 
 #. Add-on description
-#. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
-msgid ""
-"This addon provides a command to know the language of the keyboard in use, "
-"as well as the default language of the system."
+#. Translators: Long description to be shown for this add-on on add-on information from add-on store
+#: buildVars.py:24
+msgid "This addon provides a command to know the language of the keyboard in use, as well as the default language of the system"
+msgstr "توفر هذه الإضافة أمراً لمعرفة لغة لوحة المفاتيح الحالية, بالإضافة إلى معرفة لغة النظام الحالي."
+
+#. Brief changelog for this version
+#. Translators: what's new content for the add-on version to be shown in the add-on store
+#: buildVars.py:29
+msgid "Used the latest version of addonTemplate.\n"
 msgstr ""
-"يوفر هذا الملحق أمرًا لمعرفة لغة لوحة المفاتيح المستخدمة ، فضلاً عن اللغة "
-"الافتراضية للنظام."
+
