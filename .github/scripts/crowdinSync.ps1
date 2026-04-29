@@ -80,18 +80,17 @@ foreach ($dir in Get-ChildItem -Path "_addonL10n/$addonId" -Directory) {
         $crowdinLang = $langCode.Replace('_', '-') 
     }
 
-    # Map to local NVDA directory
-    $localLangDir = uv run python .github/scripts/langCodes.py $langCode
-    
+    # The $langCode (folder name from Crowdin) represents the local repository language code.
+    # It matches the NVDA directory structure, so no extra mapping is needed.
     Write-Host "--- Processing Language: $langCode (Crowdin: $crowdinLang) ---" -ForegroundColor Cyan
 
     # Paths
     $remoteMd = Join-Path $dir.FullName "$addonId.md"
     $remoteXliff = Join-Path $dir.FullName "$addonId.xliff"
     $remotePo = Join-Path $dir.FullName "$addonId.po"
-    $localMdDir = "addon/doc/$localLangDir"
+    $localMdDir = "addon/doc/$langCode"
     $localMd = "$localMdDir/readme.md"
-    $localPoPath = "addon/locale/$localLangDir/LC_MESSAGES/nvda.po"
+    $localPoPath = "addon/locale/$langCode/LC_MESSAGES/nvda.po"
 
     # --- 3.1 PO FILE PROCESSING ---
     $poImported = $false
@@ -128,7 +127,7 @@ foreach ($dir in Get-ChildItem -Path "_addonL10n/$addonId" -Directory) {
     if (Test-Path $remoteXliff) {
         Write-Host "DEBUG: Evaluating Remote XLIFF score..."
         $res = uv run python .github/scripts/checkTranslation.py "$addonId.xliff" $crowdinLang
-        $scoreXliff = [double]($res | Select-String "translationRatio=").ToString().Split("=")[1]
+        $scoreXliff = [double]($res | Select-String "xliffScore=").ToString().Split("=")[1]
     } else {
         Write-Host "DEBUG: No remote XLIFF file found for this language."
     }
@@ -142,11 +141,11 @@ foreach ($dir in Get-ChildItem -Path "_addonL10n/$addonId" -Directory) {
         if (!(Test-Path $localMdDir)) { New-Item -ItemType Directory -Force -Path $localMdDir | Out-Null }
 
         if ($scoreXliff -ge $scoreMd) {
-            Write-Host "SUCCESS: XLIFF is better or equal. Converting XLIFF to local MD ($localLangDir)..."
+            Write-Host "SUCCESS: XLIFF is better or equal. Converting XLIFF to local MD ($langCode)..."
             ./l10nUtil.exe xliff2md $remoteXliff $localMd
             $docImported = $true
         } else {
-            Write-Host "SUCCESS: Markdown is better. Importing Remote MD to local ($localLangDir)..."
+            Write-Host "SUCCESS: Markdown is better. Importing Remote MD to local ($langCode)..."
             Move-Item $remoteMd $localMd -Force
             $docImported = $true
         }
