@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en">
-<file id="readme.md" original="https://raw.githubusercontent.com/abdel792/sayCurrentKeyboardLanguage/fbce078fdd7c6fca76289d20423a404da53327e7/readme.md">
+<file id="readme.md" original="https://raw.githubusercontent.com/abdel792/sayCurrentKeyboardLanguage/c7ac16f6c16de320228259407a51263ba91edd7a/readme.md">
 <skeleton>
 # $(ID:e8781d6c-75b4-4c1e-a1fc-a2bd6db67f8c)
 
@@ -76,7 +76,6 @@ $(ID:e89bc316-b972-4994-8fb6-7691960049ea)
 ## $(ID:a4910b1f-e677-46d5-a24d-34bd8bca5a6b)
 
 * $(ID:ce57d439-8ddd-4916-b551-38af1c521b7b)
-
 </skeleton>
 <unit id="e8781d6c-75b4-4c1e-a1fc-a2bd6db67f8c">
 <notes>
