@@ -1,0 +1,500 @@
+<?xml version="1.0"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en">
+<file id="readme.md" original="https://raw.githubusercontent.com/abdel792/sayCurrentKeyboardLanguage/fbce078fdd7c6fca76289d20423a404da53327e7/readme.md">
+<skeleton>
+# $(ID:e8781d6c-75b4-4c1e-a1fc-a2bd6db67f8c)
+
+* $(ID:aa8d8388-aea4-4f06-969a-ed4dd9c59f55)
+
+# $(ID:46cc2c06-49af-4f8d-b34f-22ef48c12749)
+
+$(ID:1ca94560-70c8-4d69-b80d-f527ae85f6cf)
+
+$(ID:df3aced6-7e92-495f-ac12-9ff837c1dbf4)
+
+$(ID:ab0201a7-8814-4fe5-bc28-96c3652c8ec4)
+
+$(ID:b7807bed-9f0b-432b-9cd8-65097792c899)
+
+## $(ID:4181ca48-b609-441f-964a-c05c6c48c8e7)
+
+$(ID:e89bc316-b972-4994-8fb6-7691960049ea)
+
+* $(ID:b583dbad-baef-44aa-aaa9-d8ca7e1bf0a0)
+* $(ID:01f514d4-b715-4eea-b57d-ca9a9d736ff6)
+* $(ID:1a38ad57-fd9d-4454-beff-f8d1d3489142)
+* $(ID:5d4fb15f-b9ce-4bfa-8d8e-24134df76457)
+* $(ID:377502b9-76be-4452-b965-7e4e18ca0f8d)
+* $(ID:c6b5770a-0b7f-432c-b7f4-4753f197cb11)
+* $(ID:f886f39a-6131-4517-bded-6cf740a1e26d)
+* $(ID:a322ac48-b60b-431f-8bb9-74eafd9e2ead)
+* $(ID:a68005e0-7f1a-44e7-a6c3-1c633785932e)
+
+## $(ID:bd96adb2-de8d-48b2-933e-08b4b913b1c3)
+
+* $(ID:5619d902-3cc7-4a70-8fe1-ba5cd457a2e8)
+
+## $(ID:45366e9f-700e-4fef-b827-fc6f7051f998)
+
+* $(ID:dbda8e7f-42aa-48e5-a68e-cd5433e382b3)
+* $(ID:b9e491db-0dbe-4c08-9c8c-b1d02216c929)
+
+## $(ID:7bb02630-ca50-4c05-b3b6-93fca48c4dfa)
+
+* $(ID:b1ee0729-3cbc-4d39-b6c2-06cea21531f8)
+
+## $(ID:8a8d88aa-9120-4256-8289-710c23a82056)
+
+* $(ID:7827af59-952f-4e16-ac96-04da7f596bea)
+* $(ID:3d7503ff-f14a-4cbd-98ef-c39c8c9ab5b1)
+* $(ID:1984e5ae-9e96-41bb-875f-c98ccd01c310)
+
+## $(ID:18446378-919a-4fd3-a02d-175d663670a3)
+
+* $(ID:ecbd11b2-596c-4b4a-a296-acdb2ee96303)
+ * $(ID:a29a65e4-d2df-4576-a991-46914396c8dd)
+ * $(ID:f82e9294-e21d-4419-a4b3-654a3c279228)
+ * $(ID:4f7cfd58-e7c6-4fde-84aa-dbad5d923a29)
+* $(ID:beb22c88-544d-42c2-97f0-0607b0880128)
+
+## $(ID:5b0d8174-9334-4565-8cb7-13adebbf68d0)
+
+* $(ID:f67855fa-c104-4f6e-ba78-3d8f7a4662ac)
+
+## $(ID:0bda87e8-b2ba-4572-9cbd-04a1fe942c62)
+
+* $(ID:6a19fa9c-b274-4236-a87f-da2f514b1ac5)
+* $(ID:aedde715-d783-4eb2-8613-e5b32c0e1249)
+
+## $(ID:51d12edd-1538-41a9-ab41-cfd052b21ead)
+
+* $(ID:52528a38-b6f3-42a1-8d14-c5ec5254f5bc)
+* $(ID:9cbc3c56-0dcb-4357-836b-275160081dd7)
+* $(ID:02bcdd4c-e2f6-4f17-a867-ef771d811b7a)
+* $(ID:4cfc3dcd-cbab-4eba-b2f3-07d187412ab4)
+
+## $(ID:a4910b1f-e677-46d5-a24d-34bd8bca5a6b)
+
+* $(ID:ce57d439-8ddd-4916-b551-38af1c521b7b)
+
+</skeleton>
+<unit id="e8781d6c-75b4-4c1e-a1fc-a2bd6db67f8c">
+<notes>
+<note appliesTo="source">line: 2</note>
+<note appliesTo="source">prefix: # </note>
+</notes>
+<segment>
+<source>sayCurrentKeyboardLanguage</source>
+</segment>
+</unit>
+<unit id="aa8d8388-aea4-4f06-969a-ed4dd9c59f55">
+<notes>
+<note appliesTo="source">line: 4</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Author(s): Abdel, Noelia.</source>
+</segment>
+</unit>
+<unit id="46cc2c06-49af-4f8d-b34f-22ef48c12749">
+<notes>
+<note appliesTo="source">line: 6</note>
+<note appliesTo="source">prefix: # </note>
+</notes>
+<segment>
+<source>Presentation #</source>
+</segment>
+</unit>
+<unit id="1ca94560-70c8-4d69-b80d-f527ae85f6cf">
+<notes>
+<note appliesTo="source">line: 8</note>
+</notes>
+<segment>
+<source>This addon was created following a request from a member on the nvda-addons mailing list.</source>
+</segment>
+</unit>
+<unit id="df3aced6-7e92-495f-ac12-9ff837c1dbf4">
+<notes>
+<note appliesTo="source">line: 10</note>
+</notes>
+<segment>
+<source>It provides a script without gesture, which allows to retrieve and give the language of the current keyboard.</source>
+</segment>
+</unit>
+<unit id="ab0201a7-8814-4fe5-bc28-96c3652c8ec4">
+<notes>
+<note appliesTo="source">line: 12</note>
+</notes>
+<segment>
+<source>If pressed twice, gives the default language of the system.</source>
+</segment>
+</unit>
+<unit id="b7807bed-9f0b-432b-9cd8-65097792c899">
+<notes>
+<note appliesTo="source">line: 14</note>
+</notes>
+<segment>
+<source>At the first version of this module, it had been proposed as simple globalPlugin to paste in the configuration directory of NVDA, it was then transformed into addon.</source>
+</segment>
+</unit>
+<unit id="4181ca48-b609-441f-964a-c05c6c48c8e7">
+<notes>
+<note appliesTo="source">line: 16</note>
+<note appliesTo="source">prefix: ## </note>
+</notes>
+<segment>
+<source>Notes ##</source>
+</segment>
+</unit>
+<unit id="e89bc316-b972-4994-8fb6-7691960049ea">
+<notes>
+<note appliesTo="source">line: 18</note>
+</notes>
+<segment>
+<source>To set a gesture to the script giving the keyboard language, follow these steps:</source>
+</segment>
+</unit>
+<unit id="b583dbad-baef-44aa-aaa9-d8ca7e1bf0a0">
+<notes>
+<note appliesTo="source">line: 20</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Open the NVDA's menu, with "NVDA + N";</source>
+</segment>
+</unit>
+<unit id="01f514d4-b715-4eea-b57d-ca9a9d736ff6">
+<notes>
+<note appliesTo="source">line: 21</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Go to NVDA's preferences menu;</source>
+</segment>
+</unit>
+<unit id="1a38ad57-fd9d-4454-beff-f8d1d3489142">
+<notes>
+<note appliesTo="source">line: 22</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Then go to the submenu "Input gestures".</source>
+</segment>
+</unit>
+<unit id="5d4fb15f-b9ce-4bfa-8d8e-24134df76457">
+<notes>
+<note appliesTo="source">line: 23</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Then select the category "Input", and open it with right arrow.</source>
+</segment>
+</unit>
+<unit id="377502b9-76be-4452-b965-7e4e18ca0f8d">
+<notes>
+<note appliesTo="source">line: 24</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Go to the item labeled "Gives the language of the keyboard in use, if pressed twice, give the default language of the system";</source>
+</segment>
+</unit>
+<unit id="c6b5770a-0b7f-432c-b7f4-4753f197cb11">
+<notes>
+<note appliesTo="source">line: 25</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Once done, press Alt + A to add a gesture, and type "NVDA + F4" or another gesture of your choice;</source>
+</segment>
+</unit>
+<unit id="f886f39a-6131-4517-bded-6cf740a1e26d">
+<notes>
+<note appliesTo="source">line: 26</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>This done, press the up arrow once, you hear "your chosen gesture, all layout";</source>
+</segment>
+</unit>
+<unit id="a322ac48-b60b-431f-8bb9-74eafd9e2ead">
+<notes>
+<note appliesTo="source">line: 27</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Validate on enter, then tab to OK then enter;</source>
+</segment>
+</unit>
+<unit id="a68005e0-7f1a-44e7-a6c3-1c633785932e">
+<notes>
+<note appliesTo="source">line: 28</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Your chosen gesture should then call the script giving keyboard language.</source>
+</segment>
+</unit>
+<unit id="bd96adb2-de8d-48b2-933e-08b4b913b1c3">
+<notes>
+<note appliesTo="source">line: 30</note>
+<note appliesTo="source">prefix: ## </note>
+</notes>
+<segment>
+<source>Compatibility ##</source>
+</segment>
+</unit>
+<unit id="5619d902-3cc7-4a70-8fe1-ba5cd457a2e8">
+<notes>
+<note appliesTo="source">line: 32</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>This add-on is compatible with the versions of NVDA ranging from 2019.3 and beyond.</source>
+</segment>
+</unit>
+<unit id="45366e9f-700e-4fef-b827-fc6f7051f998">
+<notes>
+<note appliesTo="source">line: 34</note>
+<note appliesTo="source">prefix: ## </note>
+</notes>
+<segment>
+<source>Changes for 20240326.0.0</source>
+</segment>
+</unit>
+<unit id="dbda8e7f-42aa-48e5-a68e-cd5433e382b3">
+<notes>
+<note appliesTo="source">line: 36</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Updated compatibility for nvda-2024.1;</source>
+</segment>
+</unit>
+<unit id="b9e491db-0dbe-4c08-9c8c-b1d02216c929">
+<notes>
+<note appliesTo="source">line: 37</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Deleted download link from readme, the download link for future updates will now only be available from the add-on store.</source>
+</segment>
+</unit>
+<unit id="7bb02630-ca50-4c05-b3b6-93fca48c4dfa">
+<notes>
+<note appliesTo="source">line: 39</note>
+<note appliesTo="source">prefix: ## </note>
+</notes>
+<segment>
+<source>Changes for 20231229.0.0 ##</source>
+</segment>
+</unit>
+<unit id="b1ee0729-3cbc-4d39-b6c2-06cea21531f8">
+<notes>
+<note appliesTo="source">line: 41</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Added a backward compatible implementation to support speak on demand mode, which will soon be available with nvda-2024.1.</source>
+</segment>
+</unit>
+<unit id="8a8d88aa-9120-4256-8289-710c23a82056">
+<notes>
+<note appliesTo="source">line: 43</note>
+<note appliesTo="source">prefix: ## </note>
+</notes>
+<segment>
+<source>Changes for 20230729.0.0 ##</source>
+</segment>
+</unit>
+<unit id="7827af59-952f-4e16-ac96-04da7f596bea">
+<notes>
+<note appliesTo="source">line: 45</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Applied the flake8 and mypy rules to the code;</source>
+</segment>
+</unit>
+<unit id="3d7503ff-f14a-4cbd-98ef-c39c8c9ab5b1">
+<notes>
+<note appliesTo="source">line: 46</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Changed the minimum supported NVDA version to 2019.3 to support annotations introduced in Python 3.</source>
+</segment>
+</unit>
+<unit id="1984e5ae-9e96-41bb-875f-c98ccd01c310">
+<notes>
+<note appliesTo="source">line: 47</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Removed the "NVDA + F4" gesture calling the script giving the keyboard language., to allow users to choose their preferred gesture.</source>
+</segment>
+</unit>
+<unit id="18446378-919a-4fd3-a02d-175d663670a3">
+<notes>
+<note appliesTo="source">line: 49</note>
+<note appliesTo="source">prefix: ## </note>
+</notes>
+<segment>
+<source>Changes for 20230607.0.0 ##</source>
+</segment>
+</unit>
+<unit id="ecbd11b2-596c-4b4a-a296-acdb2ee96303">
+<notes>
+<note appliesTo="source">line: 51</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Added the following workflows:</source>
+</segment>
+</unit>
+<unit id="a29a65e4-d2df-4576-a991-46914396c8dd">
+<notes>
+<note appliesTo="source">line: 52</note>
+<note appliesTo="source">prefix:  * </note>
+</notes>
+<segment>
+<source>auto-update-translations - to automatically update translations from NVDA's translation system.</source>
+</segment>
+</unit>
+<unit id="f82e9294-e21d-4419-a4b3-654a3c279228">
+<notes>
+<note appliesTo="source">line: 53</note>
+<note appliesTo="source">prefix:  * </note>
+</notes>
+<segment>
+<source>release-on-tag..yaml: to build and publish the addon as soon as a new tag is pushed;</source>
+</segment>
+</unit>
+<unit id="4f7cfd58-e7c6-4fde-84aa-dbad5d923a29">
+<notes>
+<note appliesTo="source">line: 54</note>
+<note appliesTo="source">prefix:  * </note>
+</notes>
+<segment>
+<source>manual-release.yaml: to build and release new versions of the add-on manually.</source>
+</segment>
+</unit>
+<unit id="beb22c88-544d-42c2-97f0-0607b0880128">
+<notes>
+<note appliesTo="source">line: 55</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Updated translations.</source>
+</segment>
+</unit>
+<unit id="5b0d8174-9334-4565-8cb7-13adebbf68d0">
+<notes>
+<note appliesTo="source">line: 57</note>
+<note appliesTo="source">prefix: ## </note>
+</notes>
+<segment>
+<source>Changes for version 20230426.0.0 and beyond ##</source>
+</segment>
+</unit>
+<unit id="f67855fa-c104-4f6e-ba78-3d8f7a4662ac">
+<notes>
+<note appliesTo="source">line: 59</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>• Changed version number, minimum NVDA version and download link according to store conventions/requirements.</source>
+</segment>
+</unit>
+<unit id="0bda87e8-b2ba-4572-9cbd-04a1fe942c62">
+<notes>
+<note appliesTo="source">line: 61</note>
+<note appliesTo="source">prefix: ## </note>
+</notes>
+<segment>
+<source>Changes for version 19.02 ##</source>
+</segment>
+</unit>
+<unit id="6a19fa9c-b274-4236-a87f-da2f514b1ac5">
+<notes>
+<note appliesTo="source">line: 63</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Changed version numbering using YY.MM (The year in 2 digits, followed by a dot, followed by the month in 2 digits);</source>
+</segment>
+</unit>
+<unit id="aedde715-d783-4eb2-8613-e5b32c0e1249">
+<notes>
+<note appliesTo="source">line: 64</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Added compatibility with the new versioning format of add-on, appeared since nvda 2019.1.</source>
+</segment>
+</unit>
+<unit id="51d12edd-1538-41a9-ab41-cfd052b21ead">
+<notes>
+<note appliesTo="source">line: 66</note>
+<note appliesTo="source">prefix: ## </note>
+</notes>
+<segment>
+<source>Changes for version 1.1 ##</source>
+</segment>
+</unit>
+<unit id="52528a38-b6f3-42a1-8d14-c5ec5254f5bc">
+<notes>
+<note appliesTo="source">line: 68</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>The addon has been renamed from getCurKeyboardLanguage to sayCurrentKeyboardLanguage;</source>
+</segment>
+</unit>
+<unit id="9cbc3c56-0dcb-4357-836b-275160081dd7">
+<notes>
+<note appliesTo="source">line: 69</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Added the GPL license to the addon;</source>
+</segment>
+</unit>
+<unit id="02bcdd4c-e2f6-4f17-a867-ef771d811b7a">
+<notes>
+<note appliesTo="source">line: 70</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Added the script getCurKeyboardLanguage to the "System status" category;</source>
+</segment>
+</unit>
+<unit id="4cfc3dcd-cbab-4eba-b2f3-07d187412ab4">
+<notes>
+<note appliesTo="source">line: 71</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Fixed some errors in the code.</source>
+</segment>
+</unit>
+<unit id="a4910b1f-e677-46d5-a24d-34bd8bca5a6b">
+<notes>
+<note appliesTo="source">line: 73</note>
+<note appliesTo="source">prefix: ## </note>
+</notes>
+<segment>
+<source>Changes for version 1.0 ##</source>
+</segment>
+</unit>
+<unit id="ce57d439-8ddd-4916-b551-38af1c521b7b">
+<notes>
+<note appliesTo="source">line: 75</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Initial version.</source>
+</segment>
+</unit>
+</file>
+</xliff>
