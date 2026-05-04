@@ -1,8 +1,8 @@
-# sayCurrentKeyboardLanguage (Повідомити поточну мову клавіатури) #
+# sayCurrentKeyboardLanguage (Повідомити поточну мову клавіатури)
 
-* Author(s): Abdel, Noelia.
+- Author(s): Abdel, Noelia.
 
-# Презентація #
+# Презентація
 
 Цей додаток було створено на прохання учасника поштової конференції додатків
 для NVDA.
@@ -12,74 +12,77 @@ language of the current keyboard.
 
 Якщо натиснути двічі, повідомляє основну мову системи.
 
-Перша версія цього модуля була простим плагіном, який треба було вставити
-вручну до папки з конфігурацією NVDA. Однак тепер його перетворено у
-додаток.
+At the first version of this module, it had been proposed as simple globalPlugin to paste in the configuration directory of NVDA, it was then transformed into addon.
 
-## Примітки ##
+## Примітки
 
 To set a gesture to the script giving the keyboard language, follow these
 steps:
 
-* Open the NVDA's menu, with "NVDA + N";
-* Go to NVDA's preferences menu;
-* Then go to the submenu "Input gestures".
-* Then select the category "Input", and open it with right arrow.
-* Go to the item labeled "Gives the language of the keyboard in use, if
+- Open the NVDA's menu, with "NVDA + N";
+- Go to NVDA's preferences menu;
+- Then go to the submenu "Input gestures".
+- Then select the category "Input", and open it with right arrow.
+- Go to the item labeled "Gives the language of the keyboard in use, if
   pressed twice, give the default language of the system";
-* Once done, press Alt + A to add a gesture, and type "NVDA + F4" or another
+- Once done, press Alt + A to add a gesture, and type "NVDA + F4" or another
   gesture of your choice;
-* This done, press the up arrow once, you hear "your chosen gesture, all
+- This done, press the up arrow once, you hear "your chosen gesture, all
   layout";
-* Validate on enter, then tab to OK then enter;
-* Your chosen gesture should then call the script giving keyboard language.
+- Validate on enter, then tab to OK then enter;
+- Your chosen gesture should then call the script giving keyboard language.
 
-## Сумісність ##
+## Сумісність
 
-* This add-on is compatible with the versions of NVDA ranging from 2019.3
+- This add-on is compatible with the versions of NVDA ranging from 2019.3
   and beyond.
 
 ## Changes for 20240326.0.0
 
-* Updated compatibility for nvda-2024.1.;
-* Deleted download link from readme, the download link for future updates
+- Updated compatibility for nvda-2024.1.;
+- Deleted download link from readme, the download link for future updates
   will now only be available from the add-on store.
 
-## Changes for 20231229.0.0 ##
+## Changes for 20231229.0.0
 
-* Added a backward compatible implementation to support speak on demand
+- Added a backward compatible implementation to support speak on demand
   mode, which will soon be available with nvda-2024.1.
 
-## Changes for 20230729.0.0 ##
+## Changes for 20230729.0.0
 
-* Applied the flake8 and mypy rules to the code;
-* Changed the minimum supported NVDA version to 2019.3 to support
+- Applied the flake8 and mypy rules to the code;
+- Changed the minimum supported NVDA version to 2019.3 to support
   annotations introduced in Python 3.
-* Removed the "NVDA + F4" gesture calling the script giving the keyboard
+- Removed the "NVDA + F4" gesture calling the script giving the keyboard
   language., to allow users to choose their preferred gesture.
 
 ## Зміни у версії 20230426.0.0
 
-* Змінено номер версії, мінімальну версію NVDA та посилання для завантаження
+- Змінено номер версії, мінімальну версію NVDA та посилання для завантаження
   відповідно до правил/вимог магазину.
+- auto-update-translations - to automatically update translations from NVDA's translation system.
+- release-on-tag..yaml: to build and publish the addon as soon as a new tag is pushed;
+- manual-release.yaml: to build and release new versions of the add-on manually.
+- Updated translations.
 
-## Зміни у версії 19.02 ##
+## Зміни у версії 19.02
 
-* Змінено нумерацію версій за допомогою РР.ММ (рік - 2 цифри, потім крапка,
+- Змінено нумерацію версій за допомогою РР.ММ (рік - 2 цифри, потім крапка,
   потім місяць - 2 цифри);
-* Added compatibility with the new versioning format of add-on, appeared
-  since nvda 2019.1.
 
-## Зміни з версії 1.1 ##
+## Зміни з версії 1.1
 
-* Додаток перейменовано з getCurKeyboardLanguage на
+- Додаток перейменовано з getCurKeyboardLanguage на
   sayCurrentKeyboardLanguage;
-* До додатка додано ліцензію GPL;
-* Сценарій getCurKeyboardLanguage додано в категорію "Статус системи";
-* Виправлено деякі помилки у коді.
+- До додатка додано ліцензію GPL;
 
-## Зміни з версії 1.0 ##
+## Зміни з версії 1.0
 
-* Перша версія.
+- Перша версія.
+- Added the GPL license to the addon;
+- Added the script getCurKeyboardLanguage to the "System status" category;
+- Fixed some errors in the code.
 
-[[!tag dev stable]]
+## Changes for version 1.0
+
+- Initial version.

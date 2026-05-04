@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvdaaddons\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
-"POT-Creation-Date: 2026-04-06 04:08+0000\n"
-"PO-Revision-Date: 2026-04-22 21:03\n"
+"POT-Creation-Date: 2026-04-29 05:55+0000\n"
+"PO-Revision-Date: 2026-05-01 04:25\n"
 "Last-Translator: \n"
 "Language-Team: Arabic\n"
 "Language: ar_SA\n"
@@ -24,13 +24,13 @@ msgstr "يُبْلِغُكَ بلغة لوحة المفاتيح الحالية. 
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-on store
-#: buildVars.py:24
+#: buildVars.py:23
 msgid "This addon provides a command to know the language of the keyboard in use, as well as the default language of the system"
 msgstr "توفر هذه الإضافة أمراً لمعرفة لغة لوحة المفاتيح الحالية, بالإضافة إلى معرفة لغة النظام الحالي."
 
 #. Brief changelog for this version
 #. Translators: what's new content for the add-on version to be shown in the add-on store
-#: buildVars.py:29
+#: buildVars.py:28
 msgid "Used the latest version of addonTemplate.\n"
 msgstr ""
 

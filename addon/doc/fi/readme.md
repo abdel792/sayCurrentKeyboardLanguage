@@ -1,8 +1,8 @@
-# Sano näppäimistön nykyinen kieli #
+# Sano näppäimistön nykyinen kieli
 
-* Tekijä: Abdel ja Noelia.
+- Tekijä: Abdel ja Noelia.
 
-# Kuvaus #
+# Kuvaus
 
 Tämä lisäosa tehtiin erään nvda-addons-postituslistan jäsenen pyynnöstä.
 
@@ -14,71 +14,74 @@ Kahdesti painettaessa ilmoitetaan järjestelmän oletuskieli.
 Ensimmäinen versio oli yksinkertainen NVDA:n asetushakemistoon kopioitava
 yleisliitännäinen, mutta myöhemmin se muunnettiin lisäosaksi.
 
-## Huomautuksia ##
+## Huomautuksia
 
 Määritä näppäinkomento kielen puhuttavalle skriptille seuraavasti:
 
-* Avaa NVDA-valikko näppäinkomennolla NVDA+N.
-* Siirry Asetukset-valikkoon.
-* Siirry tämän jälkeen kohtaan "Näppäinkomennot" ja avaa se Enterillä.
-* Valitse sitten "Syöttö"-kategoria ja avaa se oikealla nuolinäppäimellä.
-* Siirry kohtaan "Ilmoittaa käytössä olevan näppäimistön kielen tai kahdesti
+- Avaa NVDA-valikko näppäinkomennolla NVDA+N.
+- Siirry Asetukset-valikkoon.
+- Siirry tämän jälkeen kohtaan "Näppäinkomennot" ja avaa se Enterillä.
+- Valitse sitten "Syöttö"-kategoria ja avaa se oikealla nuolinäppäimellä.
+- Siirry kohtaan "Ilmoittaa käytössä olevan näppäimistön kielen tai kahdesti
   painettaessa järjestelmän oletuskielen."
-* Kun olet valmis, lisää näppäinkomennto painamalla Alt+L ja ppaina sen
+- Kun olet valmis, lisää näppäinkomennto painamalla Alt+L ja ppaina sen
   jälkeen NVDA+F4 tai jotain muuta haluamaasi näppäinkomentoa.
-* Kun tämä on tehty, paina kerran ylänuolta, jolloin kuulet "<valitsemasi
+- Kun tämä on tehty, paina kerran ylänuolta, jolloin kuulet "<valitsemasi
   näppäinkomento>, kaikki asettelut".
-* Hyväksy painamalla Enter, siirry Sarkain-näppäimellä OK-painikkeeseen ja
+- Hyväksy painamalla Enter, siirry Sarkain-näppäimellä OK-painikkeeseen ja
   paina lopuksi Enter.
-* Tämän jälkeen valitsemasi näppäinkomennon pitäisi ilmoittaa näppäimistön
+- Tämän jälkeen valitsemasi näppäinkomennon pitäisi ilmoittaa näppäimistön
   kielen.
 
-## Yhteensopivuus ##
+## Yhteensopivuus
 
-* Tämä lisäosa on yhteensopiva NVDA 2019.3:n ja sitä uudempien versioiden
+- Tämä lisäosa on yhteensopiva NVDA 2019.3:n ja sitä uudempien versioiden
   kanssa.
 
 ## Muutokset versiossa 20240326.0.0
 
-* Päivitetty yhteensopivuus NVDA 2024.1:lle.
-* Latauslinkki poistettu dokumentaatiosta. Tulevien päivitysten latauslinkit
-  löytyvät jatkossa vain lisäosakaupasta.
+- Päivitetty yhteensopivuus NVDA 2024.1:lle.
+- Deleted download link from readme, the download link for future updates will now only be available from the add-on store.
 
-## Muutokset versiossa 20231229.0.0 ##
+## Muutokset versiossa 20231229.0.0
 
-* Lisätty taaksepäin yhteensopiva toteutus pyydettäessä-puhetilalle, joka on
+- Lisätty taaksepäin yhteensopiva toteutus pyydettäessä-puhetilalle, joka on
   käytettävissä NVDA 2024.1:ssä.
 
-## Muutokset versiossa 20230729.0.0 ##
+## Muutokset versiossa 20230729.0.0
 
-* Sovellettu koodiin flake8- ja mypy-sääntöjä.
-* Muutettu NVDA:n tuetuksi vähimmäisversioksi 2019.3 Python 3:ssa
+- Sovellettu koodiin flake8- ja mypy-sääntöjä.
+- Muutettu NVDA:n tuetuksi vähimmäisversioksi 2019.3 Python 3:ssa
   esiteltyjen selitteiden tukemiseksi.
-* Poistettu näppäimistökielen ilmoittava NVDA+F4-näppäinkomento, joka
+- Poistettu näppäimistökielen ilmoittava NVDA+F4-näppäinkomento, joka
   mahdollistaa käyttäjille halutun näppäinkomennon valitsemisen.
 
-## Muutokset versiossa 20230426.0.0 ja sitä uudemmissa ##
+## Muutokset versiossa 20230426.0.0 ja sitä uudemmissa
 
-* Versionumero, NVDA:n vähimmäisversio ja latauslinkki vaihdettu kaupan
+- Versionumero, NVDA:n vähimmäisversio ja latauslinkki vaihdettu kaupan
   käytäntöjen/vaatimusten mukaisiksi.
+- auto-update-translations - to automatically update translations from NVDA's translation system.
+- release-on-tag..yaml: to build and publish the addon as soon as a new tag is pushed;
+- manual-release.yaml: to build and release new versions of the add-on manually.
+- Updated translations.
 
-## Muutokset versiossa 19.02 ##
+## Muutokset versiossa 19.02
 
-* Versionumerointi muutettu muotoon vv.kk (vuosi kahdella numerolla, piste
+- Versionumerointi muutettu muotoon vv.kk (vuosi kahdella numerolla, piste
   ja kuukausi kahdella numerolla);
-* Lisätty yhteensopivuus lisäosan uudelle versionumeroinnille, joka otettiin
-  käyttöön NVDA 2019.1:stä alkaen.
 
-## Muutokset versiossa 1.1 ##
+## Muutokset versiossa 1.1
 
-* Lisäosan uusi nimi on sayCurrentKeyboardLanguage. Vanha:
-  getCurKeyboardLanguage;
-* Lisätty GPL-lisenssi;
-* Lisätty skripti getCurKeyboardLanguage "Järjestelmän tila" -kategoriaan;
-* Koodin virheitä korjattu.
+- Changed version numbering using YY.MM (The year in 2 digits, followed by a dot, followed by the month in 2 digits);
+- Lisätty GPL-lisenssi;
 
-## Muutokset versiossa 1.0 ##
+## Muutokset versiossa 1.0
 
-* Ensimmäinen versio.
+- Ensimmäinen versio.
+- Added the GPL license to the addon;
+- Added the script getCurKeyboardLanguage to the "System status" category;
+- Fixed some errors in the code.
 
-[[!tag dev stable]]
+## Changes for version 1.0
+
+- Initial version.
