@@ -14,7 +14,7 @@ import globalPluginHandler
 import ui
 import locale
 from scriptHandler import script
-import buildInfo
+import buildVersion
 
 # Category for the input gestures.
 from globalCommands import SCRCAT_INPUT
@@ -26,7 +26,7 @@ addonHandler.initTranslation()
 _: Callable[[str], str]
 
 # To ensure backward compatibility of speakOnDemand.
-speakOnDemand = {"speakOnDemand": True} if buildInfo.version_year > 2023 else {}
+speakOnDemand = {"speakOnDemand": True} if buildVersion.version_year > 2023 else {}
 
 
 class GlobalPlugin (globalPluginHandler.GlobalPlugin):
