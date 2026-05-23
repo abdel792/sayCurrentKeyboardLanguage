@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvdaaddons\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
-"POT-Creation-Date: 2026-04-29 05:55+0000\n"
-"PO-Revision-Date: 2026-05-01 15:41\n"
+"POT-Creation-Date: 2026-05-10 06:23+0000\n"
+"PO-Revision-Date: 2026-05-22 19:23\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -31,6 +31,6 @@ msgstr "这个插件提供了一个命令来了解正在使用的键盘的语言
 #. Brief changelog for this version
 #. Translators: what's new content for the add-on version to be shown in the add-on store
 #: buildVars.py:28
-msgid "Used the latest version of addonTemplate.\n"
-msgstr ""
+msgid "Use of buildVersion.version_year instead of versionInfo.version_year for compatibility with the NVDA 2026 API.\n"
+msgstr "使用 buildVersion.version_year 替代 versionInfo.version_year，以兼容 NVDA 2026 的 API。\n"
 
