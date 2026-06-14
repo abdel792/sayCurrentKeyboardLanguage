@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nvdaaddons\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
 "POT-Creation-Date: 2026-05-10 06:23+0000\n"
-"PO-Revision-Date: 2026-05-31 07:13\n"
+"PO-Revision-Date: 2026-06-03 18:15\n"
 "Last-Translator: \n"
 "Language-Team: Russian\n"
 "Language: ru_RU\n"
@@ -32,5 +32,5 @@ msgstr "Это дополнение предоставляет команду д
 #. Translators: what's new content for the add-on version to be shown in the add-on store
 #: buildVars.py:28
 msgid "Use of buildVersion.version_year instead of versionInfo.version_year for compatibility with the NVDA 2026 API.\n"
-msgstr ""
+msgstr "Использование buildVersion.version_year вместо versionInfo.version_year для совместимости с API NVDA 2026.\n"
 
