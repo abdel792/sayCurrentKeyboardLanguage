@@ -22,6 +22,7 @@ from typing import Callable
 
 # For translations.
 import addonHandler
+
 addonHandler.initTranslation()
 _: Callable[[str], str]
 
@@ -29,21 +30,23 @@ _: Callable[[str], str]
 speakOnDemand = {"speakOnDemand": True} if buildVersion.version_year > 2023 else {}
 
 
-class GlobalPlugin (globalPluginHandler.GlobalPlugin):
-
+class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	scriptCategory = SCRCAT_INPUT
 
 	@script(
 		# Translators: Message presented in input help mode.
-		description=_("Gives the language of the keyboard in use. "
-		              "If pressed twice, gives the default language of the system."),
-		**speakOnDemand
+		description=_(
+			"Gives the language of the keyboard in use. "
+			"If pressed twice, gives the default language of the system.",
+		),
+		**speakOnDemand,
 	)
 	def script_sayCurKeyboardLanguage(self, gesture):
 		import winUser
 		import scriptHandler
 		import ctypes
 		import languageHandler
+
 		# Getting the handle of the foreground window.
 		curWindow = winUser.getForegroundWindow()
 		# Getting the threadID.
@@ -56,11 +59,16 @@ class GlobalPlugin (globalPluginHandler.GlobalPlugin):
 		# Some language IDs are not available in the local.windows_locale dictionary,
 		# It is best to search their description directly in Windows itself
 		buf = ctypes.create_unicode_buffer(1024)
-		ctypes.windll.kernel32.GetLocaleInfoW(lID, (
-			languageHandler.LOCALE_SLANGUAGE if hasattr(languageHandler, "LOCALE_SLANGUAGE")
-			else languageHandler.LOCALE.SLANGUAGE),
-			buf, 1024
-			)
+		ctypes.windll.kernel32.GetLocaleInfoW(
+			lID,
+			(
+				languageHandler.LOCALE_SLANGUAGE
+				if hasattr(languageHandler, "LOCALE_SLANGUAGE")
+				else languageHandler.LOCALE.SLANGUAGE
+			),
+			buf,
+			1024,
+		)
 		desc = buf.value
 		defaultOsl = locale.getdefaultlocale()[0]
 		repeatCount = scriptHandler.getLastScriptRepeatCount()
