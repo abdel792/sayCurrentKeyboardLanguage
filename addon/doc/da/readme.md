@@ -1,88 +1,74 @@
 # sayCurrentKeyboardLanguage
 
-- Author(s): Abdel, Noelia.
+* Forfatter(e): Abdel, Noelia.
 
-# Præsentation
+# Præsentation #
 
-Denne tilføjelse blev oprettet efter en anmodning fra et medlem på
-mailinglisten for nvda-addons.
+Dette tilføjelsessprog blev oprettet efter anmodning fra et medlem på nvda-addons-postlisten.
 
-It provides a script without gesture, which allows to retrieve and give the
-language of the current keyboard.
+Det giver et script uden genvejstast, som gør det muligt at hente og angive sproget for det aktuelle tastatur.
 
-Hvis du trykker to gange, angiver systemets standardsprog.
+Hvis der trykkes to gange, angives systemets standardsprog.
 
-At the first version of this module, it had been proposed as simple globalPlugin to paste in the configuration directory of NVDA, it was then transformed into addon.
+I den første version af dette modul blev det foreslået som et simpelt globalPlugin, der skulle indsættes i konfigurationsmappen for NVDA, og det blev derefter omdannet til et tilføjelsessprog.
 
-## Noter
+## Bemærkninger ##
 
-To set a gesture to the script giving the keyboard language, follow these
-steps:
+Følg disse trin for at indstille en genvejstast til scriptet, der angiver tastatursproget:
 
-- Open the NVDA's menu, with "NVDA + N";
-- Go to NVDA's preferences menu;
-- Then go to the submenu "Input gestures".
-- Then select the category "Input", and open it with right arrow.
-- Go to the item labeled "Gives the language of the keyboard in use, if
-  pressed twice, give the default language of the system";
-- Once done, press Alt + A to add a gesture, and type "NVDA + F4" or another
-  gesture of your choice;
-- This done, press the up arrow once, you hear "your chosen gesture, all
-  layout";
-- Validate on enter, then tab to OK then enter;
-- Your chosen gesture should then call the script giving keyboard language.
+* Åbn NVDA-menuen med "NVDA + N";
+* Gå til NVDA's indstillingsmenu;
+* Gå derefter til undermenuen "Inputgenveje".
+* Vælg derefter kategorien "Input", og åbn den med højre pil.
+* Gå til punktet mærket "Giver sproget for det tastatur, der er i brug, hvis der trykkes to gange, gives systemets standardsprog";
+* Når det er gjort, skal du trykke på Alt + A for at tilføje en genvej og skrive "NVDA + F4" eller en anden genvej efter eget valg;
+* Når dette er gjort, skal du trykke på pil op én gang, og du vil høre "din valgte genvej, alle layouter";
+* Bekræft med Enter, og brug derefter Tab til at gå til OK og tryk på Enter;
+* Den valgte genvej skal derefter kalde scriptet, der angiver tastatursproget.
 
-## Kompatibilitet
+## Kompatibilitet ##
 
-- This add-on is compatible with the versions of NVDA ranging from 2019.3
-  and beyond.
+* Dette tilføjelsessprog er kompatibelt med versioner af NVDA fra 2019.3 og opefter.
 
-## Changes for 20240326.0.0
+## Ændringer for 20240326.0.0
 
-- Updated compatibility for nvda-2024.1.;
-- Deleted download link from readme, the download link for future updates
-  will now only be available from the add-on store.
+* Opdateret kompatibilitet for nvda-2024.1;
+* Downloadlink slettet fra readme, downloadlinket til fremtidige opdateringer vil nu kun være tilgængeligt fra tilføjelsesbutikken.
 
-## Changes for 20231229.0.0
+## Ændringer for 20231229.0.0 ##
 
-- Added a backward compatible implementation to support speak on demand
-  mode, which will soon be available with nvda-2024.1.
+* Tilføjet en bagudkompatibel implementering til at understøtte tale-on-demand-tilstand, som snart vil være tilgængelig med nvda-2024.1.
 
-## Changes for 20230729.0.0
+## Ændringer for 20230729.0.0 ##
 
-- Applied the flake8 and mypy rules to the code;
-- Changed the minimum supported NVDA version to 2019.3 to support
-  annotations introduced in Python 3.
-- Removed the "NVDA + F4" gesture calling the script giving the keyboard
-  language., to allow users to choose their preferred gesture.
+* Anvendt flake8- og mypy-reglerne på koden;
+* Ændret den mindste understøttede NVDA-version til 2019.3 for at understøtte annotationer introduceret i Python 3.
+* Fjernet genvejen "NVDA + F4", der kalder scriptet, som angiver tastatursproget, for at give brugerne mulighed for at vælge deres foretrukne genvej.
 
-## Changes for version 20230426.0.0 and beyond#\#
+## Ændringer for 20230607.0.0 ##
 
-- Changed version number, minimum NVDA version and download link according
-  to store conventions/requirements.
-- auto-update-translations - to automatically update translations from NVDA's translation system.
-- release-on-tag..yaml: to build and publish the addon as soon as a new tag is pushed;
-- manual-release.yaml: to build and release new versions of the add-on manually.
-- Updated translations.
+* Tilføjet følgende arbejdsgange:
+ * auto-update-translations - til automatisk at opdatere oversættelser fra NVDA's oversættelsessystem.
+ * release-on-tag..yaml: til at bygge og udgive tilføjelsessproget, så snart et nyt tag pushes;
+ * manual-release.yaml: til at bygge og udgive nye versioner af tilføjelsessproget manuelt.
+* Opdaterede oversættelser.
 
-## Ændringer for version 19.02
+## Ændringer for version 20230426.0.0 og opefter ##
 
-- Ændret versionsnummerering til åå.MM (År i 2 cifre efterfulgt af et
-  punktum, efterfulgt af måneden i 2 cifre);
+* • Ændret versionsnummer, minimum NVDA-version og downloadlink i henhold til butikkens konventioner/krav.
 
-## Ændringer for version 1.1
+## Ændringer for version 19.02 ##
 
-- Tilføjelsen er blevet omdøbt fra getCurKeyboardLanguage til
-  sayCurrentKeyboardLanguage;
-- Tilføjet GPL-licensen til tilføjelsen;
+* Ændret versionsnummerering ved hjælp af YY.MM (Året med 2 cifre, efterfulgt af et punktum, efterfulgt af måneden med 2 cifre);
+* Tilføjet kompatibilitet med det nye versionsformat for tilføjelsessprog, som har været tilgængeligt siden nvda 2019.1.
 
-## Ændringer for version 1.0
+## Ændringer for version 1.1 ##
 
-- Første version.
-- Added the GPL license to the addon;
-- Added the script getCurKeyboardLanguage to the "System status" category;
-- Fixed some errors in the code.
+* Tilføjelsessproget er blevet omdøbt fra getCurKeyboardLanguage til sayCurrentKeyboardLanguage;
+* Tilføjet GPL-licensen til tilføjelsessproget;
+* Tilføjet scriptet getCurKeyboardLanguage til kategorien "Systemstatus";
+* Rettede nogle fejl i koden.
 
-## Changes for version 1.0
+## Ændringer for version 1.0 ##
 
-- Initial version.
+* Første version.

@@ -1,87 +1,74 @@
-# Sano näppäimistön nykyinen kieli
+# sayCurrentKeyboardLanguage
 
-- Tekijä: Abdel ja Noelia.
+* Tekijä(t): Abdel, Noelia.
 
-# Kuvaus
+# Esittely #
 
-Tämä lisäosa tehtiin erään nvda-addons-postituslistan jäsenen pyynnöstä.
+Tämä lisäosa luotiin nvda-addons-sähköpostilistan jäsenen pyynnöstä.
 
-Se tarjoaa ilman näppäinkomentoa olevan skriptin, joka ilmoittaa nykyisen
-näppäimistökielen.
+Se tarjoaa skriptin ilman pikanäppäintä, jonka avulla voidaan hakea ja ilmoittaa nykyisen näppäimistön kieli.
 
-Kahdesti painettaessa ilmoitetaan järjestelmän oletuskieli.
+Kaksi kertaa painettaessa se ilmoittaa järjestelmän oletuskielen.
 
-Ensimmäinen versio oli yksinkertainen NVDA:n asetushakemistoon kopioitava
-yleisliitännäinen, mutta myöhemmin se muunnettiin lisäosaksi.
+Tämän moduulin ensimmäisessä versiossa sitä ehdotettiin yksinkertaisena globalPlugin-liitännäisenä liitettäväksi NVDA-asetushakemistoon, minkä jälkeen se muutettiin lisäosaksi.
 
-## Huomautuksia
+## Huomautukset ##
 
-Määritä näppäinkomento kielen puhuttavalle skriptille seuraavasti:
+Asettaaksesi pikanäppäimen näppäimistön kielen ilmoittavalle skriptille, toimi seuraavasti:
 
-- Avaa NVDA-valikko näppäinkomennolla NVDA+N.
-- Siirry Asetukset-valikkoon.
-- Siirry tämän jälkeen kohtaan "Näppäinkomennot" ja avaa se Enterillä.
-- Valitse sitten "Syöttö"-kategoria ja avaa se oikealla nuolinäppäimellä.
-- Siirry kohtaan "Ilmoittaa käytössä olevan näppäimistön kielen tai kahdesti
-  painettaessa järjestelmän oletuskielen."
-- Kun olet valmis, lisää näppäinkomennto painamalla Alt+L ja ppaina sen
-  jälkeen NVDA+F4 tai jotain muuta haluamaasi näppäinkomentoa.
-- Kun tämä on tehty, paina kerran ylänuolta, jolloin kuulet "<valitsemasi
-  näppäinkomento>, kaikki asettelut".
-- Hyväksy painamalla Enter, siirry Sarkain-näppäimellä OK-painikkeeseen ja
-  paina lopuksi Enter.
-- Tämän jälkeen valitsemasi näppäinkomennon pitäisi ilmoittaa näppäimistön
-  kielen.
+* Avaa NVDA-valikko näppäinyhdistelmällä "NVDA + N";
+* Siirry NVDA:n Asetukset-valikkoon;
+* Siirry sen jälkeen "Syötteet"-alivalikkoon.
+* Valitse sitten kategoria "Syöte" ja avaa se oikealla nuolella.
+* Siirry kohtaan, jonka otsikko on "Ilmoittaa käytössä olevan näppäimistön kielen, kaksi kertaa painettaessa ilmoittaa järjestelmän oletuskielen";
+* Kun tämä on tehty, paina Alt + A lisätäksesi pikanäppäimen ja näppäile "NVDA + F4" tai jokin muu valitsemasi näppäinyhdistelmä;
+* Tämän jälkeen paina ylänuolta kerran, jolloin kuulet "valitsemasi pikanäppäin, kaikki näppäinasettelut";
+* Vahvista painamalla Enter, siirry sitten Tab-näppäimellä OK-painikkeeseen ja paina Enter;
+* Valitsemasi pikanäppäimen pitäisi nyt kutsua näppäimistön kielen ilmoittavaa skriptiä.
 
-## Yhteensopivuus
+## Yhteensopivuus ##
 
-- Tämä lisäosa on yhteensopiva NVDA 2019.3:n ja sitä uudempien versioiden
-  kanssa.
+* Tämä lisäosa on yhteensopiva NVDA-versioiden 2019.3 ja sitä uudempien kanssa.
 
 ## Muutokset versiossa 20240326.0.0
 
-- Päivitetty yhteensopivuus NVDA 2024.1:lle.
-- Deleted download link from readme, the download link for future updates will now only be available from the add-on store.
+* Päivitetty yhteensopivuus nvda-2024.1-versiolle;
+* Latauslinkki poistettu readme-tiedostosta, tulevien päivitysten latauslinkki on jatkossa saatavilla vain lisäosakaupasta.
 
-## Muutokset versiossa 20231229.0.0
+## Muutokset versiossa 20231229.0.0 ##
 
-- Lisätty taaksepäin yhteensopiva toteutus pyydettäessä-puhetilalle, joka on
-  käytettävissä NVDA 2024.1:ssä.
+* Lisätty taaksepäin yhteensopiva toteutus tukemaan puhetta tarvittaessa -tilaa, joka on pian saatavilla nvda-2024.1-version myötä.
 
-## Muutokset versiossa 20230729.0.0
+## Muutokset versiossa 20230729.0.0 ##
 
-- Sovellettu koodiin flake8- ja mypy-sääntöjä.
-- Muutettu NVDA:n tuetuksi vähimmäisversioksi 2019.3 Python 3:ssa
-  esiteltyjen selitteiden tukemiseksi.
-- Poistettu näppäimistökielen ilmoittava NVDA+F4-näppäinkomento, joka
-  mahdollistaa käyttäjille halutun näppäinkomennon valitsemisen.
+* Sovellettu flake8- ja mypy-sääntöjä koodiin;
+* Muutettu pienin tuettu NVDA-versio versioksi 2019.3 Python 3:ssa esiteltyjen tyyppivihjeiden tukemiseksi.
+* Poistettu näppäimistön kielen ilmoittavaa skriptiä kutsuva pikanäppäin "NVDA + F4", jotta käyttäjät voivat valita haluamansa pikanäppäimen.
 
-## Muutokset versiossa 20230426.0.0 ja sitä uudemmissa
+## Muutokset versiossa 20230607.0.0 ##
 
-- Versionumero, NVDA:n vähimmäisversio ja latauslinkki vaihdettu kaupan
-  käytäntöjen/vaatimusten mukaisiksi.
-- auto-update-translations - to automatically update translations from NVDA's translation system.
-- release-on-tag..yaml: to build and publish the addon as soon as a new tag is pushed;
-- manual-release.yaml: to build and release new versions of the add-on manually.
-- Updated translations.
+* Lisätty seuraavat työnkulut:
+ * auto-update-translations - käännösten automaattiseen päivittämiseen NVDA:n käännösjärjestelmästä.
+ * release-on-tag..yaml: lisäosan kääntämiseen ja julkaisemiseen heti, kun uusi tagi pushetaan;
+ * manual-release.yaml: uusien lisäosaversioiden manuaaliseen kääntämiseen ja julkaisemiseen.
+* Päivitetty käännökset.
 
-## Muutokset versiossa 19.02
+## Muutokset versiossa 20230426.0.0 ja sitä uudemmissa ##
 
-- Versionumerointi muutettu muotoon vv.kk (vuosi kahdella numerolla, piste
-  ja kuukausi kahdella numerolla);
+* • Muutettu versionumero, NVDA:n vähimmäisversio ja latauslinkki kaupan käytäntöjen/vaatimusten mukaisesti.
 
-## Muutokset versiossa 1.1
+## Muutokset versiossa 19.02 ##
 
-- Changed version numbering using YY.MM (The year in 2 digits, followed by a dot, followed by the month in 2 digits);
-- Lisätty GPL-lisenssi;
+* Muutettu versionumerointi muotoon VV.KK (vuosi kahdella digiitillä, jota seuraa piste, jota seuraa kuukausi kahdella digiitillä);
+* Lisätty yhteensopivuus lisäosien uuden versionumerointimuodon kanssa, joka tuli käyttöön nvda 2019.1 -versiosta alkaen.
 
-## Muutokset versiossa 1.0
+## Muutokset versiossa 1.1 ##
 
-- Ensimmäinen versio.
-- Added the GPL license to the addon;
-- Added the script getCurKeyboardLanguage to the "System status" category;
-- Fixed some errors in the code.
+* Lisäosan nimi on muutettu muodosta getCurKeyboardLanguage muotoon sayCurrentKeyboardLanguage;
+* Lisätty GPL-lisenssi lisäosaan;
+* Lisätty skripti getCurKeyboardLanguage kategoriaan "Järjestelmän tila";
+* Korjattu joitakin virheitä koodissa.
 
-## Changes for version 1.0
+## Muutokset versiossa 1.0 ##
 
-- Initial version.
+* Ensimmäinen versio.

@@ -1,88 +1,74 @@
-# Vyslov jazyk klávesnice
+# sayCurrentKeyboardLanguage
 
-- Author(s): Abdel, Noelia.
+* Autor(i): Abdel, Noelia.
 
-# Prezentácia
+# Prezentácia #
 
-Doplnok bol vytvorený ako reakcia na požiadavku jedného člena komunity.
+Doplnok bol vytvorený na základe požiadavky člena v e-mailovej konferencii nvda-addons.
 
-It provides a script without gesture, which allows to retrieve and give the
-language of the current keyboard.
+Poskytuje skript bez priradeného gesta, ktorý umožňuje zistiť a oznámiť jazyk aktuálnej klávesnice.
 
-Stlačené dvakrát rýchlo za sebou oznámi jazyk systému.
+Ak sa stlačí dvakrát, oznámi predvolený jazyk systému.
 
-Pôvodne išlo len o globálny plugin, ktorýu bolo potrebné pre jeho správnu
-funkčnosť skopírovať do adresára s nastaveniami a konfiguráciou NVDA, neskôr
-bol prerobený na doplnok.
+V prvej verzii tohto modulu bol navrhnutý ako jednoduchý globalPlugin na vloženie do konfiguračného adresára NVDA, následne bol transformovaný na doplnok.
 
-## Poznámky
+## Poznámky ##
 
-To set a gesture to the script giving the keyboard language, follow these
-steps:
+Ak chcete skriptu na oznamovanie jazyka klávesnice priradiť gesto, postupujte takto:
 
-- Open the NVDA's menu, with "NVDA + N";
-- Go to NVDA's preferences menu;
-- Then go to the submenu "Input gestures".
-- Then select the category "Input", and open it with right arrow.
-- Go to the item labeled "Gives the language of the keyboard in use, if
-  pressed twice, give the default language of the system";
-- Once done, press Alt + A to add a gesture, and type "NVDA + F4" or another
-  gesture of your choice;
-- This done, press the up arrow once, you hear "your chosen gesture, all
-  layout";
-- Validate on enter, then tab to OK then enter;
-- Your chosen gesture should then call the script giving keyboard language.
+* Otvorte ponuku NVDA pomocou "NVDA + N";
+* Prejdite do ponuky nastavení NVDA;
+* Potom prejdite do podponuky "Vstupné gestá".
+* Následne vyberte kategóriu "Vstup" a otvorte ju šípkou doprava.
+* Prejdite na položku s názvom "Oznamuje jazyk používanej klávesnice, ak sa stlačí dvakrát, oznámi predvolený jazyk systému";
+* Po dokončení stlačte Alt + A na pridanie gesta a zadajte "NVDA + F4" alebo iné gesto podľa vášho výberu;
+* Po vykonaní tohto kroku stlačte raz šípku nahor, budete počuť „vaše zvolené gesto, všetky rozloženia“;
+* Potvrďte stlačením klávesu Enter, potom prejdite tabulátorom na tlačidlo OK a stlačte Enter;
+* Vaše zvolené gesto by potom malo vyvolať skript, ktorý oznamuje jazyk klávesnice.
 
-## Kompatibilita
+## Kompatibilita ##
 
-- This add-on is compatible with the versions of NVDA ranging from 2019.3
-  and beyond.
+* Tento doplnok je kompatibilny s verziami NVDA od 2019.3 a novšími.
 
-## Changes for 20240326.0.0
+## Zmeny pre 20240326.0.0
 
-- Updated compatibility for nvda-2024.1.;
-- Deleted download link from readme, the download link for future updates
-  will now only be available from the add-on store.
+* Aktualizovaná kompatibilita pre nvda-2024.1;
+* Odstránený odkaz na stiahnutie z readme, odkaz na stiahnutie pre budúce aktualizácie bude odteraz dostupný iba v obchode s doplnkami.
 
-## Changes for 20231229.0.0
+## Zmeny pre 20231229.0.0 ##
 
-- Added a backward compatible implementation to support speak on demand
-  mode, which will soon be available with nvda-2024.1.
+* Pridaná spätne kompatibilná implementácia na podporu režimu reči na požiadanie, ktorý bude čoskoro dostupný v nvda-2024.1.
 
-## Changes for 20230729.0.0
+## Zmeny pre 20230729.0.0 ##
 
-- Applied the flake8 and mypy rules to the code;
-- Changed the minimum supported NVDA version to 2019.3 to support
-  annotations introduced in Python 3.
-- Removed the "NVDA + F4" gesture calling the script giving the keyboard
-  language., to allow users to choose their preferred gesture.
+* Na kód sa aplikovali pravidlá flake8 a mypy;
+* Zmenená minimálna podporovaná verzia NVDA na 2019.3 kvôli podpore anotácií zavedených v Pythone 3.
+* Odstránené gesto "NVDA + F4", ktoré vyvolávalo skript na oznamovanie jazyka klávesnice, aby si používatelia mohli vybrať vlastné preferované gesto.
 
-## Changes for version 20230426.0.0 and beyond#\#
+## Zmeny pre 20230607.0.0 ##
 
-- Upravené číslovanie verzie, posledná verzia NVDA kompatibilná s doplnkom
-  podľa odporúčaní.
-- auto-update-translations - to automatically update translations from NVDA's translation system.
-- release-on-tag..yaml: to build and publish the addon as soon as a new tag is pushed;
-- manual-release.yaml: to build and release new versions of the add-on manually.
-- Updated translations.
+* Pridané nasledujúce pracovné postupy (workflows):
+ * auto-update-translations - pre automatickú aktualizáciu prekladov z prekladateľského systému NVDA.
+ * release-on-tag..yaml: na zostavenie a publikovanie doplnku hneď po odoslaní nového tagu;
+ * manual-release.yaml: na manuálne zostavenie a vydávanie nových verzií doplnku.
+* Aktualizované preklady.
 
-## Verzia 19.02
+## Zmeny pre verziu 20230426.0.0 a novšie ##
 
-- • Changed version number, minimum NVDA version and download link according to store conventions/requirements.
+* • Zmenené číslo verzie, minimálna verzia NVDA a odkaz na stiahnutie podľa konvencií/požiadaviek obchodu.
 
-## Verzia 1.1
+## Zmeny pre verziu 19.02 ##
 
-- Doplnok premenovaný z getCurKeyboardLanguage na sayCurrentKeyboardLanguage
-  (anglicky);
-- Pridaná GPL licencia;
+* Zmenené číslovanie verzií pomocou formátu RR.MM (rok v 2 čísliciach, za ktorým nasleduje bodka, za ktorou nasleduje mesiac v 2 čísliciach);
+* Pridaná kompatibilita s novým formátom číslovania verzií doplnkov, ktorý sa objavil od nvda 2019.1.
 
-## Verzia 1.0
+## Zmeny pre verziu 1.1 ##
 
-- Prvé vydanie.
-- Added the GPL license to the addon;
-- Added the script getCurKeyboardLanguage to the "System status" category;
-- Fixed some errors in the code.
+* Doplnok bol premenovaný z getCurKeyboardLanguage na sayCurrentKeyboardLanguage;
+* Do doplnku bola pridaná licencia GPL;
+* Pridaný skript getCurKeyboardLanguage do kategórie "Stav systému";
+* Opravené niektoré chyby v kóde.
 
-## Changes for version 1.0
+## Zmeny pre verziu 1.0 ##
 
-- Initial version.
+* Počiatočná verzia.

@@ -1,90 +1,74 @@
-# Báo ngôn ngữ bàn phím hiện tại
+# sayCurrentKeyboardLanguage
 
-- Author(s): Abdel, Noelia.
+* Tác giả: Abdel, Noelia.
 
-# Trình bày
+# Giới thiệu #
 
-Addon được tạo ra theo đề nghị từ một thành viên trên diễn đàn trao đổi qua
-thư điện tử của  nvda-addons.
+Tiện ích mở rộng này được tạo ra theo yêu cầu của một thành viên trên danh sách thư điện tử nvda-addons.
 
-It provides a script without gesture, which allows to retrieve and give the
-language of the current keyboard.
+Nó cung cấp một lệnh kịch bản (script) không được gán phím tắt mặc định, cho phép lấy và đọc ngôn ngữ bàn phím hiện tại.
 
-Nếu bấm hai lần, cho biết ngôn ngữ mặc định của hệ thống.
+Nếu nhấn hai lần, nó sẽ đọc ngôn ngữ mặc định của hệ thống.
 
-Ở phiên bản đầu tiên của module này, nó được đề nghị như là một globalPlugin
-đơn giản để dán vào thư mục cấu hình của NVDA, rồi nó đã được chuyển thành
-một addon.
+Trong phiên bản đầu tiên của mô-đun này, nó được đề xuất như một globalPlugin đơn giản để dán vào thư mục cấu hình của NVDA, sau đó đã được chuyển đổi thành một tiện ích mở rộng (addon).
 
-## Lưu ý
+## Lưu ý ##
 
-To set a gesture to the script giving the keyboard language, follow these
-steps:
+Để gán phím tắt cho lệnh kịch bản đọc ngôn ngữ bàn phím, hãy làm theo các bước sau:
 
-- Open the NVDA's menu, with "NVDA + N";
-- Go to NVDA's preferences menu;
-- Then go to the submenu "Input gestures".
-- Then select the category "Input", and open it with right arrow.
-- Go to the item labeled "Gives the language of the keyboard in use, if
-  pressed twice, give the default language of the system";
-- Once done, press Alt + A to add a gesture, and type "NVDA + F4" or another
-  gesture of your choice;
-- This done, press the up arrow once, you hear "your chosen gesture, all
-  layout";
-- Validate on enter, then tab to OK then enter;
-- Your chosen gesture should then call the script giving keyboard language.
+* Mở menu NVDA bằng tổ hợp phím "NVDA + N";
+* Đi tới menu Cấu hình (Preferences) của NVDA;
+* Sau đó đi tới menu con "Phím tắt lệnh" (Input gestures).
+* Tiếp theo, chọn danh mục "Nhập liệu" (Input) và mở nó bằng phím mũi tên phải.
+* Di chuyển đến mục có nhãn "Đọc ngôn ngữ bàn phím đang sử dụng, nếu nhấn hai lần, đọc ngôn ngữ mặc định của hệ thống";
+* Sau khi hoàn tất, nhấn Alt + A để thêm phím tắt, và nhập "NVDA + F4" hoặc một phím tắt khác tùy bạn chọn;
+* Tiếp theo, nhấn phím mũi tên lên một lần, bạn sẽ nghe thấy "phím tắt bạn đã chọn, tất cả các bố cục";
+* Xác nhận bằng phím Enter, sau đó dùng Tab để di chuyển đến nút OK và nhấn Enter;
+* Phím tắt đã chọn sau đó sẽ kích hoạt lệnh kịch bản đọc ngôn ngữ bàn phím.
 
-## Tương thích
+## Tính tương thích ##
 
-- This add-on is compatible with the versions of NVDA ranging from 2019.3
-  and beyond.
+* Tiện ích này tương thích với các phiên bản NVDA từ 2019.3 trở về sau.
 
-## Changes for 20240326.0.0
+## Thay đổi cho phiên bản 20240326.0.0
 
-- Updated compatibility for nvda-2024.1.;
-- Deleted download link from readme, the download link for future updates
-  will now only be available from the add-on store.
+* Cập nhật tính tương thích cho nvda-2024.1;
+* Xóa liên kết tải xuống khỏi tệp readme, liên kết tải xuống cho các bản cập nhật tương lai giờ đây sẽ chỉ có sẵn từ cửa hàng tiện ích (Add-on Store).
 
-## Changes for 20231229.0.0
+## Thay đổi cho phiên bản 20231229.0.0 ##
 
-- Added a backward compatible implementation to support speak on demand
-  mode, which will soon be available with nvda-2024.1.
+* Thêm một triển khai tương thích ngược để hỗ trợ chế độ giọng nói theo yêu cầu (speech on demand), chế độ này sẽ sớm có sẵn trên nvda-2024.1.
 
-## Changes for 20230729.0.0
+## Thay đổi cho phiên bản 20230729.0.0 ##
 
-- Applied the flake8 and mypy rules to the code;
-- Changed the minimum supported NVDA version to 2019.3 to support
-  annotations introduced in Python 3.
-- Removed the "NVDA + F4" gesture calling the script giving the keyboard
-  language., to allow users to choose their preferred gesture.
+* Áp dụng các quy tắc của flake8 và mypy cho mã nguồn;
+* Thay đổi phiên bản NVDA tối thiểu được hỗ trợ thành 2019.3 để hỗ trợ các kiểu dữ liệu (annotations) được giới thiệu trong Python 3.
+* Loại bỏ phím tắt "NVDA + F4" dùng để gọi lệnh kịch bản đọc ngôn ngữ bàn phím, nhằm cho phép người dùng tự chọn phím tắt ưa thích của họ.
 
-## Changes for version 20230426.0.0 and beyond#\#
+## Thay đổi cho phiên bản 20230607.0.0 ##
 
-- Changed version number, minimum NVDA version and download link according
-  to store conventions/requirements.
-- auto-update-translations - to automatically update translations from NVDA's translation system.
-- release-on-tag..yaml: to build and publish the addon as soon as a new tag is pushed;
-- manual-release.yaml: to build and release new versions of the add-on manually.
-- Updated translations.
+* Thêm các quy trình làm việc (workflows) sau:
+ * auto-update-translations - để tự động cập nhật bản dịch từ hệ thống dịch thuật của NVDA.
+ * release-on-tag..yaml: để biên dịch và phát hành tiện ích ngay khi có một thẻ (tag) mới được đẩy lên;
+ * manual-release.yaml: để biên dịch và phát hành các phiên bản mới của tiện ích một cách thủ công.
+* Cập nhật các bản dịch.
 
-## Các thay đổi cho phiên bản 19.02
+## Thay đổi cho phiên bản 20230426.0.0 và các phiên bản sau ##
 
-- Thay đổi cách đặt số phiên bản bằng YY.MM (hai chữ số năm, một dấu chấm,
-  hai chữ số tháng);
+* • Thay đổi số phiên bản, phiên bản NVDA tối thiểu và liên kết tải xuống theo các quy ước/yêu cầu của cửa hàng tiện ích.
 
-## Các thay đổi cho phiên bản 1.1
+## Thay đổi cho phiên bản 19.02 ##
 
-- Added đã được đổi tên từ getCurKeyboardLanguage thành
-  sayCurrentKeyboardLanguage;
-- Thêm giấy phép GPL vào addon;
+* Thay đổi cách đánh số phiên bản bằng cách sử dụng định dạng YY.MM (Năm gồm 2 chữ số, theo sau là dấu chấm, và tháng gồm 2 chữ số);
+* Thêm tính tương thích với định dạng đánh số phiên bản mới của tiện ích mở rộng, xuất hiện từ bản nvda 2019.1.
 
-## Các thay đổi cho phiên bản 1.0
+## Thay đổi cho phiên bản 1.1 ##
 
-- Phiên bản đầu tiên.
-- Added the GPL license to the addon;
-- Added the script getCurKeyboardLanguage to the "System status" category;
-- Fixed some errors in the code.
+* Tiện ích được đổi tên từ getCurKeyboardLanguage thành sayCurrentKeyboardLanguage;
+* Thêm giấy phép GPL vào tiện ích;
+* Thêm lệnh kịch bản getCurKeyboardLanguage vào danh mục "Trạng thái hệ thống";
+* Sửa một số lỗi trong mã nguồn.
 
-## Changes for version 1.0
+## Thay đổi cho phiên bản 1.0 ##
 
-- Initial version.
+* Phiên bản đầu tiên.

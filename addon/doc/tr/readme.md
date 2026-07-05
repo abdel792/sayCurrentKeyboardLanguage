@@ -1,74 +1,74 @@
-# geçerli Klavye Dilini Söyle
+# sayCurrentKeyboardLanguage
 
-- Yazarlar: Abdel, Noelia;
+* Yazar(lar): Abdel, Noelia.
 
-# Presentation
+# Sunum #
 
-Bu eklenti, nvda-addons posta listesindeki bir üyenin isteği üzerine oluşturuldu.
+Bu eklenti, nvda-addons e-posta listesindeki bir üyenin talebi üzerine oluşturulmuştur.
 
-Mevcut klavyenin dilini almaya ve vermeye izin veren atanmamış bir komut dosyası sağlar.
+Geçerli klavyenin dilini almayı ve seslendirmeyi sağlayan, kısayol tuşu atanmamış bir komut dosyası sunar.
 
-İki kez basılırsa, varsayılan sistem dilini bildirir.
+İki kez basıldığında, sistemin varsayılan dilini bildirir.
 
-Bu modülün ilk versiyonunda, NVDA'nın konfigürasyon dizinine yapıştırmak için basit küreselEklenti olarak önerilmiş, daha sonra Eklentiye dönüştürülmüştür.
+Bu modülün ilk sürümünde, NVDA'nın yapılandırma dizinine yapıştırılacak basit bir globalPlugin olarak önerilmiş, daha sonra eklentiye dönüştürülmüştür.
 
-## Notlar
+## Notlar ##
 
-Klavye dilini duyuran komut dosyasına bir hareket ayarlamak için aşağıdaki adımları izleyin:
+Klavye dilini bildiren komut dosyasına bir kısayol tuşu atamak için aşağıdaki adımları izleyin:
 
-- NVDA menüsünü açın, "NVDA + N" ile;
-- NVDA'nın Tercihler menüsüne gidin;
-- Then go to the submenu "Input gestures".
-- Daha sonra "Girdi" kategorisini seçin ve sağ ok ile açın.
-- Etiketli öğeye gittiğinizde "Kullanılan klavyenin dilini duyurur, iki kez basılırsa sistemin varsayılan dilini duyurur" ;
-- İşiniz bittiğinde, bir hareket eklemek için Alt + E tuşlarına basın ve "NVDA + F4" veya seçtiğiniz başka bir hareketi yazın;
-- Bu yapılırsa, yukarı oka bir kez basın, "seçtiğiniz hareket, tüm düzenler" ifadesini duyarsınız;
-- Sırasıyla, Enter  ile doğrulayın ve ardından sekme tuşuyla Tamam'a giderek tekrar Enter'e  basın;
-- Seçtiğiniz hareket, klavye dilini duyuran komutu çağırmalıdır.
+* "NVDA + N" tuşlarına basarak NVDA menüsünü açın;
+* NVDA tercihler menüsüne gidin;
+* Ardından "Girdi tuşları" alt menüsüne gidin.
+* Daha sonra "Giriş" kategorisini seçin ve sağ ok tuşuyla açın.
+* "Kullanılan klavyenin dilini verir, iki kez basıldığında sistemin varsayılan dilini verir" etiketli öğeye gidin;
+* Bu işlem tamamlandığında, bir kısayol tuşu eklemek için Alt + A tuşlarına basın ve "NVDA + F4" veya seçtiğiniz başka bir kısayol tuşunu yazın;
+* Bunu yaptıktan sonra, yukarı ok tuşuna bir kez basın, "seçtiğiniz kısayol tuşu, tüm düzenler" ifadesini duyacaksınız;
+* Enter tuşu ile onaylayın, ardından Tab tuşu ile Tamam seçeneğine gelip Enter tuşuna basın;
+* Seçtiğiniz kısayol tuşu artık klavye dilini bildiren komut dosyasını çağıracaktır.
 
-## Compatibility
+## Uyumluluk ##
 
-- Bu eklenti, NVDA'nın 2019.3 ve sonrası sürümleriyle uyumludur.
+* Bu eklenti, 2019.3 ve sonraki NVDA sürümleriyle uyumludur.
 
-## 20230729.0.0için değişiklikler
+## 20240326.0.0 İçin Değişiklikler
 
-- Updated compatibility for nvda-2024.1;
-- Deleted download link from readme, the download link for future updates will now only be available from the add-on store.
+* nvda-2024.1 için uyumluluk güncellendi;
+* İndirme bağlantısı readme dosyasından kaldırıldı, gelecekteki güncellemeler için indirme bağlantısı artık yalnızca eklenti mağazasından erişilebilir olacaktır.
 
-## 20230607.0.0 için değişiklikler
+## 20231229.0.0 İçin Değişiklikler ##
 
-- Added a backward compatible implementation to support speak on demand mode, which will soon be available with nvda-2024.1.
+* Yakında nvda-2024.1 ile sunulacak olan talep üzerine konuşma modunu desteklemek için geriye dönük uyumlu bir uygulama eklendi.
 
-## Sürüm 20230426.0.0 ve sonrası için değişiklikler
+## 20230729.0.0 İçin Değişiklikler ##
 
-- Flake8 ve mypy kuralları koda uygulandı;
-- Python 3'te tanıtılan ek açıklamaları desteklemek için desteklenen minimum NVDA sürümü 2019.3 olarak değiştirildi.
-- Kullanıcıların tercih ettikleri hareketi seçmelerine izin vermek için klavye dilini duyuran komutu çağıran "NVDA + F4" hareketi kaldırıldı.
+* Koda flake8 ve mypy kuralları uygulandı;
+* Python 3 ile gelen ek açıklamaları desteklemek için desteklenen en düşük NVDA sürümü 2019.3 olarak değiştirildi.
+* Kullanıcıların kendi tercih ettikleri kısayol tuşunu seçebilmeleri için klavye dilini bildiren komut dosyasını çağıran "NVDA + F4" kısayol tuşu kaldırıldı.
 
-## Sürüm 19.02 için değişiklikler
+## 20230607.0.0 İçin Değişiklikler ##
 
-- Aşağıdaki iş akışları eklendi:
-- otomatik Çeviri Güncellemeleri - NVDA'nın çeviri sisteminden çevirileri otomatik olarak güncellemek için.
-- release-on-tag..yaml: yeni bir etiket gönderilir gönderilmez eklentiyi derlemek ve yayınlamak için;
-- manual-release.yaml: Eklentinin yeni sürümlerini el ile derlemek ve yayınlamak için.
-- Çeviriler güncellendi.
+* Aşağıdaki iş akışları eklendi:
+ * auto-update-translations - NVDA'nın çeviri sisteminden çevirileri otomatik olarak güncellemek için.
+ * release-on-tag..yaml: yeni bir etiket gönderilir gönderilmez eklentiyi derlemek ve yayınlamak için;
+ * manual-release.yaml: eklentinin yeni sürümlerini manuel olarak derlemek ve yayınlamak için.
+* Çeviriler güncellendi.
 
-## Changes for version 20230426.0.0 and beyond
+## 20230426.0.0 ve Sonraki Sürümler İçin Değişiklikler ##
 
-- • Mağaza kurallarına/gereksinimlerine göre sürüm numarası, minimum NVDA sürümü ve indirme bağlantısı değiştirildi.
+* • Sürüm numarası, minimum NVDA sürümü ve indirme bağlantısı mağaza kurallarına/gereksinimlerine göre değiştirildi.
 
-## Sürüm 1.0 için değişiklikler
+## 19.02 Sürümü İçin Değişiklikler ##
 
-- Sürüm numaralandırılması YY.AA olarak değiştirildi. (Yıl 2 haneli, ardından nokta ve 2 haneli ay);
-- Nvda 2019.1'den bu yana ortaya çıkan eklentinin yeni sürüm oluşturma biçimiyle uyumluluk eklendi.
+* Sürüm numaralandırması YY.AA formatı kullanılarak değiştirildi (2 haneli yıl, ardından bir nokta, ardından 2 haneli ay);
+* nvda 2019.1 sürümünden beri mevcut olan yeni eklenti sürüm numaralandırma formatıyla uyumluluk eklendi.
 
-## Sürüm 1.1 için değişiklikler
+## 1.1 Sürümü İçin Değişiklikler ##
 
-- Eklentinin adı getCurKeyboardLanguage iken sayCurrentKeyboardLanguage olarak değiştirildi;
-- Eklentiye GPL lisansı eklendi;
-- "Sistem durumu" kategorisine getCurKeyboardLanguage komutu eklendi;
-- Koddaki bazı hatalar düzeltildi.
+* Eklentinin adı getCurKeyboardLanguage yerine sayCurrentKeyboardLanguage olarak değiştirildi;
+* Eklentiye GPL lisansı eklendi;
+* getCurKeyboardLanguage komut dosyası "Sistem durumu" kategorisine eklendi;
+* Koddaki bazı hatalar düzeltildi.
 
-## [Geliştirici sürümünü indir][2].
+## 1.0 Sürümü İçin Değişiklikler ##
 
-- İlk Sürüm.
+* İlk sürüm.

@@ -1,90 +1,74 @@
 # sayCurrentKeyboardLanguage
 
-- Author(s): Abdel, Noelia.
+* Autor(zy): Abdel, Noelia.
 
-# Prezentacja
+# Prezentacja #
 
-Ten dodatek został utworzony na prośbę członka listy mailingowej
-nvda-addons.
+Ten dodatek został stworzony na prośbę jednego z członków listy dyskusyjnej nvda-addons.
 
-It provides a script without gesture, which allows to retrieve and give the
-language of the current keyboard.
+Dostarcza on skrypt bez przypisanego gestu, który pozwala pobrać i oznajmić język bieżącego układu klawiatury.
 
-Dwukrotne naciśnięcie powoduje podanie domyślnego języka systemu.
+Naciśnięty dwukrotnie, podaje domyślny język systemu.
 
-W pierwszej wersji modułu, został on zaproponowany jako globalna wtyczka
-dlaNVDA, potem był on przekształcony w pakiet addon.
+W pierwszej wersji tego modułu był on proponowany jako prosty globalPlugin do wklejenia do katalogu konfiguracyjnego NVDA, a następnie został przekształcony w dodatek.
 
-## Uwagi
+## Uwagi ##
 
-To set a gesture to the script giving the keyboard language, follow these
-steps:
+Aby przypisać gest do skryptu podającego język klawiatury, wykonaj następujące kroki:
 
-- Open the NVDA's menu, with "NVDA + N";
-- Go to NVDA's preferences menu;
-- Then go to the submenu "Input gestures".
-- Then select the category "Input", and open it with right arrow.
-- Go to the item labeled "Gives the language of the keyboard in use, if
-  pressed twice, give the default language of the system";
-- Once done, press Alt + A to add a gesture, and type "NVDA + F4" or another
-  gesture of your choice;
-- This done, press the up arrow once, you hear "your chosen gesture, all
-  layout";
-- Validate on enter, then tab to OK then enter;
-- Your chosen gesture should then call the script giving keyboard language.
+* Otwórz menu NVDA za pomocą "NVDA + N";
+* Przejdź do menu Preferencje NVDA;
+* Następnie przejdź do podmenu "Zdarzenia wejściowe".
+* Następnie wybierz kategorię "Wprowadzanie danych" i otwórz ją prawą strzałką.
+* Przejdź do elementu o nazwie "Podaje język używanej klawiatury, naciśnięty dwukrotnie, podaje domyślny język systemu";
+* Po zakończeniu naciśnij Alt + A, aby dodać gest, i wpisz "NVDA + F4" lub inny wybrany gest;
+* Po wykonaniu tej czynności naciśnij raz strzałkę w górę, usłyszysz "twój wybrany gest, wszystkie układy";
+* Zatwierdź klawiszem Enter, a następnie przejdź tabulatorem do OK i naciśnij Enter;
+* Wybrany gest powinien teraz wywoływać skrypt podający język klawiatury.
 
-## Zgodność
+## Kompatybilność ##
 
-- This add-on is compatible with the versions of NVDA ranging from 2019.3
-  and beyond.
+* Ten dodatek jest kompatybilny z wersjami NVDA od 2019.3 i nowszymi.
 
-## Changes for 20240326.0.0
+## Zmiany w 20240326.0.0
 
-- Updated compatibility for nvda-2024.1.;
-- Deleted download link from readme, the download link for future updates
-  will now only be available from the add-on store.
+* Zaktualizowano kompatybilność dla nvda-2024.1;
+* Usunięto link do pobierania z pliku readme, link do pobierania przyszłych aktualizacji będzie teraz dostępny wyłącznie w sklepie z dodatkami.
 
-## Changes for 20231229.0.0
+## Zmiany w 20231229.0.0 ##
 
-- Added a backward compatible implementation to support speak on demand
-  mode, which will soon be available with nvda-2024.1.
+* Dodano wstecznie kompatybilną implementację obsługującą tryb mowy na żądanie, który wkrótce będzie dostępny w nvda-2024.1.
 
-## Changes for 20230729.0.0
+## Zmiany w 20230729.0.0 ##
 
-- Applied the flake8 and mypy rules to the code;
-- Changed the minimum supported NVDA version to 2019.3 to support
-  annotations introduced in Python 3.
-- Removed the "NVDA + F4" gesture calling the script giving the keyboard
-  language., to allow users to choose their preferred gesture.
+* Zastosowano reguły flake8 i mypy do kodu;
+* Zmieniono minimalną obsługiwaną wersję NVDA na 2019.3, aby obsługiwać adnotacje wprowadzone w Pythonie 3.
+* Usunięto gest "NVDA + F4" wywołujący skrypt podający język klawiatury, aby umożliwić użytkownikom wybór preferowanego gestu.
 
-## Changes for version 20230426.0.0 and beyond#\#
+## Zmiany w 20230607.0.0 ##
 
-- Added the following workflows:
-- auto-update-translations - to automatically update translations from NVDA's translation system.
-- release-on-tag..yaml: to build and publish the addon as soon as a new tag is pushed;
-- manual-release.yaml: to build and release new versions of the add-on manually.
-- Updated translations.
+* Dodano następujące przepływy pracy (workflows):
+ * auto-update-translations - do automatycznej aktualizacji tłumaczeń z systemu tłumaczeń NVDA.
+ * release-on-tag..yaml: do budowania i publikowania dodatku, gdy tylko pojawi się nowy tag;
+ * manual-release.yaml: do ręcznego budowania i wydawania nowych wersji dodatku.
+* Zaktualizowano tłumaczenia.
 
-## Zmiany w wersji 19.02
+## Zmiany w wersji 20230426.0.0 i nowszych ##
 
-- Changed version number, minimum NVDA version and download link according
-  to store conventions/requirements.
+* • Zmieniono numer wersji, minimalną wersję NVDA i link do pobierania zgodnie z konwencjami/wymogami sklepu.
 
-## Zmiany dla wersji 1.1
+## Zmiany w wersji 19.02 ##
 
-- Zmieniono numerację wersji przy użyciu YY. MM (Rok w 2 cyfrach, po którym
-  następuje kropka, a następnie miesiąc w 2 cyfrach);
-- Added compatibility with the new versioning format of add-on, appeared
-  since nvda 2019.1.
+* Zmieniono numerację wersji przy użyciu formatu RR.MM (rok w postaci 2 cyfr, po którym następuje kropka, a następnie miesiąc w postaci 2 cyfr);
+* Dodano kompatybilność z nowym formatem numeracji wersji dodatków, który pojawił się od nvda 2019.1.
 
-## Zmiany dla wersji 1.0
+## Zmiany w wersji 1.1 ##
 
-- Nazwa dodatku została zmieniona z getCurKeyboardLanguage na
-  sayCurrentKeyboardLanguage;
-- Dodano licencję GPL;
-- Dodano skrypt getCurKeyboardLanguage do kategorii "Stan systemu";
-- Poprawione niektóre błędy w kodzie.
+* Nazwa dodatku została zmieniona z getCurKeyboardLanguage na sayCurrentKeyboardLanguage;
+* Dodano licencję GPL do dodatku;
+* Dodano skrypt getCurKeyboardLanguage do kategorii "Status systemu";
+* Naprawiono kilka błędów w kodzie.
 
-## Changes for version 1.0
+## Zmiany w wersji 1.0 ##
 
-- Initial version.
+* Wersja początkowa.

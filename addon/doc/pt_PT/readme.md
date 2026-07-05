@@ -1,92 +1,74 @@
 # sayCurrentKeyboardLanguage
 
-- Author(s): Abdel, Noelia.
+* Autor(es): Abdel, Noelia.
 
-# Apresentação
+# Apresentação #
 
-Este complemento foi criado por solicitação de um membro da lista de extras
-do nvda.
+Este suplemento foi criado na sequência de um pedido de um membro da lista de discussão nvda-addons.
 
-It provides a script without gesture, which allows to retrieve and give the
-language of the current keyboard.
+Fornece um script sem gesto, que permite obter e ditar o idioma do teclado atual.
 
-Se for pressionado duas vezes, diz a linguagem padrão do sistema
+Se for pressionado duas vezes, dita o idioma predefinido do sistema.
 
-Na primeira versão deste módulo, foi proposto como simples globalPlugin para
-colar no diretório de configuração do NVDA, depois foi transformado em
-addon.
+Na primeira violentado deste módulo, ele tinha sido proposto como um simples globalPlugin para colar no diretório de configuração do NVDA, tendo sido posteriormente transformado em suplemento.
 
-## Notas:
+## Notas ##
 
-To set a gesture to the script giving the keyboard language, follow these
-steps:
+Para definir um gesto para o script que dita o idioma do teclado, siga estes passos:
 
-- Open the NVDA's menu, with "NVDA + N";
-- Go to NVDA's preferences menu;
-- Then go to the submenu "Input gestures".
-- Then select the category "Input", and open it with right arrow.
-- Go to the item labeled "Gives the language of the keyboard in use, if
-  pressed twice, give the default language of the system";
-- Once done, press Alt + A to add a gesture, and type "NVDA + F4" or another
-  gesture of your choice;
-- This done, press the up arrow once, you hear "your chosen gesture, all
-  layout";
-- Validate on enter, then tab to OK then enter;
-- Your chosen gesture should then call the script giving keyboard language.
+* Abra o menu do NVDA, com "NVDA + N";
+* Vá ao menu de preferências do NVDA;
+* Em seguida, vai ao submenu "Gestos de entrada".
+* Depois selecione a categoria "Introdução", e abra-a com a seta para a direita.
+* Vá para o item rotulado "Dita o idioma do teclado em uso, se pressionado duas vezes, dá o idioma padrão do sistema";
+* Feito isto, pressione Alt + A para adicionar um gesto, e digite "NVDA + F4" ou outro gesto da sua escolha;
+* Feito isso, pressione a seta para cima uma vez, ouvirá "o seu gesto escolhido, todos os esquemas";
+* Valide com Enter, depois use o Tab até OK e pressione Enter;
+* O gesto escolhido deverá então chamar o script que dita o idioma do teclado.
 
-## Compatibilidade
+## Compatibilidade ##
 
-- This add-on is compatible with the versions of NVDA ranging from 2019.3
-  and beyond.
+* Este suplemento é compatible com as versões do NVDA desde a 2019.3 e posteriores.
 
-## Changes for 20240326.0.0
+## Alterações para 20240326.0.0
 
-- Updated compatibility for nvda-2024.1.;
-- Deleted download link from readme, the download link for future updates
-  will now only be available from the add-on store.
+* Compatibilidade atualizada para nvda-2024.1;
+* Eliminada a hiperligação de transferência do readme, a hiperligação de transferência para atualizações futuras estará agora apenas disponível na loja de suplementos.
 
-## Changes for 20231229.0.0
+## Alterações para 20231229.0.0 ##
 
-- Added a backward compatible implementation to support speak on demand
-  mode, which will soon be available with nvda-2024.1.
+* Adicionada uma implementação retrocompatível para suportar o modo de fala sob demanda, que estará brevemente disponível com o nvda-2024.1.
 
-## Changes for 20230729.0.0
+## Alterações para 20230729.0.0 ##
 
-- Applied the flake8 and mypy rules to the code;
-- Changed the minimum supported NVDA version to 2019.3 to support
-  annotations introduced in Python 3.
-- Removed the "NVDA + F4" gesture calling the script giving the keyboard
-  language., to allow users to choose their preferred gesture.
+* Aplicadas as regras flake8 e mypy ao código;
+* Alterada a versão mínima do NVDA suportada para 2019.3 para suportar anotações introduzidas no Python 3.
+* Removido o gesto "NVDA + F4" que chamava o script que dita o idioma do teclado, para permitir que os utilizadores escolham o seu gesto preferido.
 
-## Changes for version 20230426.0.0 and beyond#\#
+## Alterações para 20230607.0.0 ##
 
-- Added the following workflows:
-- auto-update-translations - to automatically update translations from NVDA's translation system.
-- release-on-tag..yaml: to build and publish the addon as soon as a new tag is pushed;
-- manual-release.yaml: to build and release new versions of the add-on manually.
-- Updated translations.
+* Adicionados os seguintes fluxos de trabalho:
+ * auto-update-translations - para atualizar automaticamente as traduções a partir do sistema de tradução do NVDA.
+ * release-on-tag..yaml: para compilar e publicar o suplemento assim que uma nova etiqueta for enviada;
+ * manual-release.yaml: para compilar e lançar novas versões do suplemento manualmente.
+* Traduções atualizadas.
 
-## Alterações para a versão 19.0.2:
+## Alterações para a versão 20230426.0.0 e posteriores ##
 
-- Changed version number, minimum NVDA version and download link according
-  to store conventions/requirements.
+* • Alterado o número da versão, versão mínima do NVDA e hiperligação de transferência de acordo com as convenções/requisitos da loja.
 
-## Alterações para a versão 1.1:
+## Alterações para a versão 19.02 ##
 
-- Alterada a Numeração de versão, usando AA.MM (O ano em 2 dígitos, seguido
-  por um ponto, seguido pelo mês em 2 dígitos);
-- Added compatibility with the new versioning format of add-on, appeared
-  since nvda 2019.1.
+* Alterada a numeração das versões utilizando AA.MM (O ano em 2 dígitos, seguido de um ponto, seguido do mês em 2 dígitos);
+* Adicionada compatibilidade com o novo formato de numeração de versões de suplementos, surgido desde o nvda 2019.1.
 
-## Alterações para a versão 1.0:
+## Alterações para a versão 1.1 ##
 
-- O addon foi renomeado de "getCurKeyboardLanguage" para
-  "sayCurrentKeyboardLanguage".
-- Acrescentada a licença GPL ao extra.
-- Adicionado o script "getCurKeyboardLanguage" à categoria "estado do
-  sistema".
-- Fixados alguns erros no código.
+* O suplemento foi renomeado de getCurKeyboardLanguage para sayCurrentKeyboardLanguage;
+* Adicionada a licença GPL ao suplemento;
+* Adicionado o script getCurKeyboardLanguage à categoria "Estado do sistema";
+* Corrigidos alguns erros no código.
 
-## Changes for version 1.0
+## Alterações para a versão 1.0 ##
 
-- Versão inicial.
+* Versão inicial.

@@ -1,92 +1,74 @@
-# Aktive Tastatursprache ansagen
+# sayCurrentKeyboardLanguage
 
-- Author(s): Abdel, Noelia.
+* Autor(en): Abdel, Noelia.
 
-# Einführung
+# Vorstellung #
 
-Diese Erweiterung wurde auf Anfrage eines Mitglieds der nvda-addons
-Mailingliste erstellt.
+Dieses Add-on wurde auf Anfrage eines Mitglieds der nvda-addons-Mailingliste erstellt.
 
-It provides a script without gesture, which allows to retrieve and give the
-language of the current keyboard.
+Es stellt ein Skript ohne zugewiesene Geste bereit, mit dem die Sprache der aktuellen Tastatur abgerufen und angesagt werden kann.
 
-Bei zweimaligem Drücken wird die Standardsprache des Systems angesagt.
+Wird es zweimal gedrückt, wird die Standardsprache des Systems ausgegeben.
 
-Bei der ersten Version dieses Moduls war es lediglich ein globales Plugin,
-welches in die NVDA-Konfiguration integriert werden musste.
+In der ersten Version dieses Moduls wurde es als einfaches globalPlugin zum Einfügen in das Konfigurationsverzeichnis von NVDA vorgeschlagen, danach wurde es in ein Add-on umgewandelt.
 
-## Anmerkungen
+## Hinweise ##
 
-To set a gesture to the script giving the keyboard language, follow these
-steps:
+Um dem Skript, das die Tastatursprache ausgibt, eine Geste zuzuweisen, gehen Sie wie folgt vor:
 
-- Open the NVDA's menu, with "NVDA + N";
-- Go to NVDA's preferences menu;
-- Then go to the submenu "Input gestures".
-- Then select the category "Input", and open it with right arrow.
-- Go to the item labeled "Gives the language of the keyboard in use, if
-  pressed twice, give the default language of the system";
-- Once done, press Alt + A to add a gesture, and type "NVDA + F4" or another
-  gesture of your choice;
-- This done, press the up arrow once, you hear "your chosen gesture, all
-  layout";
-- Validate on enter, then tab to OK then enter;
-- Your chosen gesture should then call the script giving keyboard language.
+* Öffnen Sie das NVDA-Menü mit "NVDA + N";
+* Rufen Sie das Einstellungen-Menü von NVDA auf;
+* Gehen Sie dann in das Untermenü "Eingaben";
+* Wählen Sie dann die Kategorie "Eingabe" und öffnen Sie diese mit dem Pfeil nach rechts;
+* Gehen Sie zu dem Element mit der Beschriftung "Gibt die Sprache der verwendeten Tastatur aus. Wird es zweimal gedrückt, wird die Standardsprache des Systems ausgegeben";
+* Drücken Sie anschließend Alt + H, um eine Geste hinzuzufügen, und geben Sie "NVDA + F4" oder eine andere Geste Ihrer Wahl ein;
+* Drücken Sie danach einmal die Pfeiltaste nach oben, Sie hören "Ihre gewählte Geste, alle Tastaturlayouts";
+* Bestätigen Sie mit der Eingabetaste, wechseln Sie dann mit der Tabulatortaste zu OK und drücken Sie die Eingabetaste;
+* Die von Ihnen gewählte Geste sollte nun das Skript aufrufen, das die Tastatursprache ausgibt.
 
-## Kompatibilität
+## Kompatibilität ##
 
-- This add-on is compatible with the versions of NVDA ranging from 2019.3
-  and beyond.
+* Dieses Add-on ist mit den NVDA-Versionen ab 2019.3 und höher kompatibel.
 
-## Changes for 20240326.0.0
+## Änderungen für 20240326.0.0
 
-- Updated compatibility for nvda-2024.1.;
-- Deleted download link from readme, the download link for future updates
-  will now only be available from the add-on store.
+* Kompatibilität für nvda-2024.1 aktualisiert;
+* Download-Link aus der Readme gelöscht, der Download-Link für zukünftige Updates wird nun nur noch über den Add-on-Store verfügbar sein.
 
-## Changes for 20231229.0.0
+## Änderungen für 20231229.0.0 ##
 
-- Added a backward compatible implementation to support speak on demand
-  mode, which will soon be available with nvda-2024.1.
+* Abwärtskompatible Implementierung zur Unterstützung des Modus "Sprache auf Abruf" hinzugefügt, der bald mit nvda-2024.1 verfügbar sein wird.
 
-## Changes for 20230729.0.0
+## Änderungen für 20230729.0.0 ##
 
-- Applied the flake8 and mypy rules to the code;
-- Changed the minimum supported NVDA version to 2019.3 to support
-  annotations introduced in Python 3.
-- Removed the "NVDA + F4" gesture calling the script giving the keyboard
-  language., to allow users to choose their preferred gesture.
+* Die flake8- und mypy-Regeln wurden auf den Code angewendet;
+* Die minimal unterstützte NVDA-Version wurde auf 2019.3 geändert, um die in Python 3 eingeführten Annotationen zu unterstützen;
+* Die Geste "NVDA + F4" zum Aufrufen des Skripts für die Tastatursprache wurde entfernt, damit die Benutzer ihre bevorzugte Geste selbst wählen können.
 
-## Änderungen in Version 20230426.0.0 und neuer
+## Änderungen für 20230607.0.0 ##
 
-- Added the following workflows:
-- auto-update-translations - to automatically update translations from NVDA's translation system.
-- release-on-tag..yaml: to build and publish the addon as soon as a new tag is pushed;
-- manual-release.yaml: to build and release new versions of the add-on manually.
-- Updated translations.
+* Folgende Workflows wurden hinzugefügt:
+ * auto-update-translations - zur automatischen Aktualisierung von Übersetzungen aus dem NVDA-Übersetzungssystem.
+ * release-on-tag..yaml: zum Erstellen und Veröffentlichen des Add-ons, sobald ein neuer Tag gepusht wird;
+ * manual-release.yaml: zum manuellen Erstellen und Veröffentlichen neuer Versionen des Add-ons.
+* Übersetzungen aktualisiert.
 
-## Änderungen in Version 19.02
+## Änderungen für Version 20230426.0.0 und höher ##
 
-- Die Versionsnummer, die minimale NVDA-Version und der Download-Link wurden
-  entsprechend den Konventionen bzw. der Anforderungen für den Store für
-  NVDA-Erweiterungen geändert.
+* • Versionsnummer, minimale NVDA-Version und Download-Link entsprechend den Konventionen/Anforderungen des Stores geändert.
 
-## Änderungen in Version 1.1
+## Änderungen für Version 19.02 ##
 
-- Die Versionsnummerierung wurde mit JJ.MM geändert (das Jahr in 2 Ziffern,
-  gefolgt von einem Punkt, gefolgt von dem Monat in 2 Ziffern);
-- Added compatibility with the new versioning format of add-on, appeared
-  since nvda 2019.1.
+* Versionsnummerierung auf JJ.MM geändert (Das Jahr zweistellig, gefolgt von einem Punkt, gefolgt vom Monat zweistellig);
+* Kompatibilität mit dem neuen Format für die Versionsnummerierung von Add-ons hinzugefügt, das seit nvda 2019.1 existiert.
 
-## Änderungen in Version 1.0
+## Änderungen für Version 1.1 ##
 
-- Die Erweiterung wurde von "getCurKeyboardLanguage" in
-  "sayCurrentKeyboardLanguage" umbenannt;
-- Die GPL-Lizenz wurde zur Erweiterung hinzugefügt;
-- Das Skript "getCurKeyboardLanguage" wurde zur Kategorie "System status"
-  hinzugefügt;
-- Einige Fehler im code wurden behoben.
+* Das Add-on wurde von getCurKeyboardLanguage in sayCurrentKeyboardLanguage umbenannt;
+* GPL-Lizenz zum Add-on hinzugefügt;
+* Das Skript getCurKeyboardLanguage wurde zur Kategorie "Systemstatus" hinzugefügt;
+* Einige Fehler im Code wurden behoben.
 
-## Changes for version 1.0
+## Änderungen für Version 1.0 ##
 
-- Erste Version.
+* Erste Version.

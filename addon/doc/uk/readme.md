@@ -1,88 +1,74 @@
-# sayCurrentKeyboardLanguage (Повідомити поточну мову клавіатури)
+# sayCurrentKeyboardLanguage
 
-- Author(s): Abdel, Noelia.
+* Автор(и): Abdel, Noelia.
 
-# Презентація
+# Презентація #
 
-Цей додаток було створено на прохання учасника поштової конференції додатків
-для NVDA.
+Цей додаток був створений на запит одного з учасників списку розсилки nvda-addons.
 
-It provides a script without gesture, which allows to retrieve and give the
-language of the current keyboard.
+Він надає скрипт без призначеного жесту, який дозволяє отримати та озвучити мову поточної розкладки клавіатури.
 
-Якщо натиснути двічі, повідомляє основну мову системи.
+Якщо натиснути двічі, він оголошує мову системи за замовчуванням.
 
-At the first version of this module, it had been proposed as simple globalPlugin to paste in the configuration directory of NVDA, it was then transformed into addon.
+У першій версії цього модуля він пропонувався як простий globalPlugin для вставки в каталог конфігурації NVDA, а згодом був перетворений на додаток.
 
-## Примітки
+## Примітки ##
 
-To set a gesture to the script giving the keyboard language, follow these
-steps:
+Щоб призначити жест для скрипта, який оголошує мову клавіатури, виконайте такі дії:
 
-- Open the NVDA's menu, with "NVDA + N";
-- Go to NVDA's preferences menu;
-- Then go to the submenu "Input gestures".
-- Then select the category "Input", and open it with right arrow.
-- Go to the item labeled "Gives the language of the keyboard in use, if
-  pressed twice, give the default language of the system";
-- Once done, press Alt + A to add a gesture, and type "NVDA + F4" or another
-  gesture of your choice;
-- This done, press the up arrow once, you hear "your chosen gesture, all
-  layout";
-- Validate on enter, then tab to OK then enter;
-- Your chosen gesture should then call the script giving keyboard language.
+* Відкрийте меню NVDA за допомогою комбінації "NVDA + N";
+* Перейдіть до меню налаштувань NVDA;
+* Потім перейдіть до підменю "Жести вводу".
+* Далі виберіть категорію "Введення" та відкрийте її стрілкою вправо.
+* Перейдіть до пункту з назвою "Оголошує мову використовуваної клавіатури, якщо натиснути двічі, оголошує мову системи за замовчуванням";
+* Після цього натисніть Alt + A, щоб додати жест, і введіть "NVDA + F4" або інший жест на свій вибір;
+* Як тільки це буде зроблено, натисніть стрілку вгору один раз, ви почуєте "ваш вибраний жест, усі розкладки";
+* Підтвердіть натисканням Enter, потім перейдіть за допомогою Tab до кнопки OK і натисніть Enter;
+* Вибраний вами жест тепер повинен викликати скрипт, який оголошує мову клавіатури.
 
-## Сумісність
+## Сумісність ##
 
-- This add-on is compatible with the versions of NVDA ranging from 2019.3
-  and beyond.
+* Цей додаток сумісний із версіями NVDA від 2019.3 і вище.
 
-## Changes for 20240326.0.0
+## Зміни для 20240326.0.0
 
-- Updated compatibility for nvda-2024.1.;
-- Deleted download link from readme, the download link for future updates
-  will now only be available from the add-on store.
+* Оновлено сумісність для nvda-2024.1;
+* Вилучено посилання на завантаження з файлу readme, посилання на завантаження для майбутніх оновлень тепер буде доступне лише в магазині додатків.
 
-## Changes for 20231229.0.0
+## Зміни для 20231229.0.0 ##
 
-- Added a backward compatible implementation to support speak on demand
-  mode, which will soon be available with nvda-2024.1.
+* Додано зворотно сумісну реалізацію для підтримки режиму мовлення за запитом, який незабаром з'явиться в nvda-2024.1.
 
-## Changes for 20230729.0.0
+## Зміни для 20230729.0.0 ##
 
-- Applied the flake8 and mypy rules to the code;
-- Changed the minimum supported NVDA version to 2019.3 to support
-  annotations introduced in Python 3.
-- Removed the "NVDA + F4" gesture calling the script giving the keyboard
-  language., to allow users to choose their preferred gesture.
+* До коду застосовано правила flake8 та mypy;
+* Змінено мінімальну підтримувану версію NVDA на 2019.3 для підтримки анотацій, введених у Python 3.
+* Вилучено жест "NVDA + F4", який викликав скрипт оголошення мови клавіатури, щоб дозволити користувачам вибирати бажаний жест.
 
-## Зміни у версії 20230426.0.0
+## Зміни для 20230607.0.0 ##
 
-- Змінено номер версії, мінімальну версію NVDA та посилання для завантаження
-  відповідно до правил/вимог магазину.
-- auto-update-translations - to automatically update translations from NVDA's translation system.
-- release-on-tag..yaml: to build and publish the addon as soon as a new tag is pushed;
-- manual-release.yaml: to build and release new versions of the add-on manually.
-- Updated translations.
+* Додано такі робочі процеси (workflows):
+ * auto-update-translations — для автоматичного оновлення перекладів із системи перекладів NVDA.
+ * release-on-tag..yaml: для збирання та публікації додатка, щойно буде надіслано новий тег;
+ * manual-release.yaml: для ручного збирання та випуску нових версій додатка.
+* Оновлено переклади.
 
-## Зміни у версії 19.02
+## Зміни для версії 20230426.0.0 і вище ##
 
-- Змінено нумерацію версій за допомогою РР.ММ (рік - 2 цифри, потім крапка,
-  потім місяць - 2 цифри);
+* • Змінено номер версії, мінімальну версію NVDA та посилання на завантаження відповідно до конвенцій/вимог магазину.
 
-## Зміни з версії 1.1
+## Зміни для версії 19.02 ##
 
-- Додаток перейменовано з getCurKeyboardLanguage на
-  sayCurrentKeyboardLanguage;
-- До додатка додано ліцензію GPL;
+* Змінено нумерацію версій за допомогою формату РР.ММ (рік двома цифрами, за яким іде крапка, а потім місяць двома цифрами);
+* Додано сумісність із новим форматом нумерації версій додатків, що з'явився починаючи з nvda 2019.1.
 
-## Зміни з версії 1.0
+## Зміни для версії 1.1 ##
 
-- Перша версія.
-- Added the GPL license to the addon;
-- Added the script getCurKeyboardLanguage to the "System status" category;
-- Fixed some errors in the code.
+* Додаток було перейменовано з getCurKeyboardLanguage на sayCurrentKeyboardLanguage;
+* До додатка додано ліцензію GPL;
+* Додано скрипт getCurKeyboardLanguage до категорії "Стан системи";
+* Виправлено деякі помилки в коді.
 
-## Changes for version 1.0
+## Зміни для версії 1.0 ##
 
-- Initial version.
+* Початкова версія.

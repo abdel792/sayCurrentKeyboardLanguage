@@ -1,95 +1,74 @@
 # sayCurrentKeyboardLanguage
 
-- Auteurs : Abdel, Noelia.
+* Auteur(s) : Abdel, Noelia.
 
-# Présentation
+# Présentation #
 
-Cette extension a été créée à la suite d'une demande d'un membre sur la
-liste de diffusion nvda-addons.
+Cette extension a été créée à la demande d'un membre de la liste de diffusion nvda-addons.
 
-Il fournit un script sans geste, NVDA + F4, qui permet de récupérer et de
-donner la langue du clavier actuel.
+Elle fournit un script sans geste, qui permet de récupérer et de donner la langue du clavier actuel.
 
-Si vous appuyer deux fois sur la touche, vous donne la langue par défaut du
-système.
+Si pressé deux fois, donne la langue par défaut du système.
 
-À la première version de ce module, il a été proposé comme simple
-globalPlugin afin d'être coller dans le répertoire de configuration de NVDA,
-il a ensuite été transformé en extension.
+À la première version de ce module, il avait été proposé comme simple globalPlugin à coller dans le répertoire de configuration de NVDA, il a ensuite été transformé en extension.
 
-## Notes
+## Notes ##
 
-Pour définir un geste sur le script donnant la langue du clavier, suivez ces
-étapes :
+Pour attribuer un geste au script donnant la langue du clavier, suivez ces étapes :
 
-- Ouvrez le menu de NVDA, avec "NVDA + N" ;
-- Allez au menu Préférences de NVDA ;
-- Ensuite, allez au sous-menu "Gestes de commandes".
-- Sélectionnez ensuite la catégorie "Entrée" et ouvrez-la avec la flèche
-  droite.
-- Allez à l'élément étiqueté "Annoncer la langue du clavier en cours
-  d'utilisation. Un double appui annonce la langue du système." ;
-- Une fois terminé, appuyez sur Alt + A pour ajouter un geste et tapez "NVDA
-- Ceci fait, appuyez une fois sur la flèche haut, vous entendez "votre geste
-  choisi, toutes les dispositions" ;
-- Valider sur Entrée, puis Tab jusqu'à OK puis Entrée ;
-- Votre geste choisi doit ensuite appeler le script donnant la langue du
-  clavier.
+* Ouvrez le menu de NVDA, avec "NVDA + N" ;
+* Allez dans le menu des préférences de NVDA ;
+* Allez ensuite dans le sous-menu "Gestes d'entrée".
+* Sélectionnez ensuite la catégorie "Saisie", et ouvrez-la avec la flèche droite.
+* Allez sur l'élément intitulé "Donne la langue du clavier en cours d'utilisation, si pressé deux fois, donne la langue par défaut du système" ;
+* Une fois cela fait, appuyez sur Alt + A pour ajouter un geste, et tapez "NVDA + F4" ou un autre geste de votre choix ;
+* Cela fait, appuyez une fois sur la flèche haut, vous entendez "votre geste choisi, toutes les dispositions" ;
+* Validez par Entrée, puis tabulez jusqu'à OK puis Entrée ;
+* Le geste de votre choix devrait alors appeler le script donnant la langue du clavier.
 
-## Compatibilité
+## Compatibilité ##
 
-- Cette extension est compatible avec les versions de NVDA allant de 2019.3
-  et au-delà.
+* Cette extension est compatible avec les versions de NVDA allant de 2019.3 et supérieures.
 
-## Changements pour la  version 20240326.0.0
+## Changements pour 20240326.0.0
 
-- Compatibilité mise à jour pour NVDA-2024.1. ;
-- Lien de téléchargement supprimé du fichier readme, le lien de
-  téléchargement pour les futures mises à jour ne sera désormais disponible
-  que dans l'add-on store.
+* Compatibilité mise à jour pour nvda-2024.1 ;
+* Suppression du lien de téléchargement du readme, le lien de téléchargement pour les futures mises à jour sera désormais uniquement disponible depuis la boutique d'extensions.
 
-## Changements pour la  version 20231229.0.0
+## Changements pour 20231229.0.0 ##
 
-- Ajout d'une implémentation rétrocompatible pour prendre en charge le mode
-  Parler à la demande, qui sera bientôt disponible avec nvda-2024.1.
+* Ajout d'une implémentation rétrocompatible pour prendre en charge le mode de parole à la demande, qui sera bientôt disponible avec nvda-2024.1.
 
-## Changements pour la  version 20230729.0.0
+## Changements pour 20230729.0.0 ##
 
-- Appliqué les règles flake8 et mypy au code ;
-- Modifiée la version minimale de NVDA prise en charge vers la 2019.3 pour
-  prendre en charge les annotations introduites dans Python 3.
-- Supprimé le geste "NVDA + F4" appelant le script donnant la langue du
-  clavier, Pour permettre aux utilisateurs de choisir leur geste préféré.
+* Appliqué les règles flake8 et mypy au code ;
+* Changé la version minimale de NVDA prise en charge à 2019.3 pour supporter les annotations introduites dans Python 3.
+* Supprimé le geste "NVDA + F4" appelant le script donnant la langue du clavier, pour permettre aux utilisateurs de choisir leur geste préféré.
 
-## Changements pour la  version 20230426.0.0 et au-delà#\#
+## Changements pour 20230607.0.0 ##
 
-- Added the following workflows:
-- auto-update-translations - to automatically update translations from NVDA's translation system.
-- release-on-tag..yaml: to build and publish the addon as soon as a new tag is pushed;
-- manual-release.yaml: to build and release new versions of the add-on manually.
-- Updated translations.
+* Ajout des flux de travail suivants :
+ * auto-update-translations - pour mettre à jour automatiquement les traductions depuis le système de traduction de NVDA.
+ * release-on-tag..yaml : pour compiler et publier l'extension dès qu'un nouveau tag est poussé ;
+ * manual-release.yaml : pour compiler et publier de nouvelles versions de l'extension manuellement.
+* Traductions mises à jour.
 
-## Changements pour la version 19.02
+## Changements pour la version 20230426.0.0 et supérieures ##
 
-- Numéro de version modifiée, version minimale NVDA et lien de
-  téléchargement en fonction des conventions / exigences de la store.
+* • Changé le numéro de version, la version minimale de NVDA et le lien de téléchargement selon les conventions/exigences de la boutique.
 
-## Changements pour la version 1.1
+## Changements pour la version 19.02 ##
 
-- Modification de la numérotation des versions en utilisant YY.MM (L'année
-  en 2 chiffres, suivie d'un point, suivie du mois en 2 chiffres);
-- Ajout de la compatibilité avec le nouveau format de gestion des versions
-  des extensions, apparu depuis nvda 2019.1.
+* Changé la numérotation des versions en utilisant AA.MM (L'année en 2 chiffres, suivie d'un point, suivie du mois en 2 chiffres) ;
+* Ajout de la compatibilité avec le nouveau format de numérotation des versions de l'extension, apparu depuis nvda 2019.1.
 
-## Changements pour la version 1.0
+## Changements pour la version 1.1 ##
 
-- L'extension a été renommée de getCurKeyboardLanguage en
-  sayCurrentKeyboardLanguage;
-- Ajout de la licence GPL à l'extension;
-- Ajout du script getCurKeyboardLanguage dans la catégorie "État du
-  système";
-- Correction de quelques erreurs dans le code.
+* L'extension a été renommée de getCurKeyboardLanguage à sayCurrentKeyboardLanguage ;
+* Ajout de la licence GPL à l'extension ;
+* Ajout du script getCurKeyboardLanguage à la catégorie "État du système" ;
+* Correction de quelques erreurs dans le code.
 
-## Changes for version 1.0
+## Changements pour la version 1.0 ##
 
-- Première version.
+* Version initiale.

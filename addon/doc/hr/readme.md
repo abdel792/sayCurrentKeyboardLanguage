@@ -1,87 +1,74 @@
-# Izgovori jezik trenutačne tipkovnice (sayCurrentKeyboardLanguage)
+# sayCurrentKeyboardLanguage
 
-- Autori: Abdel, Noelia.
+* Autor(i): Abdel, Noelia.
 
-# Prezentacija
+# Predstavljanje #
 
-Ovaj je dodatak izrađen na temelju zahtjeva jednog člana na mailing listi
-nvda dodataka.
+Ovaj dodatak je kreiran na zahtjev člana s nvda-addons dopisne liste.
 
-Dodatak pruža skriptu bez gesti, koja omogućuje pronalaženje i pružanja
-jezika trenutačne tipkovnice.
+Pruža skriptu bez dodijeljene geste koja omogućuje dohvaćanje i izgovaranje jezika trenutne tipkovnice.
 
-Dvaput pritisnuto, izgovara standardni jezik sustava.
+Ako se pritisne dvaput, daje zadani jezik sustava.
 
-At the first version of this module, it had been proposed as simple globalPlugin to paste in the configuration directory of NVDA, it was then transformed into addon.
+U prvoj verziji ovog modula, bio je predložen kao jednostavan globalPlugin koji se lijepi u konfiguracijsku mapu NVDA-a, a zatim je transformiran u dodatak.
 
-## Napomene
+## Napomene ##
 
-To set a gesture to the script giving the keyboard language, follow these
-steps:
+Za postavljanje geste za skriptu koja daje jezik tipkovnice, slijedite ove korake:
 
-- Open the NVDA's menu, with "NVDA + N";
-- Go to NVDA's preferences menu;
-- Then go to the submenu "Input gestures".
-- Then select the category "Input", and open it with right arrow.
-- Go to the item labeled "Gives the language of the keyboard in use, if
-  pressed twice, give the default language of the system";
-- Once done, press Alt + A to add a gesture, and type "NVDA + F4" or another
-  gesture of your choice;
-- This done, press the up arrow once, you hear "your chosen gesture, all
-  layout";
-- Validate on enter, then tab to OK then enter;
-- Your chosen gesture should then call the script giving keyboard language.
+* Otvorite NVDA izbornik pomoću "NVDA + N";
+* Idite na izbornik postavki NVDA-a;
+* Zatim idite na podizbornik "Ulazne geste".
+* Zatim odaberite kategoriju "Unos" i otvorite je desnom strelicom.
+* Idite na stavku s oznakom "Daje jezik tipkovnice u upotrebi, ako se pritisne dvaput, daje zadani jezik sustava";
+* Nakon što to učinite, pritisnite Alt + A za dodavanje geste i upišite "NVDA + F4" ili neku drugu gestu po vašem izboru;
+* Nakon toga pritisnite strelicu prema gore jednom, čut ćete "vaša odabrana gesta, svi rasporedi";
+* Potvrdite pritiskom na Enter, zatim tabulatorom idite do U redu i pritisnite Enter;
+* Vaša odabrana gesta trebala bi tada pozvati skriptu koja daje jezik tipkovnice.
 
-## Kompatibilnost
+## Kompatibilnost ##
 
-- Ovaj je dodatak kompatibilan s NVDA verzijom 2019.3 i novijim verzijama.
+* Ovaj dodatak je kompatibilan s verzijama NVDA od 2019.3 i novijim.
 
-## Promjene u 20240326.0.0
+## Promjene za 20240326.0.0
 
-- Updated compatibility for nvda-2024.1.;
-- Deleted download link from readme, the download link for future updates
-  will now only be available from the add-on store.
+* Ažurirana kompatibilnost za nvda-2024.1;
+* Izbrisana poveznica za preuzimanje iz readme datoteke, poveznica za preuzimanje za buduća ažuriranja sada će biti dostupna samo u trgovini dodataka.
 
-## Promjene u 20231229.0.0
+## Promjene za 20231229.0.0 ##
 
-- Added a backward compatible implementation to support speak on demand
-  mode, which will soon be available with nvda-2024.1.
+* Dodana implementacija kompatibilna s prethodnim verzijama za podršku načina govora na zahtjev, koji će uskoro biti dostupan s nvda-2024.1.
 
-## Promjene u 20230729.0.0
+## Promjene za 20230729.0.0 ##
 
-- Programskom kodu su dodana flake8 i mypy pravila;
-- Namjanja podržana NVDA verzija je promijenjena na 2019.3 kako bi se
-  podržale zabilješke koje su uvedene u Python 3.
-- Removed the "NVDA + F4" gesture calling the script giving the keyboard
-  language., to allow users to choose their preferred gesture.
+* Primijenjena pravila flake8 i mypy na kod;
+* Promijenjena minimalna podržana verzija NVDA-a na 2019.3 radi podrške za anotacije uvedene u Pythonu 3.
+* Uklonjena gesta "NVDA + F4" koja poziva skriptu koja daje jezik tipkovnice, kako bi se korisnicima omogućilo da sami odaberu željenu gestu.
 
-## Promjene u verziji 20230426.0.0 i novije#\#
+## Promjene za 20230607.0.0 ##
 
-- Promijenjen je broj verzije, minimalna NVDA verzija i poveznica za
-  preuzimanje, u skladu s konvencijama/zahtjevima trgovine.
-- auto-update-translations - to automatically update translations from NVDA's translation system.
-- release-on-tag..yaml: to build and publish the addon as soon as a new tag is pushed;
-- manual-release.yaml: to build and release new versions of the add-on manually.
-- Updated translations.
+* Dodani su sljedeći tijekovi rada:
+ * auto-update-translations - za automatsko ažuriranje prijevoda iz NVDA sustava za prevođenje.
+ * release-on-tag..yaml: za izradu i objavljivanje dodatka čim se gurne nova oznaka;
+ * manual-release.yaml: za ručnu izradu i izdavanje novih verzija dodatka.
+* Ažurirani prijevodi.
 
-## Promjene u verziji 19.02
+## Promjene za verziju 20230426.0.0 i novije ##
 
-- Promijenjeno je numeriranje verzija koristeći YY.MM (Dvije znamenke za
-  godinu, slijedi točka, a zatim dvije znamenke za mjesec);
+* • Promijenjen broj verzije, minimalna verzija NVDA-a i poveznica za preuzimanje u skladu s konvencijama/zahtjevima trgovine.
 
-## Promjene u verziji 1.1
+## Promjene za verziju 19.02 ##
 
-- Dodatak je preimenovan iz „getCurKeyboardLanguage” u
-  „sayCurrentKeyboardLanguage”;
-- Dodatku je dodana je opća javna licenca;
+* Promijenjeno numeriranje verzija pomoću formata GG.MM (godina u 2 znamenke, nakon koje slijedi točka, nakon koje slijedi mjesec u 2 znamenke);
+* Dodana kompatibilnost s novim formatom numeriranja verzija dodataka, koji se pojavio od nvda 2019.1.
 
-## Promjene u verziji 1.0
+## Promjene za verziju 1.1 ##
 
-- Prvo izdanje.
-- Added the GPL license to the addon;
-- Added the script getCurKeyboardLanguage to the "System status" category;
-- Fixed some errors in the code.
+* Dodatak je preimenovan iz getCurKeyboardLanguage u sayCurrentKeyboardLanguage;
+* Dodana GPL licenca dodatku;
+* Dodana skripta getCurKeyboardLanguage u kategoriju "Status sustava";
+* Ispravljene neke pogreške u kodu.
 
-## Changes for version 1.0
+## Promjene za verziju 1.0 ##
 
-- Initial version.
+* Početna verzija.
