@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvdaaddons\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
-"POT-Creation-Date: 2026-07-05 06:55+0000\n"
-"PO-Revision-Date: 2026-07-21 04:07\n"
+"POT-Creation-Date: 2026-08-02 06:15+0000\n"
+"PO-Revision-Date: 2026-08-02 06:16\n"
 "Last-Translator: \n"
 "Language-Team: Arabic\n"
 "Language: ar_SA\n"
@@ -30,6 +30,6 @@ msgstr "توفر هذه الإضافة أمراً لمعرفة لغة لوحة �
 #. Brief changelog for this version
 #. Translators: what's new content for the add-on version to be shown in the add-on store
 #: buildVars.py:28
-msgid "Use of buildVersion.version_year instead of versionInfo.version_year for compatibility with the NVDA 2026 API.\n"
+msgid "Update translations from Crowdin"
 msgstr ""
 
