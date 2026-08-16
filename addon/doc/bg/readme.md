@@ -1,4 +1,4 @@
-# sayCurrentKeyboardLanguage
+# Изговаряне на текущия език на клавиатурата (sayCurrentKeyboardLanguage)
 
 * Автор(и): Abdel, Noelia.
 
