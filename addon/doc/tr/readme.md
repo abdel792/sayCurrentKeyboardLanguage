@@ -1,4 +1,4 @@
-# sayCurrentKeyboardLanguage
+# geçerli Klavye Dilini söyle
 
 * Yazar(lar): Abdel, Noelia.
 
