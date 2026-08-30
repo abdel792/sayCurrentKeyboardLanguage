@@ -3,33 +3,33 @@ msgstr ""
 "Project-Id-Version: nvdaaddons\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
 "POT-Creation-Date: 2026-08-02 06:15+0000\n"
-"PO-Revision-Date: 2026-08-29 02:27\n"
+"PO-Revision-Date: 2026-08-28 06:29\n"
 "Last-Translator: \n"
-"Language-Team: Chinese Simplified\n"
-"Language: zh_CN\n"
+"Language-Team: Kurmanji (Kurdish)\n"
+"Language: kmr_TR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Crowdin-Project: nvdaaddons\n"
 "X-Crowdin-Project-ID: 780748\n"
-"X-Crowdin-Language: zh-CN\n"
+"X-Crowdin-Language: kmr\n"
 "X-Crowdin-File: sayCurrentKeyboardLanguage.pot\n"
 "X-Crowdin-File-ID: 392\n"
 
 #: addon\globalPlugins\sayKeyboardLanguage.py:39
 msgid "Gives the language of the keyboard in use. If pressed twice, gives the default language of the system."
-msgstr "给出正在使用的键盘的语言。如果按两次，则给出系统的默认语言。"
+msgstr "Zimanê klavyeya ku tê bikaranîn dide. Ger du caran were pêlkirin, zimanê xwerû yê sîstemê dide."
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-on store
 #: buildVars.py:23
 msgid "This addon provides a command to know the language of the keyboard in use, as well as the default language of the system"
-msgstr "这个插件提供了一个命令来了解正在使用的键盘的语言，以及系统的默认语言"
+msgstr "Ev pêvek fermanek peyda dike da ku hûn zimanê klavyeya ku tê bikar anîn û her weha zimanê xwerû yê pergalê bizanin."
 
 #. Brief changelog for this version
 #. Translators: what's new content for the add-on version to be shown in the add-on store
 #: buildVars.py:28
 msgid "Update translations from Crowdin"
-msgstr "* 更新来自 Crowdin 的翻译"
+msgstr "Wergeran ji Crowdin nûve bike"
 
