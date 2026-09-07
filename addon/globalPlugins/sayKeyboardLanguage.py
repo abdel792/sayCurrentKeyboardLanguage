@@ -10,18 +10,18 @@
 # Inspired by the following solution, on the forum Stack Overflow:
 # https://stackoverflow.com/questions/42047253/how-to-detect-current-keyboard-language-in-python
 
-import globalPluginHandler
-import ui
 import locale
-from scriptHandler import script
-import buildVersion
-
-# Category for the input gestures.
-from globalCommands import SCRCAT_INPUT
-from typing import Callable
+from collections.abc import Callable
 
 # For translations.
 import addonHandler
+import buildVersion
+import globalPluginHandler
+import ui
+
+# Category for the input gestures.
+from globalCommands import SCRCAT_INPUT
+from scriptHandler import script
 
 addonHandler.initTranslation()
 _: Callable[[str], str]
@@ -42,10 +42,11 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		**speakOnDemand,
 	)
 	def script_sayCurKeyboardLanguage(self, gesture):
-		import winUser
-		import scriptHandler
 		import ctypes
+
 		import languageHandler
+		import scriptHandler
+		import winUser
 
 		# Getting the handle of the foreground window.
 		curWindow = winUser.getForegroundWindow()
