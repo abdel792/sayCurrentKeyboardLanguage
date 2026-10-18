@@ -1,4 +1,4 @@
-# sayCurrentKeyboardLanguage
+# Aktuelle Tastatursprache ansagen
 
 * Autor(en): Abdel, Noelia.
 
